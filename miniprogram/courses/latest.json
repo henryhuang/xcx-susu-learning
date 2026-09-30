@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "revision": 7,
+  "latestWeekId": "2026-09-30",
+  "weeks": [
+    {
+      "id": "2026-09-30",
+      "reportDate": "2026-09-30",
+      "title": "9月30日学习内容",
+      "url": "weeks/2026-09-30.json"
+    },
+    {
+      "id": "2026-09-24",
+      "reportDate": "2026-09-24",
+      "title": "9月24日学习内容",
+      "url": "weeks/2026-09-24.json"
+    },
+    {
+      "id": "2026-09-18",
+      "reportDate": "2026-09-18",
+      "title": "9月18日学习内容",
+      "url": "weeks/2026-09-18.json"
+    },
+    {
+      "id": "2026-09-11",
+      "reportDate": "2026-09-11",
+      "title": "9月11日学习内容",
+      "url": "weeks/2026-09-11.json"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "id": "dizigui-daily",
+  "version": 1,
+  "category": "dizigui",
+  "title": "冬则温，夏则凊",
+  "description": "听原文、读小故事，在生活里练一练。",
+  "language": {
+    "content": "zh-CN",
+    "guidance": "zh-CN"
+  },
+  "presentation": {
+    "theme": "hanfu",
+    "art": "📖"
+  },
+  "intro": {
+    "text": "酥酥，我们听一听，再想想生活里可以怎么做。",
+    "audio": "/chinese/assets/audio/dizigui-daily-intro.mp3",
+    "buttonLabel": "听听原文"
+  },
+  "completion": {
+    "text": "读过了，也知道生活里可以怎么做啦！",
+    "audio": "/chinese/assets/audio/zh-finish.mp3",
+    "buttonLabel": "再练一次"
+  },
+  "content": {
+    "kind": "passage",
+    "lines": [
+      {
+        "id": "line-1",
+        "text": "冬则温，夏则凊。晨则省，昏则定。",
+        "audio": "/chinese/assets/audio/dizigui-daily-line-1.mp3",
+        "explanation": "关心家人冷不冷、热不热，早晚也可以问候一声。"
+      },
+      {
+        "id": "line-2",
+        "text": "出必告，反必面。居有常，业无变。",
+        "audio": "/chinese/assets/audio/dizigui-daily-line-2.mp3",
+        "explanation": "外出和回来告诉家人；每天的生活和做事可以有规律。"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "listen",
+      "step": "listen",
+      "type": "read-along",
+      "title": "听听原文",
+      "text": "点一句听一听。",
+      "lineIds": [
+        "line-1",
+        "line-2"
+      ],
+      "nextLabel": "听听小解释"
+    },
+    {
+      "id": "understand",
+      "step": "understand",
+      "type": "explanation",
+      "title": "生活里的小道理",
+      "text": "和家人一起说一说。",
+      "lineIds": [
+        "line-1",
+        "line-2"
+      ],
+      "nextLabel": "想一想怎么做"
+    },
+    {
+      "id": "story-0",
+      "step": "story",
+      "type": "choice",
+      "title": "生活小故事",
+      "text": "准备和爸爸出门玩，可以先做什么？",
+      "audio": "/chinese/assets/audio/dizigui-daily-question.mp3",
+      "choices": [
+        {
+          "value": "ask",
+          "label": "告诉家人要去哪里"
+        },
+        {
+          "value": "hide",
+          "label": "不告诉任何人就走"
+        }
+      ],
+      "answer": "ask",
+      "answerText": "告诉家人自己的去向，让大家放心。",
+      "answerAudio": "/chinese/assets/audio/dizigui-daily-answer.mp3",
+      "reward": 1,
+      "nextLabel": "跟着读一读"
+    },
+    {
+      "id": "repeat",
+      "step": "repeat",
+      "type": "line-practice",
+      "title": "一句句跟读",
+      "text": "听一句，自己试着读一句。",
+      "lineIds": [
+        "line-1",
+        "line-2"
+      ],
+      "reward": 1,
+      "nextLabel": "我读过了"
+    }
+  ]
+}

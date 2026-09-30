@@ -1,0 +1,434 @@
+[
+  {
+    "path": "/assets/audio/home-hello.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 36864,
+    "durationSeconds": 6.144,
+    "maxVolumeDb": -3.9,
+    "sha256": "14d1b9a20a2b8ba1fe79496ef9f0dcc1fba3e7f5fa0d3b3f1a2e2d3b69e87111",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/zh-finish.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 25488,
+    "durationSeconds": 4.248,
+    "maxVolumeDb": -2.8,
+    "sha256": "89b3eb8c3b20b9f961cd5333cf2637dc26ac28e776b318de31c67fc557d6d247",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/poem-tixilinbi-line-1.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 15696,
+    "durationSeconds": 2.616,
+    "maxVolumeDb": -4.9,
+    "sha256": "f696f266e40065f0368c9ecc8ae9a489162ee3ea775478840264b6f0bf13db7a",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/poem-tixilinbi-line-2.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 15408,
+    "durationSeconds": 2.568,
+    "maxVolumeDb": -3.7,
+    "sha256": "c482a269043314f13553fedd9aa060e5bb12baebcd610fb142444fdc43528c3e",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/poem-tixilinbi-line-3.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 15552,
+    "durationSeconds": 2.592,
+    "maxVolumeDb": -8.4,
+    "sha256": "c529d543f79d5f8c4c2bc29816ae7637170306e897dd9f7ea2d3cced427de33f",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/poem-tixilinbi-line-4.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 15408,
+    "durationSeconds": 2.568,
+    "maxVolumeDb": -4.1,
+    "sha256": "47d35d9237923e8f2cf7eb3c9323aade101476f697bcf94599f1ac1e56cd5681",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/poem-tixilinbi-intro.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 26928,
+    "durationSeconds": 4.488,
+    "maxVolumeDb": -5.6,
+    "sha256": "4d71b29f8f2a7360a1b9faaebd3886f489ea600bd3c1b7b624f36143344c44ae",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/poem-gongzijia-line-1.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 13680,
+    "durationSeconds": 2.28,
+    "maxVolumeDb": -5.0,
+    "sha256": "dd11b78a0d4b0e2613ae84f5e9a83a141cf7e771d0c0cae7a790573516fe94d0",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/poem-gongzijia-line-2.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 12960,
+    "durationSeconds": 2.16,
+    "maxVolumeDb": -3.4,
+    "sha256": "90e2c85127e8207e6831b2abb598fb9d3a428b9d168522f6eee1f7a09b20edbd",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/poem-gongzijia-line-3.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 12672,
+    "durationSeconds": 2.112,
+    "maxVolumeDb": -4.5,
+    "sha256": "1074cba7415b6f1c38b9440594e9fec12495d3c456dfbe9a8e1aef18ecfff41a",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/poem-gongzijia-line-4.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 13680,
+    "durationSeconds": 2.28,
+    "maxVolumeDb": -5.7,
+    "sha256": "f9d734d194bb2e778a2e84b7efe805eec1a4fc773724a400fca87ddc0c7c52dc",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/poem-gongzijia-intro.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 25488,
+    "durationSeconds": 4.248,
+    "maxVolumeDb": -5.1,
+    "sha256": "d2875fcd29f08c703c4fbe15361028bcfd10274393429ce0c1c614cd02c21c15",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/poem-cunju-line-1.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 16560,
+    "durationSeconds": 2.76,
+    "maxVolumeDb": -5.4,
+    "sha256": "dd9f38bce9b8feafb139476241bd55adc4a03dc08f986e08e89d342d381fb7e3",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/poem-cunju-line-2.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 16272,
+    "durationSeconds": 2.712,
+    "maxVolumeDb": -5.0,
+    "sha256": "8ce8cf5d0289bfdb5c71d24f3d086f77abd8cc084a785d9c7b7495be37d63bf3",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/poem-cunju-line-3.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 15696,
+    "durationSeconds": 2.616,
+    "maxVolumeDb": -6.4,
+    "sha256": "8be774cdb1b2f8e65752d67c7e909e4d7ca85fc6f3e59d0c97eb116a831a2cdd",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/poem-cunju-line-4.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 15984,
+    "durationSeconds": 2.664,
+    "maxVolumeDb": -5.3,
+    "sha256": "3723574788ebc3ccf6722b501b87b7d30f68f53b9928d3effca527f07cfbc821",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/poem-cunju-intro.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 24192,
+    "durationSeconds": 4.032,
+    "maxVolumeDb": -3.2,
+    "sha256": "86d4225b36241ba8d4ce7d790296f002fe044e8cfa37f99d3487bae3e30c34ee",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-parents-line-1.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 32976,
+    "durationSeconds": 5.496,
+    "maxVolumeDb": -7.2,
+    "sha256": "5a6987570d5d18dd17f307048036af25368ba504fdd4d70918e5b0aaf7b149f5",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-parents-line-2.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 32976,
+    "durationSeconds": 5.496,
+    "maxVolumeDb": -2.6,
+    "sha256": "e520b4617a257d2e6285148a39a9f192f0b05d0f57609d633a884f59890b019e",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-parents-question.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 22896,
+    "durationSeconds": 3.816,
+    "maxVolumeDb": -3.4,
+    "sha256": "bf183d1a2c7b38375093a1e27554f4dfeffe5e66dce33ddf4d9114ca2f71012f",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-parents-answer.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 23328,
+    "durationSeconds": 3.888,
+    "maxVolumeDb": -5.5,
+    "sha256": "8a6fb427ffa6d54e2d9d12e8a1d745e0a07066be85ffa15d61793abbc7fda29d",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-parents-intro.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 33408,
+    "durationSeconds": 5.568,
+    "maxVolumeDb": -4.2,
+    "sha256": "93323e444e677f4bf68402714be278d4eae60874c0dbc5bac4079c38a9c014da",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-daily-line-1.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 31824,
+    "durationSeconds": 5.304,
+    "maxVolumeDb": -3.4,
+    "sha256": "4a3e89f2ff50f70d220aa5fe70296ec08c2a56e3818d618cbcca1d4fdfb37db4",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-daily-line-2.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 31392,
+    "durationSeconds": 5.232,
+    "maxVolumeDb": -3.4,
+    "sha256": "0bce39ecfe640a09ea10cfe0d47d8e495e2f34d135f73af56c88169707ec971b",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-daily-question.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 23616,
+    "durationSeconds": 3.936,
+    "maxVolumeDb": -3.4,
+    "sha256": "744a8025fc91d1c643e6912f82bd67b16c053eb15ccea06975f963706571d705",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-daily-answer.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 25776,
+    "durationSeconds": 4.296,
+    "maxVolumeDb": -1.9,
+    "sha256": "9e2a20589296330d144474a2388abaecfa39df02ed74e27a06f0983d07861518",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-daily-intro.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 33408,
+    "durationSeconds": 5.568,
+    "maxVolumeDb": -4.2,
+    "sha256": "93323e444e677f4bf68402714be278d4eae60874c0dbc5bac4079c38a9c014da",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-small-things-line-1.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 32256,
+    "durationSeconds": 5.376,
+    "maxVolumeDb": -4.8,
+    "sha256": "1c53e2a95f817fb0c12258a33b3cefaed929b4d484963b487e3fd313cfbf9850",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-small-things-line-2.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 33840,
+    "durationSeconds": 5.64,
+    "maxVolumeDb": -3.0,
+    "sha256": "3586b1f16dff57e8ee4fca8dfa00dab3c25ea4bca30acad4318c2619d9c01501",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-small-things-question.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 22896,
+    "durationSeconds": 3.816,
+    "maxVolumeDb": -3.2,
+    "sha256": "aac525b9b70132b8ba8cd9241a952af0e167af149e4a9b5f964ce84d596c82ad",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-small-things-answer.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 24048,
+    "durationSeconds": 4.008,
+    "maxVolumeDb": -6.1,
+    "sha256": "e55fd5d1a5b2aae7ec6e33c9be29ddf9dbc5ee90b04edfd18a57a15569e4219a",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-small-things-intro.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "bytes": 33408,
+    "durationSeconds": 5.568,
+    "maxVolumeDb": -4.2,
+    "sha256": "93323e444e677f4bf68402714be278d4eae60874c0dbc5bac4079c38a9c014da",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/evening-word-0.mp3",
+    "voice": "en-US-AnaNeural",
+    "bytes": 9837,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -9.5,
+    "sha256": "b652233f1f97b424b9f927de9f533016151bb79b3401dcf9d9a0f78002d75b9a",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/evening-word-1.mp3",
+    "voice": "en-US-AnaNeural",
+    "bytes": 8277,
+    "durationSeconds": 1.56,
+    "maxVolumeDb": -7.8,
+    "sha256": "f34f8ff641eea26bf80471befb8b34e0ad52e5f123e0f01ac84f2ce3df5ebbd9",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/evening-word-2.mp3",
+    "voice": "en-US-AnaNeural",
+    "bytes": 9957,
+    "durationSeconds": 1.896,
+    "maxVolumeDb": -7.2,
+    "sha256": "617a88581dfaa9effad255487dfb8b5a66801b60e258f82f404ee3ea3754c1df",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/evening-word-3.mp3",
+    "voice": "en-US-AnaNeural",
+    "bytes": 9837,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -6.3,
+    "sha256": "3837b9dcf0eceaac9fa4a86f54a929a8dd2d8f5e608dec3ef4f9a9270a781bc2",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/evening-word-4.mp3",
+    "voice": "en-US-AnaNeural",
+    "bytes": 9837,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -6.1,
+    "sha256": "332fb3c0d73b9c19e1c7872d3c5e4eee9e41844445a33a5e00882011d89e3538",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/evening-word-5.mp3",
+    "voice": "en-US-AnaNeural",
+    "bytes": 9957,
+    "durationSeconds": 1.896,
+    "maxVolumeDb": -6.5,
+    "sha256": "5d6ceb427495d6a1b9036cf01041617fadcebb0f7ff191cd541ae59d97c98b62",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/evening-word-6.mp3",
+    "voice": "en-US-AnaNeural",
+    "bytes": 7917,
+    "durationSeconds": 1.488,
+    "maxVolumeDb": -6.2,
+    "sha256": "0fb775a851bb10004d0a394856c9ff2dfc3146036d957f6a7e814203d77f5b26",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/evening-word-7.mp3",
+    "voice": "en-US-AnaNeural",
+    "bytes": 10317,
+    "durationSeconds": 1.968,
+    "maxVolumeDb": -4.7,
+    "sha256": "6fecb9700bfff2f07dabaa5b9b8fd9335bae347214f35191e77722b4870e38ef",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/evening-question-0.mp3",
+    "voice": "en-US-AnaNeural",
+    "bytes": 13797,
+    "durationSeconds": 2.664,
+    "maxVolumeDb": -6.6,
+    "sha256": "17a345a92675c89f2d51d1ebb63d0dc1c954e2d5c4232c34a0fa440423251e9d",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/evening-answer-0.mp3",
+    "voice": "en-US-AnaNeural",
+    "bytes": 10917,
+    "durationSeconds": 2.088,
+    "maxVolumeDb": -5.9,
+    "sha256": "a59e43509870713e2b9d2cef19e76c52f4d0e7a6adbcbde272049d8aed045eee",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/evening-question-1.mp3",
+    "voice": "en-US-AnaNeural",
+    "bytes": 12237,
+    "durationSeconds": 2.352,
+    "maxVolumeDb": -6.5,
+    "sha256": "692f357147e2c0e86046d42474e241458b2c4751cef6e55ead8505d146605159",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/evening-answer-1.mp3",
+    "voice": "en-US-AnaNeural",
+    "bytes": 11037,
+    "durationSeconds": 2.112,
+    "maxVolumeDb": -6.9,
+    "sha256": "11e90cffe91c3e2382587624a9b8c1a46a74d60c686b67c1b52959db9d6e5d5e",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/evening-sound-0.mp3",
+    "voice": "en-US-AnaNeural",
+    "bytes": 8277,
+    "durationSeconds": 1.56,
+    "maxVolumeDb": -7.8,
+    "sha256": "f34f8ff641eea26bf80471befb8b34e0ad52e5f123e0f01ac84f2ce3df5ebbd9",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/evening-sound-1.mp3",
+    "voice": "en-US-AnaNeural",
+    "bytes": 9837,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -10.5,
+    "sha256": "6e136b9233675e8f3593191df73be6b8efe34bc592ed8c22ebdaf440f67784a1",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/evening-sound-2.mp3",
+    "voice": "en-US-AnaNeural",
+    "bytes": 9837,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -8.2,
+    "sha256": "2b4c8019bd849f500bb5fe0614df4f097f76fc4f6082f0e54ad5aaeb53646ebb",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/evening-intro.mp3",
+    "voice": "en-US-AnaNeural",
+    "bytes": 28077,
+    "durationSeconds": 5.52,
+    "maxVolumeDb": -3.7,
+    "sha256": "8a89af58ed986de0bbebd9a7f0f97ab8ebfa96c55a6af4d60a401a080e8974f3",
+    "decoded": true
+  }
+]

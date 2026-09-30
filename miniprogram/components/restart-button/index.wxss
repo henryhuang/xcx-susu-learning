@@ -1,0 +1,2 @@
+.restart{display:flex;align-items:center;justify-content:center;min-height:88rpx;max-width:260rpx;margin:16rpx auto 0;padding:14rpx 30rpx;border:3rpx solid #e9ddcb;border-radius:24rpx;background:#fffdf8;color:#746d7c;font-size:26rpx;line-height:1.4;font-weight:800}.restart:active,.restart.button-hover{background:#fff1d8;transform:translateY(2rpx)}
+@media (min-width:700px){.restart{min-height:48px;max-width:180px;margin-top:12px;padding:8px 18px;border-width:2px;border-radius:15px;font-size:16px}}

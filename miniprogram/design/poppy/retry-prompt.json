@@ -1,0 +1,6 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "poppy-pink-transparent.png",
+  "output": "poppy-retry.png",
+  "prompt": "Create one full-body pose variant of this exact approved Poppy girl for a children's learning miniapp. Gentle try-again gesture after an incorrect answer: head tilted slightly, one arm bent with open palm facing upward at waist level as if kindly inviting another try, other hand lightly resting on chest. Soft closed-mouth encouraging smile, eyebrows slightly raised with curious patient expression, eyes open looking at viewer. Clearly different from thumbs-up, listening and chin-thinking poses. No book. Preserve identical character identity, round pink glasses, dark brown bangs and ponytail, face, childlike proportions, pink A-line dress with white bow, white socks, pink shoes, clean soft brown outlines and pastel shading. Genuine transparent alpha background, no ground shadow, no text, no question marks or additional objects. Whole character visible, centered, small safety margins. Only change pose and expression; keep outfit and art style consistent. Do not show sadness, anger, scolding, tears, disappointment, pointing at viewer, or a stop gesture. Production sprite, not a sheet."
+}

@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/shapes/index",
+    "pages/body/index",
+    "pages/lesson/index"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "backgroundColor": "#fff8e8",
+    "backgroundTextStyle": "dark"
+  },
+  "resizable": true,
+  "sitemapLocation": "sitemap.json",
+  "subPackages": [
+    {
+      "root": "chinese",
+      "pages": [
+        "pages/lesson/index"
+      ]
+    }
+  ]
+}

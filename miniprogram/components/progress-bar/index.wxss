@@ -1,0 +1,2 @@
+.track{height:20rpx;background:#e9ddcb;border-radius:99rpx;overflow:hidden;margin:20rpx 0 26rpx}.fill{height:100%;border-radius:99rpx;background:#51c6b7}
+@media (min-width:700px){.track{height:12px;margin:12px 0 18px}}

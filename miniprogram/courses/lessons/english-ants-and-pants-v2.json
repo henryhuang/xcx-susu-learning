@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 2,
+  "id": "english-ants-and-pants",
+  "version": 2,
+  "category": "english",
+  "title": "Ants in Pants",
+  "description": "认识 7 个单词，学习 I like… / I don't like… 句型，再跟读蚂蚁和裤子的趣味对话。",
+  "language": {
+    "content": "en-US",
+    "guidance": "en-US"
+  },
+  "presentation": {
+    "theme": "poppy",
+    "art": "🐜👖"
+  },
+  "intro": {
+    "text": "Hi, Susie! Let's learn about ants in pants!",
+    "audio": "/assets/audio/weekly/ants-intro.mp3",
+    "buttonLabel": "Start adventure"
+  },
+  "completion": {
+    "text": "Amazing, Susie! You did it!",
+    "audio": "/assets/audio/sentences/amazing-susie-you-did-it.mp3",
+    "buttonLabel": "Play again"
+  },
+  "activities": [
+    {"id":"word-dolphin","step":"words","type":"word","title":"Learn the words","text":"dolphin","translation":"海豚","art":"🐬","audio":"/assets/audio/weekly/ants-word-dolphin.mp3","nextLabel":"Next"},
+    {"id":"word-dress","step":"words","type":"word","title":"Learn the words","text":"dress","translation":"连衣裙","art":"👗","audio":"/assets/audio/weekly/ants-word-dress.mp3","nextLabel":"Next"},
+    {"id":"word-kangaroo","step":"words","type":"word","title":"Learn the words","text":"kangaroo","translation":"袋鼠","art":"🦘","audio":"/assets/audio/weekly/ants-word-kangaroo.mp3","nextLabel":"Next"},
+    {"id":"word-socks","step":"words","type":"word","title":"Learn the words","text":"socks","translation":"袜子","art":"🧦","audio":"/assets/audio/weekly/ants-word-socks.mp3","nextLabel":"Next"},
+    {"id":"word-shoes","step":"words","type":"word","title":"Learn the words","text":"shoes","translation":"鞋子","art":"👟","audio":"/assets/audio/weekly/ants-word-shoes.mp3","nextLabel":"Next"},
+    {"id":"word-ant","step":"words","type":"word","title":"Learn the words","text":"ant","translation":"蚂蚁","art":"🐜","audio":"/assets/audio/weekly/ants-word-ant.mp3","nextLabel":"Next"},
+    {"id":"word-pants","step":"words","type":"word","title":"Learn the words","text":"pants","translation":"裤子","art":"👖","audio":"/assets/audio/weekly/ants-word-pants.mp3","nextLabel":"Next"},
+    {"id":"pattern-like","step":"patterns","type":"action","title":"I like…","text":"I like pink.","translation":"我喜欢粉色。","art":"🩷","audio":"/assets/audio/weekly/ants-pattern-like-pink.mp3","nextLabel":"Next"},
+    {"id":"pattern-dont-like","step":"patterns","type":"action","title":"I don't like…","text":"I don't like red.","translation":"我不喜欢红色。","art":"🔴","audio":"/assets/audio/weekly/ants-pattern-dont-like-red.mp3","nextLabel":"Next"},
+    {"id":"line-like-ants","step":"speaking","type":"action","title":"Listen and say · I like…","text":"I like ants...in yellow pants.","translation":"我喜欢穿黄色裤子的蚂蚁。","art":"🐜👖","audio":"/assets/audio/weekly/ants-line-like-ants.mp3","nextLabel":"Next"},
+    {"id":"line-colors","step":"speaking","type":"action","title":"Listen and say · I don't like… / I like…","text":"I don't like yellow. I like green.","translation":"我不喜欢黄色。我喜欢绿色。","art":"🟡🟢","audio":"/assets/audio/weekly/ants-line-colors.mp3","nextLabel":"Next"},
+    {"id":"line-green-pants","step":"speaking","type":"action","title":"Listen and say","text":"An ant in green pants?","translation":"一只穿绿色裤子的蚂蚁？","art":"🐜🟢👖","audio":"/assets/audio/weekly/ants-line-green-pants.mp3","nextLabel":"Next"},
+    {"id":"line-good-job","step":"speaking","type":"action","title":"Listen and say","text":"Did you do this? Good job!","translation":"这是你做的吗？做得好！","art":"👏","audio":"/assets/audio/weekly/ants-line-good-job.mp3","nextLabel":"Next"}
+  ]
+}

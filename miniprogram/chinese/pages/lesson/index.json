@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "lesson-header": "../../../components/lesson-header/index",
+    "poppy": "../../../components/poppy/index",
+    "progress-bar": "../../../components/progress-bar/index",
+    "sound-button": "../../../components/sound-button/index",
+    "feedback-card": "../../../components/feedback-card/index",
+    "restart-button": "../../../components/restart-button/index"
+  }
+}

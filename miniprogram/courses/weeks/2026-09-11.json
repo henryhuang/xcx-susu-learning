@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-09-11",
+  "reportDate": "2026-09-11",
+  "title": "9月11日学习内容",
+  "items": [
+    {
+      "id": "english-evening",
+      "category": "english",
+      "mode": "learn",
+      "lesson": {
+        "id": "english-evening",
+        "version": 1,
+        "url": "lessons/english-evening-v1.json"
+      }
+    },
+    {
+      "id": "poem-tixilinbi",
+      "category": "poetry",
+      "mode": "learn",
+      "lesson": {
+        "id": "poem-tixilinbi",
+        "version": 1,
+        "url": "lessons/poem-tixilinbi-v1.json"
+      }
+    },
+    {
+      "id": "dizigui-parents",
+      "category": "dizigui",
+      "mode": "learn",
+      "lesson": {
+        "id": "dizigui-parents",
+        "version": 1,
+        "url": "lessons/dizigui-parents-v1.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+.feedback{padding:18rpx 22rpx;min-height:70rpx;margin:16rpx 0;border-radius:20rpx;background:#dff6f2;color:#257b70;text-align:center;font-size:29rpx;font-weight:850;line-height:1.4}.feedback.try{background:#fff1b6;color:#66592f}.feedback.audio{background:#e9f7f5;color:#40384e}
+@media (min-width:700px){.feedback{padding:10px 14px;min-height:42px;margin:10px 0;border-radius:13px;font-size:18px}}

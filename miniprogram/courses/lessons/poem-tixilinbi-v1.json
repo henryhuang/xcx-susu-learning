@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "id": "poem-tixilinbi",
+  "version": 1,
+  "category": "poetry",
+  "title": "题西林壁",
+  "description": "听一首诗，看懂画面，再一句句跟读。",
+  "language": {
+    "content": "zh-CN",
+    "guidance": "zh-CN"
+  },
+  "presentation": {
+    "theme": "hanfu",
+    "art": "🏔️"
+  },
+  "intro": {
+    "text": "酥酥，我们一起读一读《题西林壁》吧！",
+    "audio": "/chinese/assets/audio/poem-tixilinbi-intro.mp3",
+    "buttonLabel": "听听这首诗"
+  },
+  "completion": {
+    "text": "今天我们读了《题西林壁》，真棒！",
+    "audio": "/chinese/assets/audio/zh-finish.mp3",
+    "buttonLabel": "再读一次"
+  },
+  "content": {
+    "kind": "poem",
+    "author": "苏轼",
+    "dynasty": "宋",
+    "lines": [
+      {
+        "id": "line-1",
+        "text": "横看成岭侧成峰",
+        "audio": "/chinese/assets/audio/poem-tixilinbi-line-1.mp3",
+        "explanation": "从正面看是连绵的山岭，从侧面看是高高的山峰。"
+      },
+      {
+        "id": "line-2",
+        "text": "远近高低各不同",
+        "audio": "/chinese/assets/audio/poem-tixilinbi-line-2.mp3",
+        "explanation": "站得远近不同、高低不同，看到的山也不一样。"
+      },
+      {
+        "id": "line-3",
+        "text": "不识庐山真面目",
+        "audio": "/chinese/assets/audio/poem-tixilinbi-line-3.mp3",
+        "explanation": "为什么看不清庐山完整的样子呢？"
+      },
+      {
+        "id": "line-4",
+        "text": "只缘身在此山中",
+        "audio": "/chinese/assets/audio/poem-tixilinbi-line-4.mp3",
+        "explanation": "因为自己就在这座山里面呀。"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "listen",
+      "step": "listen",
+      "type": "read-along",
+      "title": "先听一听",
+      "text": "点一句可以单独听，也可以听整首。",
+      "lineIds": [
+        "line-1",
+        "line-2",
+        "line-3",
+        "line-4"
+      ],
+      "nextLabel": "读懂这首诗"
+    },
+    {
+      "id": "understand",
+      "step": "understand",
+      "type": "explanation",
+      "title": "诗里说了什么？",
+      "text": "和爸爸妈妈一起读一读，想象诗里的画面。",
+      "lineIds": [
+        "line-1",
+        "line-2",
+        "line-3",
+        "line-4"
+      ],
+      "nextLabel": "一句句跟着读"
+    },
+    {
+      "id": "repeat",
+      "step": "repeat",
+      "type": "line-practice",
+      "title": "一句句跟读",
+      "text": "先听一句，再自己读一句。",
+      "lineIds": [
+        "line-1",
+        "line-2",
+        "line-3",
+        "line-4"
+      ],
+      "reward": 1,
+      "nextLabel": "我读过了"
+    }
+  ]
+}

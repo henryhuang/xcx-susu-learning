@@ -1,0 +1,9 @@
+Component({
+  properties:{title:String,stars:{type:Number,value:0},home:{type:Boolean,value:false}},
+  data:{topStyle:''},
+  lifetimes:{attached(){this.setData({topStyle:require('../../services/layout').headerStyle()});}},
+  methods:{
+    back(){this.triggerEvent('back');},
+    goHome(){this.triggerEvent('home');}
+  }
+});

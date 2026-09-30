@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "id": "dizigui-parents",
+  "version": 1,
+  "category": "dizigui",
+  "title": "父母呼，应勿缓",
+  "description": "听原文、读小故事，在生活里练一练。",
+  "language": {
+    "content": "zh-CN",
+    "guidance": "zh-CN"
+  },
+  "presentation": {
+    "theme": "hanfu",
+    "art": "📖"
+  },
+  "intro": {
+    "text": "酥酥，我们听一听，再想想生活里可以怎么做。",
+    "audio": "/chinese/assets/audio/dizigui-parents-intro.mp3",
+    "buttonLabel": "听听原文"
+  },
+  "completion": {
+    "text": "读过了，也知道生活里可以怎么做啦！",
+    "audio": "/chinese/assets/audio/zh-finish.mp3",
+    "buttonLabel": "再练一次"
+  },
+  "content": {
+    "kind": "passage",
+    "lines": [
+      {
+        "id": "line-1",
+        "text": "父母呼，应勿缓。父母命，行勿懒。",
+        "audio": "/chinese/assets/audio/dizigui-parents-line-1.mp3",
+        "explanation": "家人叫你时，可以先回应一声；约好的事情，记得去做。"
+      },
+      {
+        "id": "line-2",
+        "text": "父母教，须敬听。父母责，须顺承。",
+        "audio": "/chinese/assets/audio/dizigui-parents-line-2.mp3",
+        "explanation": "听家人的提醒，也可以把自己的想法好好说出来。"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "listen",
+      "step": "listen",
+      "type": "read-along",
+      "title": "听听原文",
+      "text": "点一句听一听。",
+      "lineIds": [
+        "line-1",
+        "line-2"
+      ],
+      "nextLabel": "听听小解释"
+    },
+    {
+      "id": "understand",
+      "step": "understand",
+      "type": "explanation",
+      "title": "生活里的小道理",
+      "text": "和家人一起说一说。",
+      "lineIds": [
+        "line-1",
+        "line-2"
+      ],
+      "nextLabel": "想一想怎么做"
+    },
+    {
+      "id": "story-0",
+      "step": "story",
+      "type": "choice",
+      "title": "生活小故事",
+      "text": "妈妈叫你吃饭了，你可以怎么回应？",
+      "audio": "/chinese/assets/audio/dizigui-parents-question.mp3",
+      "choices": [
+        {
+          "value": "ask",
+          "label": "答应一声：我来啦！"
+        },
+        {
+          "value": "hide",
+          "label": "一直不回应"
+        }
+      ],
+      "answer": "ask",
+      "answerText": "先回应，再把手里的事情收好。",
+      "answerAudio": "/chinese/assets/audio/dizigui-parents-answer.mp3",
+      "reward": 1,
+      "nextLabel": "跟着读一读"
+    },
+    {
+      "id": "repeat",
+      "step": "repeat",
+      "type": "line-practice",
+      "title": "一句句跟读",
+      "text": "听一句，自己试着读一句。",
+      "lineIds": [
+        "line-1",
+        "line-2"
+      ],
+      "reward": 1,
+      "nextLabel": "我读过了"
+    }
+  ]
+}

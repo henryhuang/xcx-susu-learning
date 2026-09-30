@@ -1,0 +1,32 @@
+.hero{display:flex;align-items:center;gap:25rpx;margin-top:25rpx}.hero-copy{flex:1;display:flex;flex-direction:column;align-items:flex-start;gap:20rpx}.home-title{display:block;color:#40384e}.hero poppy{flex:0 0 38%;max-width:380rpx}.hero .primary{margin-top:10rpx}.lesson-list{display:flex;flex-direction:column;gap:20rpx;max-width:900rpx;margin:0 auto}.lesson-card{display:flex;align-items:stretch;width:100%;min-height:180rpx;padding:0;overflow:hidden;border:5rpx solid #eee3d3;border-radius:38rpx;background:#fffdf8;text-align:left;box-shadow:0 14rpx 30rpx rgba(72,61,86,.1)}.lesson-card:active,.lesson-card.button-hover{transform:translateY(4rpx);background:#fff9ec}.lesson-art{display:flex;align-items:center;justify-content:center;flex:0 0 29%;min-width:160rpx;padding:14rpx;font-size:44rpx;white-space:normal;text-align:center}.shapes-art{background:#dff6f2;color:#e8b500}.body-art{background:#fff1b6}.lesson-copy{display:flex;flex-direction:column;justify-content:center;gap:5rpx;min-width:0;padding:22rpx}.tag{color:#257b70;font-size:21rpx;font-weight:900}.card-title{font-size:38rpx;font-weight:900}.lesson-copy .muted{font-size:25rpx}.record{color:#e94e68;font-size:25rpx;font-weight:900}.parent-note{display:flex;gap:15rpx;max-width:900rpx;margin:27rpx auto 0;padding:22rpx;background:#fff1b6;border-radius:26rpx;color:#66592f;font-size:26rpx;line-height:1.5}@media (max-width:600px){.hero{flex-direction:column;text-align:center}.hero-copy{align-items:center}.hero poppy{width:100%;max-width:360rpx}.lesson-art{flex-basis:25%;min-width:130rpx;font-size:35rpx}.card-title{font-size:32rpx}}
+.week-tabs{display:flex;flex-wrap:wrap;gap:14rpx;margin:0 auto 25rpx;max-width:900rpx}.week-tab{margin:0;flex:1;min-width:140rpx;padding:12rpx 20rpx;background:#fffdf8;border:3rpx solid #eee3d3;border-radius:24rpx;color:#66586c;font-size:28rpx;line-height:1.5}.week-tab.active{background:#ffe4eb;border-color:#ed9bb3;color:#a2385d;font-weight:900}.english-art{background:#fff1b6}.poetry-art{background:#e4f3e8}.dizigui-art{background:#fce5eb}.lesson-copy .card-title{font-size:34rpx}
+
+.card-heading{display:flex;align-items:center;flex-wrap:wrap;gap:12rpx}.completed-badge{flex-shrink:0;padding:5rpx 14rpx;border-radius:20rpx;background:#e4f3e8;color:#257b50;font-size:23rpx;font-weight:900;line-height:1.5}
+
+.course-update{display:flex;align-items:center;flex-wrap:wrap;gap:16rpx;max-width:900rpx;margin:0 auto 20rpx}.course-update button{margin:0}.course-update .muted{font-size:24rpx}
+
+@media (min-width:700px){
+  .hero{gap:24px;margin-top:20px}
+  .hero-copy{gap:14px}
+  .hero poppy{flex:0 0 220px;max-width:220px}
+  .hero .primary{margin-top:8px}
+  .lesson-list,.week-tabs,.course-update{max-width:960px}
+  .lesson-list{gap:16px}
+  .lesson-card{min-height:116px;border-width:3px;border-radius:24px;box-shadow:0 7px 16px rgba(72,61,86,.1)}
+  .lesson-art{min-width:120px;padding:12px;font-size:28px}
+  .lesson-copy{gap:4px;padding:16px}
+  .tag{font-size:14px}
+  .lesson-copy .card-title{font-size:23px}
+  .record,.lesson-copy .muted{font-size:16px}
+  .completed-badge{padding:3px 9px;border-radius:12px;font-size:14px}
+  .week-tabs{gap:10px;margin-bottom:18px}
+  .week-tab{min-width:115px;padding:8px 14px;border-width:2px;border-radius:16px;font-size:17px}
+  .course-update{gap:12px;margin-bottom:16px}
+  .course-update .muted{font-size:15px}
+}
+@media (min-width:900px) and (orientation:landscape){
+  .hero{justify-content:space-between}
+  .lesson-list{flex-direction:row;flex-wrap:wrap}
+  .lesson-card{width:calc(50% - 8px)}
+  .lesson-art{flex-basis:27%;min-width:105px}
+}

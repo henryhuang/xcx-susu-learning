@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 2,
+  "id": "english-evening",
+  "version": 1,
+  "category": "english",
+  "title": "晚间小日常",
+  "description": "说说晚上的活动，听听词尾音 /t/ 和 /d/。",
+  "language": {
+    "content": "en-US",
+    "guidance": "en-US"
+  },
+  "presentation": {
+    "theme": "poppy",
+    "art": "🌙"
+  },
+  "intro": {
+    "text": "Hi, Susie! Let's talk about evening and night.",
+    "audio": "/assets/audio/weekly/evening-intro.mp3",
+    "buttonLabel": "Start adventure"
+  },
+  "completion": {
+    "text": "Amazing, Susie! You did it!",
+    "audio": "/assets/audio/sentences/amazing-susie-you-did-it.mp3",
+    "buttonLabel": "Play again"
+  },
+  "activities": [
+    {
+      "id": "word-0",
+      "step": "words",
+      "type": "word",
+      "title": "Evening and night",
+      "text": "evening",
+      "translation": "傍晚",
+      "art": "🌆",
+      "audio": "/assets/audio/weekly/evening-word-0.mp3",
+      "nextLabel": "Next"
+    },
+    {
+      "id": "word-1",
+      "step": "words",
+      "type": "word",
+      "title": "Evening and night",
+      "text": "night",
+      "translation": "夜晚",
+      "art": "🌙",
+      "audio": "/assets/audio/weekly/evening-word-1.mp3",
+      "nextLabel": "Next"
+    },
+    {
+      "id": "word-2",
+      "step": "words",
+      "type": "word",
+      "title": "Evening and night",
+      "text": "Good evening!",
+      "translation": "晚上好！",
+      "art": "👋",
+      "audio": "/assets/audio/weekly/evening-word-2.mp3",
+      "nextLabel": "Next"
+    },
+    {
+      "id": "word-3",
+      "step": "words",
+      "type": "word",
+      "title": "Evening and night",
+      "text": "Good night!",
+      "translation": "晚安！",
+      "art": "⭐",
+      "audio": "/assets/audio/weekly/evening-word-3.mp3",
+      "nextLabel": "Next"
+    },
+    {
+      "id": "word-4",
+      "step": "words",
+      "type": "word",
+      "title": "Evening and night",
+      "text": "eat dinner",
+      "translation": "吃晚饭",
+      "art": "🍚",
+      "audio": "/assets/audio/weekly/evening-word-4.mp3",
+      "nextLabel": "Next"
+    },
+    {
+      "id": "word-5",
+      "step": "words",
+      "type": "word",
+      "title": "Evening and night",
+      "text": "go to bed",
+      "translation": "上床睡觉",
+      "art": "🛏️",
+      "audio": "/assets/audio/weekly/evening-word-5.mp3",
+      "nextLabel": "Next"
+    },
+    {
+      "id": "word-6",
+      "step": "words",
+      "type": "word",
+      "title": "Evening and night",
+      "text": "hug",
+      "translation": "拥抱",
+      "art": "🤗",
+      "audio": "/assets/audio/weekly/evening-word-6.mp3",
+      "nextLabel": "Next"
+    },
+    {
+      "id": "word-7",
+      "step": "words",
+      "type": "word",
+      "title": "Evening and night",
+      "text": "take a bath",
+      "translation": "洗澡",
+      "art": "🛁",
+      "audio": "/assets/audio/weekly/evening-word-7.mp3",
+      "nextLabel": "Next"
+    },
+    {
+      "id": "question-0",
+      "step": "quiz",
+      "type": "choice",
+      "title": "Say a sentence",
+      "text": "What do you do in the evening?",
+      "audio": "/assets/audio/weekly/evening-question-0.mp3",
+      "choices": [
+        {
+          "value": "yes",
+          "label": "I eat dinner."
+        },
+        {
+          "value": "no",
+          "label": "I go to school."
+        }
+      ],
+      "answer": "yes",
+      "answerText": "I eat dinner.",
+      "answerAudio": "/assets/audio/weekly/evening-answer-0.mp3",
+      "reward": 1,
+      "nextLabel": "Next"
+    },
+    {
+      "id": "question-1",
+      "step": "quiz",
+      "type": "choice",
+      "title": "Say a sentence",
+      "text": "What do you do at night?",
+      "audio": "/assets/audio/weekly/evening-question-1.mp3",
+      "choices": [
+        {
+          "value": "yes",
+          "label": "I go to bed."
+        },
+        {
+          "value": "no",
+          "label": "I eat lunch."
+        }
+      ],
+      "answer": "yes",
+      "answerText": "I go to bed.",
+      "answerAudio": "/assets/audio/weekly/evening-answer-1.mp3",
+      "reward": 1,
+      "nextLabel": "Next"
+    },
+    {
+      "id": "phonics-0",
+      "step": "phonics",
+      "type": "choice",
+      "title": "Listen to the ending sound",
+      "text": "night",
+      "audio": "/assets/audio/weekly/evening-sound-0.mp3",
+      "choices": [
+        {
+          "value": "t",
+          "label": "/t/"
+        },
+        {
+          "value": "d",
+          "label": "/d/"
+        }
+      ],
+      "answer": "t",
+      "answerText": "night ends with /t/.",
+      "reward": 1,
+      "nextLabel": "Next"
+    },
+    {
+      "id": "phonics-1",
+      "step": "phonics",
+      "type": "choice",
+      "title": "Listen to the ending sound",
+      "text": "eat",
+      "audio": "/assets/audio/weekly/evening-sound-1.mp3",
+      "choices": [
+        {
+          "value": "t",
+          "label": "/t/"
+        },
+        {
+          "value": "d",
+          "label": "/d/"
+        }
+      ],
+      "answer": "t",
+      "answerText": "eat ends with /t/.",
+      "reward": 1,
+      "nextLabel": "Next"
+    },
+    {
+      "id": "phonics-2",
+      "step": "phonics",
+      "type": "choice",
+      "title": "Listen to the ending sound",
+      "text": "bed",
+      "audio": "/assets/audio/weekly/evening-sound-2.mp3",
+      "choices": [
+        {
+          "value": "t",
+          "label": "/t/"
+        },
+        {
+          "value": "d",
+          "label": "/d/"
+        }
+      ],
+      "answer": "d",
+      "answerText": "bed ends with /d/.",
+      "reward": 1,
+      "nextLabel": "Next"
+    }
+  ]
+}

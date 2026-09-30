@@ -1,0 +1,13 @@
+.poppy-wrap{position:relative;display:flex;flex-direction:column;align-items:center;width:100%;max-width:430rpx;margin:0 auto}.poppy{display:block;width:100%;height:450rpx}.bubble{align-self:flex-end;box-sizing:border-box;max-width:100%;margin-bottom:12rpx;padding:14rpx 18rpx;background:#fff5f8;border:4rpx solid #d75b7b;border-radius:25rpx 25rpx 25rpx 5rpx;box-shadow:6rpx 7rpx 0 rgba(215,91,123,.12);font-size:28rpx;font-weight:900;text-align:center;white-space:normal}
+.compact{max-width:240rpx}.compact .poppy{height:250rpx}.compact .bubble{font-size:22rpx;max-width:130rpx;padding:8rpx 10rpx}
+.reaction{max-width:150rpx;margin:12rpx auto}.reaction .poppy{height:180rpx}
+@media (min-width:700px){
+  .poppy-wrap{max-width:260px}
+  .poppy{height:250px}
+  .bubble{margin-bottom:8px;padding:9px 12px;border-width:2px;border-radius:16px 16px 16px 4px;font-size:17px}
+  .compact{max-width:150px}
+  .compact .poppy{height:140px}
+  .compact .bubble{font-size:14px;max-width:100px;padding:5px 7px}
+  .reaction{max-width:96px;margin:6px auto}
+  .reaction .poppy{height:100px}
+}

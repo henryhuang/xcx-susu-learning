@@ -1,0 +1,1 @@
+<view class="poppy-wrap {{compact ? 'compact' : ''}} {{reaction ? 'reaction' : ''}}"><view wx:if="{{message}}" class="bubble">{{message}}</view><image class="poppy" src="{{imageSrc}}" mode="aspectFit" aria-label="{{imageLabel}}" /></view>

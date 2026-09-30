@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-09-24",
+  "reportDate": "2026-09-24",
+  "title": "9月24日学习内容",
+  "items": [
+    {
+      "id": "body",
+      "category": "english",
+      "mode": "learn",
+      "lesson": {
+        "id": "body",
+        "version": 1,
+        "url": "lessons/body-v1.json"
+      }
+    },
+    {
+      "id": "poem-cunju",
+      "category": "poetry",
+      "mode": "learn",
+      "lesson": {
+        "id": "poem-cunju",
+        "version": 1,
+        "url": "lessons/poem-cunju-v1.json"
+      }
+    },
+    {
+      "id": "dizigui-small-things",
+      "category": "dizigui",
+      "mode": "review",
+      "lesson": {
+        "id": "dizigui-small-things",
+        "version": 1,
+        "url": "lessons/dizigui-small-things-v1.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+<view class="page lesson-page {{theme==='hanfu'?'chinese-lesson':''}}">
+  <lesson-header title="{{lesson.title || '学习小冒险'}}" stars="{{stars}}" bind:back="back" bind:home="home" />
+  <view class="content">
+    <view wx:if="{{loading}}" class="paper center"><text>正在准备本地课程…</text></view>
+    <view wx:elif="{{error}}" class="paper center stack"><text class="muted">{{error}}</text><button class="primary" bindtap="retry">重新打开</button><button class="secondary" bindtap="home">回首页</button></view>
+    <block wx:else>
+      <view wx:if="{{phase==='welcome'}}" class="welcome center">
+        <text class="eyebrow">{{categoryLabel}}</text><text class="title">{{lesson.title}}</text><text class="muted">{{lesson.description}}</text>
+        <text wx:if="{{lesson.content.author}}" class="author">{{lesson.content.dynasty}} · {{lesson.content.author}}</text>
+        <poppy theme="{{theme}}" message="{{lesson.intro.text}}" />
+        <button class="primary" bindtap="start">{{lesson.intro.buttonLabel}} →</button><restart-button label="{{ui.restart}}" bind:restart="restart" /><sound-button wx:if="{{lesson.intro.audio}}" label="{{ui.hello}}" playing="{{playingKey!==''}}" bind:play="playCurrent" />
+      </view>
+      <view wx:elif="{{phase==='activity'}}">
+        <view class="section-top"><text class="eyebrow">{{categoryLabel}}</text><text class="title">{{activity.title}}</text></view><progress-bar value="{{progress}}" />
+        <view class="paper center stack">
+          <block wx:if="{{activity.type==='read-along'}}">
+            <text class="poem-title">{{lesson.title}}</text><text wx:if="{{lesson.content.author}}" class="author">{{lesson.content.dynasty}} · {{lesson.content.author}}</text>
+            <poppy theme="{{theme}}" pose="read" message="" reaction="{{true}}" />
+            <view class="verse-list"><button wx:for="{{lines}}" wx:key="id" class="verse {{activeLineId===item.id?'active-verse':''}}" data-id="{{item.id}}" bindtap="playLine" aria-label="朗读：{{item.text}}">{{item.text}}<text class="verse-sound"> ♫</text></button></view>
+            <text class="muted">{{activity.text}}</text><sound-button label="{{ui.listenAll}}" playing="{{playingKey!==''}}" bind:play="playLines" />
+          </block>
+          <block wx:elif="{{activity.type==='explanation'}}">
+            <text class="explanation-art">{{lesson.presentation.art}}</text><text class="muted">{{activity.text}}</text>
+            <view class="explanation-list"><view wx:for="{{lines}}" wx:key="id" class="explanation-item"><text class="original-line">{{item.text}}</text><text class="muted">{{item.explanation}}</text></view></view>
+            <poppy theme="{{theme}}" pose="read" message="" compact="{{true}}" />
+          </block>
+          <block wx:elif="{{activity.type==='line-practice'}}">
+            <text class="count-pill">{{lineIndex+1}} / {{lines.length}}</text><poppy theme="{{theme}}" pose="read" message="" compact="{{true}}" />
+            <text class="practice-line">{{currentLine.text}}</text><sound-button label="{{ui.listenLine}}" playing="{{playingKey===currentLine.audio}}" bind:play="playCurrent" />
+            <text class="muted">不着急，读完了再点下面的按钮。</text><button wx:if="{{lineIndex>0}}" class="secondary" bindtap="previousLine">上一句</button>
+          </block>
+          <block wx:else>
+            <text class="count-pill">{{stepIndex}} / {{stepCount}}</text>
+            <image wx:if="{{activity.image}}" class="course-image" src="{{activity.image}}" mode="aspectFit" />
+            <text wx:elif="{{activity.art}}" class="{{activity.type==='word'?'shape-symbol':'art'}}" style="color:{{activity.color || '#6fbde7'}}">{{activity.art}}</text>
+            <text class="{{activity.type==='word'?'big-word':'prompt'}}">{{activity.text}}</text><text wx:if="{{activity.translation}}" class="muted">{{activity.translation}}</text>
+            <sound-button wx:if="{{activity.audio}}" label="{{ui.listen}}" playing="{{playingKey===activity.audio}}" bind:play="playCurrent" />
+            <block wx:if="{{activity.type==='choice'}}">
+              <view class="choice-row {{theme==='hanfu'?'story-choices':''}}"><button wx:for="{{activity.choices}}" wx:key="value" class="choice {{solved&&item.value===activity.answer?'selected':''}}" data-answer="{{item.value}}" bindtap="choose">{{item.label}}</button></view>
+              <poppy theme="{{theme}}" pose="{{solved ? 'cheer' : (feedbackKind === 'try' ? 'retry' : (playingKey ? 'listen' : 'think'))}}" message="" reaction="{{true}}" /><feedback-card message="{{feedback}}" kind="{{feedbackKind}}" />
+              <button wx:if="{{solved&&activity.answerAudio}}" class="secondary" bindtap="playAnswer">{{ui.answer}}</button>
+            </block>
+            <block wx:elif="{{activity.type==='sound-examples'}}">
+              <poppy theme="{{theme}}" pose="listen" message="{{activity.text}}" /><view class="choice-row"><button wx:for="{{activity.groups}}" wx:key="label" class="choice" data-group="{{index}}" bindtap="revealExample">{{item.label}}</button></view><text class="big-word">{{exampleWord}}</text><sound-button wx:if="{{exampleAudio}}" label="{{ui.listenLine}}" playing="{{playingKey===exampleAudio}}" bind:play="playCurrent" />
+            </block>
+            <poppy wx:elif="{{activity.type==='action'}}" theme="{{theme}}" pose="cheer" message="Let's move!" />
+          </block>
+        </view>
+        <button wx:if="{{activity.type!=='choice'||solved}}" class="primary gap-top" bindtap="next">{{activity.type==='line-practice'&&lineIndex<lines.length-1?'读过这句，下一句 →':(activity.nextLabel || (cursor===lesson.activities.length-1?ui.finish:ui.next))}}</button><restart-button label="{{ui.restart}}" bind:restart="restart" />
+      </view>
+      <view wx:else class="finish center stack"><text class="eyebrow">{{ui.complete}}</text><text class="title">{{lesson.completion.text}}</text><poppy theme="{{theme}}" pose="celebrate" message="{{theme==='hanfu'?'认真练习，真棒！':'Great job, Susie!'}}" /><text class="final-star">★ {{stars}} / {{totalStars}}</text><button class="primary" bindtap="replay">{{lesson.completion.buttonLabel}} ↻</button><restart-button label="{{ui.restart}}" bind:restart="restart" /><button class="secondary" bindtap="home">回到学习小屋</button></view>
+    </block>
+    <feedback-card message="{{audioError}}" kind="audio" />
+  </view>
+</view>

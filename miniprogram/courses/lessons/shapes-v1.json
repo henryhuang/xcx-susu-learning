@@ -1,0 +1,496 @@
+{
+  "schemaVersion": 2,
+  "id": "shapes",
+  "version": 1,
+  "title": "形状大冒险",
+  "description": "和 Poppy 找形状、说句子，再听词尾音 /k/ 和 /g/。",
+  "activities": [
+    {
+      "id": "activity-1",
+      "step": "words",
+      "type": "word",
+      "title": "认识形状",
+      "text": "diamond",
+      "translation": "菱形",
+      "art": "◆",
+      "color": "#6fbde7",
+      "audio": "/assets/audio/words/diamond.mp3",
+      "nextLabel": "Next",
+      "retryText": "Listen again. Try once more!"
+    },
+    {
+      "id": "activity-2",
+      "step": "words",
+      "type": "word",
+      "title": "认识形状",
+      "text": "oval",
+      "translation": "椭圆形",
+      "art": "⬭",
+      "color": "#51c6b7",
+      "audio": "/assets/audio/words/oval.mp3",
+      "nextLabel": "Next",
+      "retryText": "Listen again. Try once more!"
+    },
+    {
+      "id": "activity-3",
+      "step": "words",
+      "type": "word",
+      "title": "认识形状",
+      "text": "heart",
+      "translation": "心形",
+      "art": "♥",
+      "color": "#ff6b81",
+      "audio": "/assets/audio/words/heart.mp3",
+      "nextLabel": "Next",
+      "retryText": "Listen again. Try once more!"
+    },
+    {
+      "id": "activity-4",
+      "step": "words",
+      "type": "word",
+      "title": "认识形状",
+      "text": "crescent",
+      "translation": "月牙形",
+      "art": "☾",
+      "color": "#a78bd4",
+      "audio": "/assets/audio/words/crescent.mp3",
+      "nextLabel": "Next",
+      "retryText": "Listen again. Try once more!"
+    },
+    {
+      "id": "activity-5",
+      "step": "words",
+      "type": "word",
+      "title": "认识形状",
+      "text": "star",
+      "translation": "星形",
+      "art": "★",
+      "color": "#ffd74b",
+      "audio": "/assets/audio/words/star.mp3",
+      "nextLabel": "Next",
+      "retryText": "Listen again. Try once more!"
+    },
+    {
+      "id": "activity-6",
+      "step": "quiz",
+      "type": "choice",
+      "title": "这是什么形状？",
+      "text": "What shape is a starfish?",
+      "translation": "海星",
+      "art": "🌟",
+      "audio": "/assets/audio/sentences/what-shape-is-a-starfish.mp3",
+      "choices": [
+        {
+          "value": "star",
+          "label": "star"
+        },
+        {
+          "value": "heart",
+          "label": "heart"
+        },
+        {
+          "value": "diamond",
+          "label": "diamond"
+        }
+      ],
+      "answer": "star",
+      "answerText": "The starfish is a star.",
+      "answerAudio": "/assets/audio/sentences/the-starfish-is-a-star.mp3",
+      "reward": 1,
+      "nextLabel": "Next",
+      "retryText": "Listen again. Try once more!"
+    },
+    {
+      "id": "activity-7",
+      "step": "quiz",
+      "type": "choice",
+      "title": "这是什么形状？",
+      "text": "What shape is a moon?",
+      "translation": "月亮",
+      "art": "🌙",
+      "audio": "/assets/audio/sentences/what-shape-is-a-moon.mp3",
+      "choices": [
+        {
+          "value": "crescent",
+          "label": "crescent"
+        },
+        {
+          "value": "oval",
+          "label": "oval"
+        },
+        {
+          "value": "star",
+          "label": "star"
+        }
+      ],
+      "answer": "crescent",
+      "answerText": "The moon is a crescent.",
+      "answerAudio": "/assets/audio/sentences/the-moon-is-a-crescent.mp3",
+      "reward": 1,
+      "nextLabel": "Next",
+      "retryText": "Listen again. Try once more!"
+    },
+    {
+      "id": "activity-8",
+      "step": "quiz",
+      "type": "choice",
+      "title": "这是什么形状？",
+      "text": "What shape is an egg?",
+      "translation": "鸡蛋",
+      "art": "🥚",
+      "audio": "/assets/audio/sentences/what-shape-is-an-egg.mp3",
+      "choices": [
+        {
+          "value": "diamond",
+          "label": "diamond"
+        },
+        {
+          "value": "oval",
+          "label": "oval"
+        },
+        {
+          "value": "heart",
+          "label": "heart"
+        }
+      ],
+      "answer": "oval",
+      "answerText": "The egg is an oval.",
+      "answerAudio": "/assets/audio/sentences/the-egg-is-an-oval.mp3",
+      "reward": 1,
+      "nextLabel": "Next",
+      "retryText": "Listen again. Try once more!"
+    },
+    {
+      "id": "activity-9",
+      "step": "quiz",
+      "type": "choice",
+      "title": "这是什么形状？",
+      "text": "What shape is a kite?",
+      "translation": "风筝",
+      "art": "🪁",
+      "audio": "/assets/audio/sentences/what-shape-is-a-kite.mp3",
+      "choices": [
+        {
+          "value": "heart",
+          "label": "heart"
+        },
+        {
+          "value": "diamond",
+          "label": "diamond"
+        },
+        {
+          "value": "crescent",
+          "label": "crescent"
+        }
+      ],
+      "answer": "diamond",
+      "answerText": "The kite is a diamond.",
+      "answerAudio": "/assets/audio/sentences/the-kite-is-a-diamond.mp3",
+      "reward": 1,
+      "nextLabel": "Next",
+      "retryText": "Listen again. Try once more!"
+    },
+    {
+      "id": "activity-10",
+      "step": "quiz",
+      "type": "choice",
+      "title": "这是什么形状？",
+      "text": "What shape is a cookie?",
+      "translation": "饼干",
+      "art": "💗",
+      "audio": "/assets/audio/sentences/what-shape-is-a-cookie.mp3",
+      "choices": [
+        {
+          "value": "star",
+          "label": "star"
+        },
+        {
+          "value": "oval",
+          "label": "oval"
+        },
+        {
+          "value": "heart",
+          "label": "heart"
+        }
+      ],
+      "answer": "heart",
+      "answerText": "The cookie is a heart.",
+      "answerAudio": "/assets/audio/sentences/the-cookie-is-a-heart.mp3",
+      "reward": 1,
+      "nextLabel": "Next",
+      "retryText": "Listen again. Try once more!"
+    },
+    {
+      "id": "activity-11",
+      "step": "sounds",
+      "type": "sound-examples",
+      "title": "听最后一个音",
+      "text": "Listen! /k/ or /g/?",
+      "groups": [
+        {
+          "label": "/k/",
+          "words": [
+            {
+              "text": "look",
+              "audio": "/assets/audio/words/look.mp3"
+            },
+            {
+              "text": "cook",
+              "audio": "/assets/audio/words/cook.mp3"
+            },
+            {
+              "text": "book",
+              "audio": "/assets/audio/words/book.mp3"
+            },
+            {
+              "text": "talk",
+              "audio": "/assets/audio/words/talk.mp3"
+            }
+          ]
+        },
+        {
+          "label": "/g/",
+          "words": [
+            {
+              "text": "flag",
+              "audio": "/assets/audio/words/flag.mp3"
+            },
+            {
+              "text": "dog",
+              "audio": "/assets/audio/words/dog.mp3"
+            },
+            {
+              "text": "leg",
+              "audio": "/assets/audio/words/leg.mp3"
+            },
+            {
+              "text": "log",
+              "audio": "/assets/audio/words/log.mp3"
+            }
+          ]
+        }
+      ],
+      "nextLabel": "Next",
+      "retryText": "Listen again. Try once more!"
+    },
+    {
+      "id": "activity-12",
+      "step": "phonics",
+      "type": "choice",
+      "title": "抓住最后的声音",
+      "text": "flag",
+      "art": "🚩",
+      "audio": "/assets/audio/words/flag.mp3",
+      "choices": [
+        {
+          "value": "k",
+          "label": "/k/"
+        },
+        {
+          "value": "g",
+          "label": "/g/"
+        }
+      ],
+      "answer": "g",
+      "answerText": "Yes! flag ends with /g/.",
+      "answerAudio": "/assets/audio/words/flag.mp3",
+      "reward": 1,
+      "nextLabel": "Next",
+      "retryText": "Listen again. Try once more!"
+    },
+    {
+      "id": "activity-13",
+      "step": "phonics",
+      "type": "choice",
+      "title": "抓住最后的声音",
+      "text": "dog",
+      "art": "🐶",
+      "audio": "/assets/audio/words/dog.mp3",
+      "choices": [
+        {
+          "value": "k",
+          "label": "/k/"
+        },
+        {
+          "value": "g",
+          "label": "/g/"
+        }
+      ],
+      "answer": "g",
+      "answerText": "Yes! dog ends with /g/.",
+      "answerAudio": "/assets/audio/words/dog.mp3",
+      "reward": 1,
+      "nextLabel": "Next",
+      "retryText": "Listen again. Try once more!"
+    },
+    {
+      "id": "activity-14",
+      "step": "phonics",
+      "type": "choice",
+      "title": "抓住最后的声音",
+      "text": "leg",
+      "art": "🦵",
+      "audio": "/assets/audio/words/leg.mp3",
+      "choices": [
+        {
+          "value": "k",
+          "label": "/k/"
+        },
+        {
+          "value": "g",
+          "label": "/g/"
+        }
+      ],
+      "answer": "g",
+      "answerText": "Yes! leg ends with /g/.",
+      "answerAudio": "/assets/audio/words/leg.mp3",
+      "reward": 1,
+      "nextLabel": "Next",
+      "retryText": "Listen again. Try once more!"
+    },
+    {
+      "id": "activity-15",
+      "step": "phonics",
+      "type": "choice",
+      "title": "抓住最后的声音",
+      "text": "log",
+      "art": "🪵",
+      "audio": "/assets/audio/words/log.mp3",
+      "choices": [
+        {
+          "value": "k",
+          "label": "/k/"
+        },
+        {
+          "value": "g",
+          "label": "/g/"
+        }
+      ],
+      "answer": "g",
+      "answerText": "Yes! log ends with /g/.",
+      "answerAudio": "/assets/audio/words/log.mp3",
+      "reward": 1,
+      "nextLabel": "Next",
+      "retryText": "Listen again. Try once more!"
+    },
+    {
+      "id": "activity-16",
+      "step": "phonics",
+      "type": "choice",
+      "title": "抓住最后的声音",
+      "text": "look",
+      "art": "👀",
+      "audio": "/assets/audio/words/look.mp3",
+      "choices": [
+        {
+          "value": "k",
+          "label": "/k/"
+        },
+        {
+          "value": "g",
+          "label": "/g/"
+        }
+      ],
+      "answer": "k",
+      "answerText": "Yes! look ends with /k/.",
+      "answerAudio": "/assets/audio/words/look.mp3",
+      "reward": 1,
+      "nextLabel": "Next",
+      "retryText": "Listen again. Try once more!"
+    },
+    {
+      "id": "activity-17",
+      "step": "phonics",
+      "type": "choice",
+      "title": "抓住最后的声音",
+      "text": "cook",
+      "art": "👩‍🍳",
+      "audio": "/assets/audio/words/cook.mp3",
+      "choices": [
+        {
+          "value": "k",
+          "label": "/k/"
+        },
+        {
+          "value": "g",
+          "label": "/g/"
+        }
+      ],
+      "answer": "k",
+      "answerText": "Yes! cook ends with /k/.",
+      "answerAudio": "/assets/audio/words/cook.mp3",
+      "reward": 0,
+      "nextLabel": "Next",
+      "retryText": "Listen again. Try once more!"
+    },
+    {
+      "id": "activity-18",
+      "step": "phonics",
+      "type": "choice",
+      "title": "抓住最后的声音",
+      "text": "book",
+      "art": "📕",
+      "audio": "/assets/audio/words/book.mp3",
+      "choices": [
+        {
+          "value": "k",
+          "label": "/k/"
+        },
+        {
+          "value": "g",
+          "label": "/g/"
+        }
+      ],
+      "answer": "k",
+      "answerText": "Yes! book ends with /k/.",
+      "answerAudio": "/assets/audio/words/book.mp3",
+      "reward": 0,
+      "nextLabel": "Next",
+      "retryText": "Listen again. Try once more!"
+    },
+    {
+      "id": "activity-19",
+      "step": "phonics",
+      "type": "choice",
+      "title": "抓住最后的声音",
+      "text": "talk",
+      "art": "💬",
+      "audio": "/assets/audio/words/talk.mp3",
+      "choices": [
+        {
+          "value": "k",
+          "label": "/k/"
+        },
+        {
+          "value": "g",
+          "label": "/g/"
+        }
+      ],
+      "answer": "k",
+      "answerText": "Yes! talk ends with /k/.",
+      "answerAudio": "/assets/audio/words/talk.mp3",
+      "reward": 0,
+      "nextLabel": "Next",
+      "retryText": "Listen again. Try once more!"
+    }
+  ],
+  "category": "english",
+  "language": {
+    "content": "en-US",
+    "guidance": "en-US"
+  },
+  "presentation": {
+    "theme": "poppy",
+    "art": "★ ◆ ♥"
+  },
+  "intro": {
+    "text": "Hi, Susie! Ready?",
+    "audio": "/assets/audio/sentences/hi-susie-ready.mp3",
+    "buttonLabel": "Start adventure"
+  },
+  "completion": {
+    "text": "Amazing, Susie! You did it!",
+    "audio": "/assets/audio/sentences/amazing-susie-you-did-it.mp3",
+    "buttonLabel": "Play again"
+  }
+}

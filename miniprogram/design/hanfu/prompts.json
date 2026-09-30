@@ -1,0 +1,32 @@
+[
+  {
+    "pose": "welcome",
+    "tool": "built-in image_gen",
+    "transparent_background": true,
+    "prompt": "Create one production transparent PNG mascot asset for a Chinese kindergarten learning mini-program. Reference is identity and children's illustration style. Preserve same chibi little girl Susie, brown short bob and bangs, large brown eyes, pink round glasses, soft colored-pencil watercolor shading and rounded friendly proportions. Change clothing to modest beautiful pale pink and warm cream traditional hanfu with cross collar, long sleeves, flowing skirt, simple tiny floral trim. Full body centered with generous transparent margin, no ground shadow, no background, no text. WELCOME pose: smiling warmly, one hand waving, other holding a small closed classical thread-bound book. Only one character. Clean readable silhouette at small mobile screen scale.",
+    "reference": "assets/images/poppy.png",
+    "original": "design/hanfu/originals/susu-hanfu-welcome.png",
+    "applied": "chinese/assets/images/susu-hanfu-welcome.png",
+    "generatedFile": "exec-c61a47cf-fc3e-423c-a0db-fde4b1ad0564.png"
+  },
+  {
+    "pose": "read",
+    "tool": "built-in image_gen",
+    "transparent_background": true,
+    "prompt": "Create one transparent PNG production mascot variant. Reference is same Susie identity, same pale pink and cream floral hanfu, brown bob and bangs, pink round glasses, big brown eyes, childlike watercolor colored-pencil cartoon. Preserve clothing and face exactly as closely as possible. READING pose: full body little girl holding an open classical thread-bound book in both hands at waist/chest height, looking toward viewer over the book with gently smiling mouth as if reading a poem aloud. No lettering or symbols on book pages. Single isolated centered full body, generous transparent margin, no background or ground shadow. Clear recognizable silhouette for children's Chinese poetry lesson.",
+    "reference": "design/hanfu/originals/susu-hanfu-welcome.png",
+    "original": "design/hanfu/originals/susu-hanfu-read.png",
+    "applied": "chinese/assets/images/susu-hanfu-read.png",
+    "generatedFile": "exec-bfc6b96d-4bf0-4f74-8c9c-e35250b4a548.png"
+  },
+  {
+    "pose": "cheer",
+    "tool": "built-in image_gen",
+    "transparent_background": true,
+    "prompt": "Create one transparent PNG mascot pose variant for the same little girl Susie shown in reference. Lock brown short bob haircut with bangs, pink round glasses, large brown eyes, toddler chibi proportions, soft watercolor and colored-pencil illustration, pale pink and cream floral cross-collar hanfu with long sleeves and ribbon belt, pink shoes. ENCOURAGEMENT pose: smiling warmly, one hand giving a clearly visible thumbs-up near shoulder and other hand holding the same small closed dark blue thread-bound book against her side. Full body single character centered, generous transparent margin, no background no text no ground shadow. Friendly encouragement after Chinese poem or story learning, readable on small mobile screens.",
+    "reference": "design/hanfu/originals/susu-hanfu-welcome.png",
+    "original": "design/hanfu/originals/susu-hanfu-cheer.png",
+    "applied": "chinese/assets/images/susu-hanfu-cheer.png",
+    "generatedFile": "exec-c9539571-f7c5-4a62-9a4d-055c63e45568.png"
+  }
+]

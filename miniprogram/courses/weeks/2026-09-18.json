@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-09-18",
+  "reportDate": "2026-09-18",
+  "title": "9月18日学习内容",
+  "items": [
+    {
+      "id": "shapes",
+      "category": "english",
+      "mode": "learn",
+      "lesson": {
+        "id": "shapes",
+        "version": 1,
+        "url": "lessons/shapes-v1.json"
+      }
+    },
+    {
+      "id": "poem-gongzijia",
+      "category": "poetry",
+      "mode": "learn",
+      "lesson": {
+        "id": "poem-gongzijia",
+        "version": 1,
+        "url": "lessons/poem-gongzijia-v1.json"
+      }
+    },
+    {
+      "id": "dizigui-daily-and-small",
+      "category": "dizigui",
+      "mode": "learn",
+      "lesson": {
+        "id": "dizigui-daily-and-small",
+        "version": 1,
+        "url": "lessons/dizigui-daily-and-small-v1.json"
+      }
+    }
+  ]
+}

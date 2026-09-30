@@ -1,0 +1,242 @@
+[
+  {
+    "path": "/assets/audio/home-hello.mp3",
+    "text": "酥酥，欢迎回到学习小屋！今天想学点什么？",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/zh-finish.mp3",
+    "text": "真棒！今天又学会了一点点。",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/poem-tixilinbi-line-1.mp3",
+    "text": "横看成岭侧成峰",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/poem-tixilinbi-line-2.mp3",
+    "text": "远近高低各不同",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/poem-tixilinbi-line-3.mp3",
+    "text": "不识庐山真面目",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/poem-tixilinbi-line-4.mp3",
+    "text": "只缘身在此山中",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/poem-tixilinbi-intro.mp3",
+    "text": "酥酥，我们一起读一读《题西林壁》吧！",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/poem-gongzijia-line-1.mp3",
+    "text": "种花满西园",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/poem-gongzijia-line-2.mp3",
+    "text": "花发青楼道",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/poem-gongzijia-line-3.mp3",
+    "text": "花下一禾生",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/poem-gongzijia-line-4.mp3",
+    "text": "去之为恶草",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/poem-gongzijia-intro.mp3",
+    "text": "酥酥，我们一起读一读《公子家》吧！",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/poem-cunju-line-1.mp3",
+    "text": "草长莺飞二月天",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/poem-cunju-line-2.mp3",
+    "text": "拂堤杨柳醉春烟",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/poem-cunju-line-3.mp3",
+    "text": "儿童散学归来早",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/poem-cunju-line-4.mp3",
+    "text": "忙趁东风放纸鸢",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/poem-cunju-intro.mp3",
+    "text": "酥酥，我们一起读一读《村居》吧！",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-parents-line-1.mp3",
+    "text": "父母呼，应勿缓。父母命，行勿懒。",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-parents-line-2.mp3",
+    "text": "父母教，须敬听。父母责，须顺承。",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-parents-question.mp3",
+    "text": "妈妈叫你吃饭了，你可以怎么回应？",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-parents-answer.mp3",
+    "text": "先回应，再把手里的事情收好。",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-parents-intro.mp3",
+    "text": "酥酥，我们听一听，再想想生活里可以怎么做。",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-daily-line-1.mp3",
+    "text": "冬则温，夏则庆。晨则醒，昏则定。",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-daily-line-2.mp3",
+    "text": "出必告，反必面。居有常，业无变。",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-daily-question.mp3",
+    "text": "准备和爸爸出门玩，可以先做什么？",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-daily-answer.mp3",
+    "text": "告诉家人自己的去向，让大家放心。",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-daily-intro.mp3",
+    "text": "酥酥，我们听一听，再想想生活里可以怎么做。",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-small-things-line-1.mp3",
+    "text": "事虽小，勿擅为。苟擅为，子道亏。",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-small-things-line-2.mp3",
+    "text": "物虽小，勿私藏。苟私藏，亲心伤。",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-small-things-question.mp3",
+    "text": "捡到同学的小玩具，你可以怎么做？",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-small-things-answer.mp3",
+    "text": "玩具虽然小，也要尊重它的主人。",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-small-things-intro.mp3",
+    "text": "酥酥，我们听一听，再想想生活里可以怎么做。",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/evening-word-0.mp3",
+    "text": "evening",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/evening-word-1.mp3",
+    "text": "night",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/evening-word-2.mp3",
+    "text": "Good evening!",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/evening-word-3.mp3",
+    "text": "Good night!",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/evening-word-4.mp3",
+    "text": "eat dinner",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/evening-word-5.mp3",
+    "text": "go to bed",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/evening-word-6.mp3",
+    "text": "hug",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/evening-word-7.mp3",
+    "text": "take a bath",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/evening-question-0.mp3",
+    "text": "What do you do in the evening?",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/evening-answer-0.mp3",
+    "text": "I eat dinner.",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/evening-question-1.mp3",
+    "text": "What do you do at night?",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/evening-answer-1.mp3",
+    "text": "I go to bed.",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/evening-sound-0.mp3",
+    "text": "night",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/evening-sound-1.mp3",
+    "text": "eat",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/evening-sound-2.mp3",
+    "text": "bed",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/evening-intro.mp3",
+    "text": "Hi, Susie! Let's talk about evening and night.",
+    "voice": "en-US-AnaNeural"
+  }
+]

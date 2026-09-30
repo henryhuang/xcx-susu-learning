@@ -1,0 +1,13 @@
+{
+  "packageFormat": 1,
+  "schemaVersion": 2,
+  "revision": 7,
+  "minEngineVersion": 1,
+  "archive": {
+    "url": "susu-courses-r7.zip",
+    "bytes": 2904893,
+    "md5": "2f6899d2d5b4f0f87c5feab9e74e36a4"
+  },
+  "unpackedBytes": 2885567,
+  "filesCount": 124
+}

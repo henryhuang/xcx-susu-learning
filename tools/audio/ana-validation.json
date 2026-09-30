@@ -1,0 +1,302 @@
+{
+  "voice": "en-US-AnaNeural",
+  "source": "Microsoft Edge voice service via edge-tts 7.2.8",
+  "rate": "-8%",
+  "generatedOn": "2026-09-26",
+  "files": [
+    {
+      "path": "words/diamond.mp3",
+      "duration": 1.872,
+      "rms": 0.0734,
+      "sha256": "3c2c4cfd6e14c3166edaa2e49b8a421239e664dd6a57cc9f1488793a08f9a3a3"
+    },
+    {
+      "path": "words/oval.mp3",
+      "duration": 1.872,
+      "rms": 0.0516,
+      "sha256": "dda750992710ffb69ac103274a59971b766190fa85fb00afccd582166481b230"
+    },
+    {
+      "path": "words/heart.mp3",
+      "duration": 1.872,
+      "rms": 0.0493,
+      "sha256": "cffda89fc5f1d177c7fc139b07561025b68dbe45a31252d0cf8ae72508aaa06c"
+    },
+    {
+      "path": "words/crescent.mp3",
+      "duration": 1.872,
+      "rms": 0.0545,
+      "sha256": "b28688eff68fe3903d4151ee0f315ce2751b48d4c0355910a04ec03ca46d868a"
+    },
+    {
+      "path": "words/star.mp3",
+      "duration": 1.872,
+      "rms": 0.0695,
+      "sha256": "90d7e1fda440dd3894dde0ff5de28c5a72fc58273822bd2938e149727d6ad768"
+    },
+    {
+      "path": "words/flag.mp3",
+      "duration": 1.872,
+      "rms": 0.0581,
+      "sha256": "f1937bbafb615617f30f94d4b5435d77d47c4c67f27dfe2069a9dc878bffb185"
+    },
+    {
+      "path": "words/dog.mp3",
+      "duration": 1.872,
+      "rms": 0.0586,
+      "sha256": "d77299bb5fee228dfefdbd4974b5cc6124e8d2b41de2de107f3207a4e54a5f72"
+    },
+    {
+      "path": "words/leg.mp3",
+      "duration": 1.872,
+      "rms": 0.0479,
+      "sha256": "5b04a09cf84c54abc8272717c01926a4b177734e7cfd0cd175fb0b4c17b24bff"
+    },
+    {
+      "path": "words/log.mp3",
+      "duration": 1.872,
+      "rms": 0.058,
+      "sha256": "469d089fcb6c85b81849a86bdc7682744b88f5972bebd48b1afafcf09b758b45"
+    },
+    {
+      "path": "words/look.mp3",
+      "duration": 1.872,
+      "rms": 0.0403,
+      "sha256": "d82a7d2c35dd6f4b83b99c54626457b615aa6c9d306081f0c107650750baef46"
+    },
+    {
+      "path": "words/cook.mp3",
+      "duration": 1.872,
+      "rms": 0.0297,
+      "sha256": "aeb76a741f591934341976b70c42a67e5cc8e8c01692ea946ca72c328f5370bd"
+    },
+    {
+      "path": "words/book.mp3",
+      "duration": 1.872,
+      "rms": 0.0339,
+      "sha256": "1bd2f53c38bdbeb3c97bc841df0eb77507534507a5a8d6aa1bf0ee93302ac169"
+    },
+    {
+      "path": "words/talk.mp3",
+      "duration": 1.872,
+      "rms": 0.049,
+      "sha256": "901d3171c75068157a95bfb419798abb9e7ad259bad2671ccd6f501f613f2004"
+    },
+    {
+      "path": "words/fingers.mp3",
+      "duration": 1.92,
+      "rms": 0.063,
+      "sha256": "cf260f5cfcedce2c136cca89b1ac71b2ce1af6da406ccec9a8394ba0974da61d"
+    },
+    {
+      "path": "words/toes.mp3",
+      "duration": 1.872,
+      "rms": 0.0489,
+      "sha256": "de28cff4536101abd8db6a74b6edfee4b54bb6f22c7b023947b8fe9597b2e130"
+    },
+    {
+      "path": "words/shoulder.mp3",
+      "duration": 1.872,
+      "rms": 0.0676,
+      "sha256": "35090cf04e605d55d165e4b755f53ba35499704917647a5ea932ac1f6b705f1c"
+    },
+    {
+      "path": "words/knee.mp3",
+      "duration": 1.872,
+      "rms": 0.0473,
+      "sha256": "53f747b4349528ce1cb9a9650bec61dd62eced31bc748c02eadeca8959567de0"
+    },
+    {
+      "path": "words/back.mp3",
+      "duration": 1.872,
+      "rms": 0.0479,
+      "sha256": "665e08ab154955fff36c44216a4f20926ce04907201fd0d3b32f9cd6ce085f58"
+    },
+    {
+      "path": "words/bend.mp3",
+      "duration": 1.872,
+      "rms": 0.0552,
+      "sha256": "d879feb91d2a52da947a70655334ccfef659bfd6d260358318c80f1b36b600fd"
+    },
+    {
+      "path": "words/shake.mp3",
+      "duration": 1.872,
+      "rms": 0.0515,
+      "sha256": "370d793a60eda8ed316e3575c8ad88b11a0e02b8d4cc27009579bb3520e09537"
+    },
+    {
+      "path": "words/shrug.mp3",
+      "duration": 1.872,
+      "rms": 0.0639,
+      "sha256": "0fb952d330448a24b26dea1fefe8552524b5c8fcd8dfa8c16be967a834fb3438"
+    },
+    {
+      "path": "sentences/hi-susie-let-s-learn.mp3",
+      "duration": 4.2,
+      "rms": 0.0639,
+      "sha256": "401dadad8736e09e52d4fa83fdaa6fe3a7a04073e73d925bcc32e40ba43b6968"
+    },
+    {
+      "path": "sentences/hi-susie-ready.mp3",
+      "duration": 3.744,
+      "rms": 0.0614,
+      "sha256": "78255b12b3abaaae311ea5c254719b6dcdaa7aff983d74963f6c88721af976dd"
+    },
+    {
+      "path": "sentences/hi-susie-let-s-move.mp3",
+      "duration": 4.2,
+      "rms": 0.0641,
+      "sha256": "4a7f0dd09597d213a471c4bac7a8187c95b9b24d5d74d0b493536acac340a327"
+    },
+    {
+      "path": "sentences/amazing-susie-you-did-it.mp3",
+      "duration": 4.584,
+      "rms": 0.0668,
+      "sha256": "d39edc9ef32d6b113dbb6bbf51a40bd74dbf69c57c172eff07f31e3250f5173a"
+    },
+    {
+      "path": "sentences/the-starfish-is-a-star.mp3",
+      "duration": 2.904,
+      "rms": 0.0909,
+      "sha256": "359d76d703a68b3653868a2d2b4dcd179195cf0b6e9f590a58fe86d47e40ea39"
+    },
+    {
+      "path": "sentences/the-moon-is-a-crescent.mp3",
+      "duration": 2.664,
+      "rms": 0.0833,
+      "sha256": "65353dd8309f1219bb3b480f5493ff6c3a3d6065ea1861b8d4ee688a03ec7bc1"
+    },
+    {
+      "path": "sentences/the-egg-is-an-oval.mp3",
+      "duration": 2.496,
+      "rms": 0.0702,
+      "sha256": "67b4af52d25b54c13a6c5e1294f074f301238885d25b32bf3df9d820ebb0bc44"
+    },
+    {
+      "path": "sentences/the-kite-is-a-diamond.mp3",
+      "duration": 2.664,
+      "rms": 0.0767,
+      "sha256": "84a34a9eb9643c4b9131b5f18d7bf7f91694dfe492575451fcb7321a0a1e8e83"
+    },
+    {
+      "path": "sentences/the-cookie-is-a-heart.mp3",
+      "duration": 2.592,
+      "rms": 0.0645,
+      "sha256": "25b14e7b77f86274abfce0cbe10cfeba1dbdb4722216b37d8f6f639b67121cb2"
+    },
+    {
+      "path": "sentences/wiggle-your-fingers.mp3",
+      "duration": 2.544,
+      "rms": 0.0902,
+      "sha256": "f55c619cd4ee4bde692bd2115efffbd1d501aec4478934bfd5dc217fb0a478a5"
+    },
+    {
+      "path": "sentences/shake-your-hands.mp3",
+      "duration": 2.4,
+      "rms": 0.0746,
+      "sha256": "b7b468bab631919f004ef70318a6c0ec2c49f8a436c6ca0a38455b9054870c96"
+    },
+    {
+      "path": "sentences/shrug-your-shoulders.mp3",
+      "duration": 2.616,
+      "rms": 0.1001,
+      "sha256": "d26cfdba654df51eae15765031bb6fa6d9a687ac5a1f90e86d73c795bc2548e6"
+    },
+    {
+      "path": "sentences/bend-your-knees.mp3",
+      "duration": 2.208,
+      "rms": 0.0831,
+      "sha256": "f13a543b02a2a46f550280621f25b6df374c7803936a416eddd86e131d5a7720"
+    },
+    {
+      "path": "sentences/i-have-1-back.mp3",
+      "duration": 2.376,
+      "rms": 0.0733,
+      "sha256": "c704cf3a60a03f2f94024e66916770e42e08c70db414d19eedba8fb4c761359a"
+    },
+    {
+      "path": "sentences/i-have-2-shoulders.mp3",
+      "duration": 2.712,
+      "rms": 0.0808,
+      "sha256": "f7efdebbc5bb1030a9b74ceaf62a0e0056420d82ed0c651791bb20e6d55aa74c"
+    },
+    {
+      "path": "sentences/i-have-2-knees.mp3",
+      "duration": 2.448,
+      "rms": 0.0737,
+      "sha256": "3201fd3cee3e7c402324c310647d0fa8e5956ccc200d8785ff0626338b8c7f28"
+    },
+    {
+      "path": "sentences/i-have-10-fingers.mp3",
+      "duration": 2.808,
+      "rms": 0.0733,
+      "sha256": "3c47dc81b35c980c89479d8e96c8aae0650b98c17b8751f6c34b2c9e61ecec15"
+    },
+    {
+      "path": "sentences/i-have-10-toes.mp3",
+      "duration": 2.544,
+      "rms": 0.0771,
+      "sha256": "6e5f10479e9cc5e87b2b98eb39fd3d4800d13680ca6793fbe0c29c175111833e"
+    },
+    {
+      "path": "sentences/how-many-backs-do-you-have.mp3",
+      "duration": 2.712,
+      "rms": 0.0763,
+      "sha256": "c78558447b6693ed668b39c4d6c9d62d1a09987147fa8b41c1fa2b3589d11758"
+    },
+    {
+      "path": "sentences/how-many-shoulders-do-you-have.mp3",
+      "duration": 2.904,
+      "rms": 0.0853,
+      "sha256": "3323e770a4d96690b3b11feac687ebfa174dc78c839d7ccff1bf295c527bae4c"
+    },
+    {
+      "path": "sentences/how-many-knees-do-you-have.mp3",
+      "duration": 2.664,
+      "rms": 0.0776,
+      "sha256": "ad9d5dd81fff668cf72a08335f591592017d604c06804877402aa7430f8c8ce4"
+    },
+    {
+      "path": "sentences/how-many-fingers-do-you-have.mp3",
+      "duration": 2.856,
+      "rms": 0.0803,
+      "sha256": "178847eb8e98742498d2614c313bc820ecae67cb22aa945995d7024138a30b88"
+    },
+    {
+      "path": "sentences/how-many-toes-do-you-have.mp3",
+      "duration": 2.664,
+      "rms": 0.0754,
+      "sha256": "be90c7ea6e052ab8c4124b2a7730c3a11ecc8ad39c26ab5c655294a73ba99ce1"
+    },
+    {
+      "path": "sentences/what-shape-is-a-starfish.mp3",
+      "duration": 2.856,
+      "rms": 0.0769,
+      "sha256": "44a57c033d249ebb9adfde3c7bec9b13a36d8be26848153c22dd993cc25198a0"
+    },
+    {
+      "path": "sentences/what-shape-is-a-moon.mp3",
+      "duration": 2.448,
+      "rms": 0.0783,
+      "sha256": "a643ce9e8eb785583bb3650b6e8be8d327ee570466e7af7199de7700ecefdced"
+    },
+    {
+      "path": "sentences/what-shape-is-an-egg.mp3",
+      "duration": 2.448,
+      "rms": 0.078,
+      "sha256": "447a7c7dec2a64296aa3528fef8c8ed100a0f24e23df7075f07faff1c6079944"
+    },
+    {
+      "path": "sentences/what-shape-is-a-kite.mp3",
+      "duration": 2.472,
+      "rms": 0.0734,
+      "sha256": "fb26bd7060fed03e97e2faa2d70e7c38d371ea47cf8e5b1073c85edb6de655e7"
+    },
+    {
+      "path": "sentences/what-shape-is-a-cookie.mp3",
+      "duration": 2.544,
+      "rms": 0.0708,
+      "sha256": "e3fb51f3c6e46fe210e7eedc7b97a5f02e9f069438906e68fb3f6f856c2112b8"
+    }
+  ]
+}

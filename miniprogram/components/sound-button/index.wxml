@@ -1,0 +1,1 @@
+<button class="sound {{playing ? 'playing' : ''}}" aria-label="{{playing ? '正在播放' : label}}" bindtap="tap"><text>{{playing ? '♫' : '🔊'}}</text><text>{{playing ? '播放中…' : label}}</text></button>

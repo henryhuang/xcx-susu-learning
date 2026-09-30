@@ -1,0 +1,12 @@
+<view class="page">
+  <lesson-header title="酥酥的学习小屋" home="{{true}}" />
+  <view class="content">
+    <view class="hero paper"><view class="hero-copy"><text class="title home-title">酥酥的学习小屋</text><sound-button label="听酥酥打招呼" playing="{{playingKey!==''}}" bind:play="hello" /></view><poppy message="" /></view>
+    <view class="section-top"><text class="title">{{week.title || '这一周学什么？'}}</text></view>
+    <view wx:if="{{canUpdate}}" class="course-update"><button class="secondary" disabled="{{updating}}" bindtap="updateCourses">{{updating?'正在更新…':'更新课程'}}</button><text wx:if="{{updateMessage}}" class="muted">{{updateMessage}}</text></view>
+    <view class="week-tabs"><button wx:for="{{weeks}}" wx:key="id" class="week-tab {{week.id===item.id?'active':''}}" data-id="{{item.id}}" bindtap="selectWeek" aria-label="{{item.title}}" aria-pressed="{{week.id===item.id}}">{{item.shortDate}}</button></view>
+    <text wx:if="{{loading}}" class="muted">正在准备本地课程…</text><feedback-card message="{{error}}" kind="try" />
+    <view class="lesson-list"><button wx:for="{{lessons}}" wx:key="id" class="lesson-card" data-id="{{item.id}}" bindtap="goLesson" aria-label="{{item.categoryLabel}}，{{item.title}}{{item.completed?'，已完成':''}}"><view class="lesson-art {{item.category}}-art">{{item.art}}</view><view class="lesson-copy"><text class="tag">{{item.categoryLabel}}<text wx:if="{{item.mode==='review'}}"> · 温故知新</text></text><view class="card-heading"><text class="card-title">{{item.title}}</text><text wx:if="{{item.completed}}" class="completed-badge">✓ 已完成</text></view><text class="record">{{item.status}}</text></view></button></view>
+    <feedback-card message="{{audioError}}" kind="audio" />
+  </view>
+</view>

@@ -1,0 +1,7 @@
+<view class="header" style="{{topStyle}}">
+  <view class="bar">
+    <image wx:if="{{home}}" class="brand-mark" src="/assets/images/logo-256.png" mode="aspectFit" aria-label="酥酥的学习小屋 logo" /><button wx:else class="nav" aria-label="返回上一步" bindtap="back"><view class="back-arrow" aria-hidden="true"></view></button>
+    <view class="brand"><text>酥酥的学习小屋</text><text class="course">{{title}}</text></view>
+    <star-counter wx:if="{{!home}}" count="{{stars}}" /><button wx:if="{{!home}}" class="home-nav" aria-label="回到学习首页" bindtap="goHome">⌂</button>
+  </view>
+</view>

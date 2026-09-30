@@ -1,0 +1,7 @@
+{
+  "voice": "zh-CN-XiaoshuangNeural",
+  "displayName": "晓双",
+  "rate": "-8%",
+  "provider": "Azure Speech",
+  "outputFormat": "audio-24khz-48kbitrate-mono-mp3"
+}

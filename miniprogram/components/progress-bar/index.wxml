@@ -1,0 +1,1 @@
+<view class="track" aria-label="{{label}} {{value}}%"><view class="fill" style="width:{{value}}%"></view></view>

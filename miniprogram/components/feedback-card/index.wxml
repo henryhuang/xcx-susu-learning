@@ -1,0 +1,1 @@
+<view wx:if="{{message}}" class="feedback {{kind}}" aria-label="{{message}}">{{message}}</view>

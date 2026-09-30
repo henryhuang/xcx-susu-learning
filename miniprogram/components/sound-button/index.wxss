@@ -1,0 +1,2 @@
+.sound{display:flex;align-items:center;justify-content:center;gap:10rpx;min-height:92rpx;max-width:100%;padding:14rpx 26rpx;border:4rpx solid #c9e8e2;border-radius:26rpx;background:#e9f7f5;color:#40384e;font-size:29rpx;font-weight:900;white-space:normal}.sound:active,.sound.button-hover{transform:translateY(3rpx);background:#dff6f2}.sound.playing{border-color:#51c6b7}
+@media (min-width:700px){.sound{gap:8px;min-height:52px;padding:8px 16px;border-width:2px;border-radius:16px;font-size:18px}}

@@ -1,0 +1,6 @@
+# Local Azure credentials: used only by desktop audio preparation.
+tools/audio/azure-speech.local.json
+audio-candidates/
+work/
+__pycache__/
+.DS_Store

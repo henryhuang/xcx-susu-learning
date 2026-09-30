@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#000000">
+<title>MIVORA</title>
+<style>
+*{box-sizing:border-box}
+html,body{width:100%;height:100%;margin:0}
+body{background:#000;overflow:hidden}
+.background{position:fixed;inset:0;background:linear-gradient(225deg,#fff 0%,#fff var(--day-progress,0%),#000 var(--day-progress,0%),#000 100%)}
+
+main{position:relative;width:100%;height:100%;height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;mix-blend-mode:difference;padding:24px;user-select:none}
+.clock{display:block;margin:0;font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;font-size:clamp(24px,8vw,132px);font-weight:300;font-variant-numeric:tabular-nums;letter-spacing:-.055em;line-height:1.1;white-space:nowrap}
+.milliseconds{font-size:.42em;letter-spacing:-.03em;margin-left:.08em}
+.timestamp-wrap{position:relative;margin:12px 0 0}.timestamp{display:block;padding:0;border:0;background:none;color:inherit;cursor:pointer;margin:0;font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;font-size:clamp(9px,2.2vw,36px);font-variant-numeric:tabular-nums;letter-spacing:.08em;line-height:1.2}
+.timestamp:focus-visible{outline:1px solid currentColor;outline-offset:5px}.copy-status{position:absolute;top:100%;left:0;width:100%;padding-top:5px;text-align:center;font:11px -apple-system,BlinkMacSystemFont,Arial,sans-serif;white-space:nowrap}
+.name{margin:30px 0 0;padding-left:.65em;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;font-size:clamp(24px,4vw,48px);font-weight:400;letter-spacing:.65em;line-height:1}
+
+@media(max-width:600px){.name{margin-top:22px;letter-spacing:.55em;padding-left:.55em}}
+</style>
+</head>
+<body>
+<div class="background" aria-hidden="true"></div>
+<main aria-label="MIVORA 时钟">
+  <time id="clock" class="clock" aria-label="当地时间"><span id="seconds">--:--:--</span><span id="milliseconds" class="milliseconds">.---</span></time>
+  <div class="timestamp-wrap"><button id="timestamp" type="button" class="timestamp" aria-label="复制 Unix 毫秒时间戳" title="点击复制时间戳"></button><span id="copy-status" class="copy-status" role="status" aria-live="polite"></span></div>
+  <p class="name">MIVORA</p>
+</main>
+<script>
+(function(){
+  const clock=document.getElementById('clock');
+  const seconds=document.getElementById('seconds');
+  const milliseconds=document.getElementById('milliseconds');
+  const timestamp=document.getElementById('timestamp');
+  const copyStatus=document.getElementById('copy-status');
+  let statusTimer;
+  function fallbackCopy(value){
+    const field=document.createElement('textarea');
+    field.value=value;
+    field.readOnly=true;
+    field.style.cssText='position:fixed;left:-9999px;top:0;font-size:16px';
+    document.body.appendChild(field);
+    try{field.select();field.setSelectionRange(0,value.length);return document.execCommand('copy');}
+    finally{field.remove();timestamp.focus({preventScroll:true});}
+  }
+  timestamp.addEventListener('click',async function(){
+    const value=timestamp.textContent;
+    let copied=false;
+    try{if(navigator.clipboard&&window.isSecureContext){await navigator.clipboard.writeText(value);copied=true;}}catch(_){}
+    if(!copied){try{copied=fallbackCopy(value);}catch(_){}}
+    clearTimeout(statusTimer);
+    copyStatus.textContent=copied?'已复制':'复制失败，请重试';
+    statusTimer=setTimeout(()=>{copyStatus.textContent='';},1600);
+  });
+  const pad=n=>String(n).padStart(2,'0');
+  function tick(){
+    const now=new Date();
+    const text=pad(now.getHours())+':'+pad(now.getMinutes())+':'+pad(now.getSeconds())+'.'+String(now.getMilliseconds()).padStart(3,'0');
+    // 24 equal diagonal bands: completed hours are white, remaining hours black.
+    document.documentElement.style.setProperty('--day-progress',(now.getHours()/24*100)+'%');
+    seconds.textContent=text.slice(0,8);
+    milliseconds.textContent=text.slice(8);
+    timestamp.textContent=String(now.getTime());
+    clock.setAttribute('datetime',text);
+    requestAnimationFrame(tick);
+  }
+  tick();
+})();
+</script>
+</body>
+</html>

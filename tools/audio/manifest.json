@@ -1,0 +1,247 @@
+[
+  {
+    "text": "diamond",
+    "path": "/assets/audio/words/diamond.mp3",
+    "sample": true
+  },
+  {
+    "text": "oval",
+    "path": "/assets/audio/words/oval.mp3",
+    "sample": false
+  },
+  {
+    "text": "heart",
+    "path": "/assets/audio/words/heart.mp3",
+    "sample": false
+  },
+  {
+    "text": "crescent",
+    "path": "/assets/audio/words/crescent.mp3",
+    "sample": false
+  },
+  {
+    "text": "star",
+    "path": "/assets/audio/words/star.mp3",
+    "sample": false
+  },
+  {
+    "text": "flag",
+    "path": "/assets/audio/words/flag.mp3",
+    "sample": false
+  },
+  {
+    "text": "dog",
+    "path": "/assets/audio/words/dog.mp3",
+    "sample": false
+  },
+  {
+    "text": "leg",
+    "path": "/assets/audio/words/leg.mp3",
+    "sample": false
+  },
+  {
+    "text": "log",
+    "path": "/assets/audio/words/log.mp3",
+    "sample": false
+  },
+  {
+    "text": "look",
+    "path": "/assets/audio/words/look.mp3",
+    "sample": false
+  },
+  {
+    "text": "cook",
+    "path": "/assets/audio/words/cook.mp3",
+    "sample": false
+  },
+  {
+    "text": "book",
+    "path": "/assets/audio/words/book.mp3",
+    "sample": false
+  },
+  {
+    "text": "talk",
+    "path": "/assets/audio/words/talk.mp3",
+    "sample": false
+  },
+  {
+    "text": "fingers",
+    "path": "/assets/audio/words/fingers.mp3",
+    "sample": false
+  },
+  {
+    "text": "toes",
+    "path": "/assets/audio/words/toes.mp3",
+    "sample": false
+  },
+  {
+    "text": "shoulder",
+    "path": "/assets/audio/words/shoulder.mp3",
+    "sample": false
+  },
+  {
+    "text": "knee",
+    "path": "/assets/audio/words/knee.mp3",
+    "sample": false
+  },
+  {
+    "text": "back",
+    "path": "/assets/audio/words/back.mp3",
+    "sample": false
+  },
+  {
+    "text": "bend",
+    "path": "/assets/audio/words/bend.mp3",
+    "sample": false
+  },
+  {
+    "text": "shake",
+    "path": "/assets/audio/words/shake.mp3",
+    "sample": false
+  },
+  {
+    "text": "shrug",
+    "path": "/assets/audio/words/shrug.mp3",
+    "sample": false
+  },
+  {
+    "text": "Hi, Susie! Let's learn!",
+    "path": "/assets/audio/sentences/hi-susie-let-s-learn.mp3",
+    "sample": true
+  },
+  {
+    "text": "Hi, Susie! Ready?",
+    "path": "/assets/audio/sentences/hi-susie-ready.mp3",
+    "sample": false
+  },
+  {
+    "text": "Hi, Susie! Let's move!",
+    "path": "/assets/audio/sentences/hi-susie-let-s-move.mp3",
+    "sample": false
+  },
+  {
+    "text": "Amazing, Susie! You did it!",
+    "path": "/assets/audio/sentences/amazing-susie-you-did-it.mp3",
+    "sample": false
+  },
+  {
+    "text": "The starfish is a star.",
+    "path": "/assets/audio/sentences/the-starfish-is-a-star.mp3",
+    "sample": true
+  },
+  {
+    "text": "The moon is a crescent.",
+    "path": "/assets/audio/sentences/the-moon-is-a-crescent.mp3",
+    "sample": false
+  },
+  {
+    "text": "The egg is an oval.",
+    "path": "/assets/audio/sentences/the-egg-is-an-oval.mp3",
+    "sample": false
+  },
+  {
+    "text": "The kite is a diamond.",
+    "path": "/assets/audio/sentences/the-kite-is-a-diamond.mp3",
+    "sample": false
+  },
+  {
+    "text": "The cookie is a heart.",
+    "path": "/assets/audio/sentences/the-cookie-is-a-heart.mp3",
+    "sample": false
+  },
+  {
+    "text": "Wiggle your fingers!",
+    "path": "/assets/audio/sentences/wiggle-your-fingers.mp3",
+    "sample": true
+  },
+  {
+    "text": "Shake your hands!",
+    "path": "/assets/audio/sentences/shake-your-hands.mp3",
+    "sample": false
+  },
+  {
+    "text": "Shrug your shoulders!",
+    "path": "/assets/audio/sentences/shrug-your-shoulders.mp3",
+    "sample": false
+  },
+  {
+    "text": "Bend your knees!",
+    "path": "/assets/audio/sentences/bend-your-knees.mp3",
+    "sample": false
+  },
+  {
+    "text": "I have 1 back.",
+    "path": "/assets/audio/sentences/i-have-1-back.mp3",
+    "sample": false
+  },
+  {
+    "text": "I have 2 shoulders.",
+    "path": "/assets/audio/sentences/i-have-2-shoulders.mp3",
+    "sample": false
+  },
+  {
+    "text": "I have 2 knees.",
+    "path": "/assets/audio/sentences/i-have-2-knees.mp3",
+    "sample": false
+  },
+  {
+    "text": "I have 10 fingers.",
+    "path": "/assets/audio/sentences/i-have-10-fingers.mp3",
+    "sample": false
+  },
+  {
+    "text": "I have 10 toes.",
+    "path": "/assets/audio/sentences/i-have-10-toes.mp3",
+    "sample": false
+  },
+  {
+    "text": "How many backs do you have?",
+    "path": "/assets/audio/sentences/how-many-backs-do-you-have.mp3",
+    "sample": false
+  },
+  {
+    "text": "How many shoulders do you have?",
+    "path": "/assets/audio/sentences/how-many-shoulders-do-you-have.mp3",
+    "sample": false
+  },
+  {
+    "text": "How many knees do you have?",
+    "path": "/assets/audio/sentences/how-many-knees-do-you-have.mp3",
+    "sample": false
+  },
+  {
+    "text": "How many fingers do you have?",
+    "path": "/assets/audio/sentences/how-many-fingers-do-you-have.mp3",
+    "sample": false
+  },
+  {
+    "text": "How many toes do you have?",
+    "path": "/assets/audio/sentences/how-many-toes-do-you-have.mp3",
+    "sample": false
+  },
+  {
+    "text": "What shape is a starfish?",
+    "path": "/assets/audio/sentences/what-shape-is-a-starfish.mp3",
+    "sample": false
+  },
+  {
+    "text": "What shape is a moon?",
+    "path": "/assets/audio/sentences/what-shape-is-a-moon.mp3",
+    "sample": false
+  },
+  {
+    "text": "What shape is an egg?",
+    "path": "/assets/audio/sentences/what-shape-is-an-egg.mp3",
+    "sample": false
+  },
+  {
+    "text": "What shape is a kite?",
+    "path": "/assets/audio/sentences/what-shape-is-a-kite.mp3",
+    "sample": false
+  },
+  {
+    "text": "What shape is a cookie?",
+    "path": "/assets/audio/sentences/what-shape-is-a-cookie.mp3",
+    "sample": false
+  }
+]

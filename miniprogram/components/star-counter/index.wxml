@@ -1,0 +1,1 @@
+<view class="stars" aria-label="本轮获得{{count}}颗星"><text>★</text><text>{{count}}</text></view>

@@ -1,0 +1,2 @@
+.stars{display:flex;gap:8rpx;align-items:center;justify-content:center;min-width:108rpx;min-height:74rpx;padding:8rpx 18rpx;border:3rpx solid #eee3d3;border-radius:99rpx;background:#fffdf8;font-size:30rpx;font-weight:900}.stars text:first-child{color:#f4bb23;font-size:40rpx}
+@media (min-width:700px){.stars{gap:5px;min-width:68px;min-height:44px;padding:5px 11px;border-width:2px;font-size:19px}.stars text:first-child{font-size:25px}}

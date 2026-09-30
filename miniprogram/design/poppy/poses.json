@@ -1,0 +1,11 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "poppy-pink-transparent.png",
+  "sharedPrompt": "Create one full-body pose variant of this exact approved Poppy girl for a children's learning miniapp. Preserve identical character identity, round pink glasses, dark brown bangs and ponytail, face, childlike proportions, pink A-line dress with white bow, white socks, pink shoes, clean soft brown outlines and pastel shading. Genuine transparent alpha background, no ground shadow, no text or additional objects. Whole character visible, centered, small safety margins. Only change pose and expression; keep outfit and art style consistent. Production sprite, not a sheet.",
+  "poses": {
+    "listen": "Listening carefully: standing relaxed, one open hand cupped beside her ear, the other arm relaxed by her side, mouth softly smiling, curious attentive eyes. No book.",
+    "think": "Thinking: one index finger gently touching her chin, other arm supporting that elbow, slight head tilt, curious friendly small smile. No book, no question mark.",
+    "cheer": "Encouraging: standing confidently, giving a clear thumbs-up with one hand at shoulder level, other hand on hip, happy reassuring smile. No book.",
+    "celebrate": "Celebrating success: both arms raised in a joyful V above shoulder height, open hands, feet planted, broad delighted smile with gently curved happy eyes visible through glasses. No book, no confetti."
+  }
+}

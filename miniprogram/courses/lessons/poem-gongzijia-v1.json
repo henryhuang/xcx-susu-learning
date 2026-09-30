@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "id": "poem-gongzijia",
+  "version": 1,
+  "category": "poetry",
+  "title": "公子家",
+  "description": "听一首诗，看懂画面，再一句句跟读。",
+  "language": {
+    "content": "zh-CN",
+    "guidance": "zh-CN"
+  },
+  "presentation": {
+    "theme": "hanfu",
+    "art": "🌱"
+  },
+  "intro": {
+    "text": "酥酥，我们一起读一读《公子家》吧！",
+    "audio": "/chinese/assets/audio/poem-gongzijia-intro.mp3",
+    "buttonLabel": "听听这首诗"
+  },
+  "completion": {
+    "text": "今天我们读了《公子家》，真棒！",
+    "audio": "/chinese/assets/audio/zh-finish.mp3",
+    "buttonLabel": "再读一次"
+  },
+  "content": {
+    "kind": "poem",
+    "author": "聂夷中",
+    "dynasty": "唐",
+    "lines": [
+      {
+        "id": "line-1",
+        "text": "种花满西园",
+        "audio": "/chinese/assets/audio/poem-gongzijia-line-1.mp3",
+        "explanation": "园子里种满了花。"
+      },
+      {
+        "id": "line-2",
+        "text": "花发青楼道",
+        "audio": "/chinese/assets/audio/poem-gongzijia-line-2.mp3",
+        "explanation": "花儿开在楼边的小路旁。"
+      },
+      {
+        "id": "line-3",
+        "text": "花下一禾生",
+        "audio": "/chinese/assets/audio/poem-gongzijia-line-3.mp3",
+        "explanation": "花下面长出了一株禾苗。"
+      },
+      {
+        "id": "line-4",
+        "text": "去之为恶草",
+        "audio": "/chinese/assets/audio/poem-gongzijia-line-4.mp3",
+        "explanation": "有人把禾苗当作杂草拔掉了。禾苗可以长出粮食，也值得珍惜。"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "listen",
+      "step": "listen",
+      "type": "read-along",
+      "title": "先听一听",
+      "text": "点一句可以单独听，也可以听整首。",
+      "lineIds": [
+        "line-1",
+        "line-2",
+        "line-3",
+        "line-4"
+      ],
+      "nextLabel": "读懂这首诗"
+    },
+    {
+      "id": "understand",
+      "step": "understand",
+      "type": "explanation",
+      "title": "诗里说了什么？",
+      "text": "和爸爸妈妈一起读一读，想象诗里的画面。",
+      "lineIds": [
+        "line-1",
+        "line-2",
+        "line-3",
+        "line-4"
+      ],
+      "nextLabel": "一句句跟着读"
+    },
+    {
+      "id": "repeat",
+      "step": "repeat",
+      "type": "line-practice",
+      "title": "一句句跟读",
+      "text": "先听一句，再自己读一句。",
+      "lineIds": [
+        "line-1",
+        "line-2",
+        "line-3",
+        "line-4"
+      ],
+      "reward": 1,
+      "nextLabel": "我读过了"
+    }
+  ]
+}

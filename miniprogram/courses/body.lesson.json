@@ -1,0 +1,362 @@
+{
+  "schemaVersion": 1,
+  "id": "body",
+  "version": 1,
+  "title": "身体大冒险",
+  "eyebrow": "LESSON 4 · MY BODY",
+  "description": "和 Poppy 认识身体，动一动、数一数。",
+  "art": "🖐️ 🦶",
+  "welcomeText": "Hi, Susie! Let's move!",
+  "welcomeAudio": "/assets/audio/sentences/hi-susie-let-s-move.mp3",
+  "finishText": "Amazing, Susie! You did it!",
+  "finishAudio": "/assets/audio/sentences/amazing-susie-you-did-it.mp3",
+  "activities": [
+    {
+      "id": "activity-1",
+      "step": "words",
+      "type": "word",
+      "title": "身体词汇",
+      "text": "fingers",
+      "translation": "手指",
+      "art": "🖐️",
+      "color": "#6fbde7",
+      "audio": "/assets/audio/words/fingers.mp3"
+    },
+    {
+      "id": "activity-2",
+      "step": "words",
+      "type": "word",
+      "title": "身体词汇",
+      "text": "toes",
+      "translation": "脚趾",
+      "art": "🦶",
+      "color": "#6fbde7",
+      "audio": "/assets/audio/words/toes.mp3"
+    },
+    {
+      "id": "activity-3",
+      "step": "words",
+      "type": "word",
+      "title": "身体词汇",
+      "text": "shoulder",
+      "translation": "肩膀",
+      "art": "🧍",
+      "color": "#6fbde7",
+      "audio": "/assets/audio/words/shoulder.mp3"
+    },
+    {
+      "id": "activity-4",
+      "step": "words",
+      "type": "word",
+      "title": "身体词汇",
+      "text": "knee",
+      "translation": "膝盖",
+      "art": "🦵",
+      "color": "#6fbde7",
+      "audio": "/assets/audio/words/knee.mp3"
+    },
+    {
+      "id": "activity-5",
+      "step": "words",
+      "type": "word",
+      "title": "身体词汇",
+      "text": "back",
+      "translation": "背部",
+      "art": "👕",
+      "color": "#6fbde7",
+      "audio": "/assets/audio/words/back.mp3"
+    },
+    {
+      "id": "activity-6",
+      "step": "actions",
+      "type": "action",
+      "title": "跟着 Poppy 动一动",
+      "text": "Wiggle your fingers!",
+      "translation": "扭动手指",
+      "art": "👐",
+      "audio": "/assets/audio/sentences/wiggle-your-fingers.mp3",
+      "reward": 0
+    },
+    {
+      "id": "activity-7",
+      "step": "actions",
+      "type": "action",
+      "title": "跟着 Poppy 动一动",
+      "text": "Shake your hands!",
+      "translation": "摇一摇双手",
+      "art": "🙌",
+      "audio": "/assets/audio/sentences/shake-your-hands.mp3",
+      "reward": 0
+    },
+    {
+      "id": "activity-8",
+      "step": "actions",
+      "type": "action",
+      "title": "跟着 Poppy 动一动",
+      "text": "Shrug your shoulders!",
+      "translation": "耸耸肩",
+      "art": "🤷",
+      "audio": "/assets/audio/sentences/shrug-your-shoulders.mp3",
+      "reward": 0
+    },
+    {
+      "id": "activity-9",
+      "step": "actions",
+      "type": "action",
+      "title": "跟着 Poppy 动一动",
+      "text": "Bend your knees!",
+      "translation": "弯弯膝盖",
+      "art": "🧎",
+      "audio": "/assets/audio/sentences/bend-your-knees.mp3",
+      "reward": 1
+    },
+    {
+      "id": "activity-10",
+      "step": "counting",
+      "type": "choice",
+      "title": "数一数",
+      "text": "How many backs do you have?",
+      "translation": "",
+      "art": "🧍",
+      "audio": "/assets/audio/sentences/how-many-backs-do-you-have.mp3",
+      "choices": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "10",
+          "label": "10"
+        }
+      ],
+      "answer": "1",
+      "answerText": "I have 1 back.",
+      "answerAudio": "/assets/audio/sentences/i-have-1-back.mp3",
+      "reward": 1
+    },
+    {
+      "id": "activity-11",
+      "step": "counting",
+      "type": "choice",
+      "title": "数一数",
+      "text": "How many shoulders do you have?",
+      "translation": "",
+      "art": "🤷",
+      "audio": "/assets/audio/sentences/how-many-shoulders-do-you-have.mp3",
+      "choices": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "10",
+          "label": "10"
+        }
+      ],
+      "answer": "2",
+      "answerText": "I have 2 shoulders.",
+      "answerAudio": "/assets/audio/sentences/i-have-2-shoulders.mp3",
+      "reward": 1
+    },
+    {
+      "id": "activity-12",
+      "step": "counting",
+      "type": "choice",
+      "title": "数一数",
+      "text": "How many knees do you have?",
+      "translation": "",
+      "art": "🦵",
+      "audio": "/assets/audio/sentences/how-many-knees-do-you-have.mp3",
+      "choices": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "10",
+          "label": "10"
+        }
+      ],
+      "answer": "2",
+      "answerText": "I have 2 knees.",
+      "answerAudio": "/assets/audio/sentences/i-have-2-knees.mp3",
+      "reward": 1
+    },
+    {
+      "id": "activity-13",
+      "step": "counting",
+      "type": "choice",
+      "title": "数一数",
+      "text": "How many fingers do you have?",
+      "translation": "",
+      "art": "👐",
+      "audio": "/assets/audio/sentences/how-many-fingers-do-you-have.mp3",
+      "choices": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "10",
+          "label": "10"
+        }
+      ],
+      "answer": "10",
+      "answerText": "I have 10 fingers.",
+      "answerAudio": "/assets/audio/sentences/i-have-10-fingers.mp3",
+      "reward": 1
+    },
+    {
+      "id": "activity-14",
+      "step": "counting",
+      "type": "choice",
+      "title": "数一数",
+      "text": "How many toes do you have?",
+      "translation": "",
+      "art": "🦶",
+      "audio": "/assets/audio/sentences/how-many-toes-do-you-have.mp3",
+      "choices": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "10",
+          "label": "10"
+        }
+      ],
+      "answer": "10",
+      "answerText": "I have 10 toes.",
+      "answerAudio": "/assets/audio/sentences/i-have-10-toes.mp3",
+      "reward": 1
+    },
+    {
+      "id": "activity-15",
+      "step": "phonics",
+      "type": "choice",
+      "title": "抓住最后的声音",
+      "text": "back",
+      "art": "👕",
+      "audio": "/assets/audio/words/back.mp3",
+      "choices": [
+        {
+          "value": "k",
+          "label": "/k/"
+        },
+        {
+          "value": "d",
+          "label": "/d/"
+        },
+        {
+          "value": "g",
+          "label": "/g/"
+        }
+      ],
+      "answer": "k",
+      "answerText": "Yes! back ends with /k/.",
+      "answerAudio": "/assets/audio/words/back.mp3",
+      "reward": 1
+    },
+    {
+      "id": "activity-16",
+      "step": "phonics",
+      "type": "choice",
+      "title": "抓住最后的声音",
+      "text": "bend",
+      "art": "🧎",
+      "audio": "/assets/audio/words/bend.mp3",
+      "choices": [
+        {
+          "value": "k",
+          "label": "/k/"
+        },
+        {
+          "value": "d",
+          "label": "/d/"
+        },
+        {
+          "value": "g",
+          "label": "/g/"
+        }
+      ],
+      "answer": "d",
+      "answerText": "Yes! bend ends with /d/.",
+      "answerAudio": "/assets/audio/words/bend.mp3",
+      "reward": 1
+    },
+    {
+      "id": "activity-17",
+      "step": "phonics",
+      "type": "choice",
+      "title": "抓住最后的声音",
+      "text": "shake",
+      "art": "🙌",
+      "audio": "/assets/audio/words/shake.mp3",
+      "choices": [
+        {
+          "value": "k",
+          "label": "/k/"
+        },
+        {
+          "value": "d",
+          "label": "/d/"
+        },
+        {
+          "value": "g",
+          "label": "/g/"
+        }
+      ],
+      "answer": "k",
+      "answerText": "Yes! shake ends with /k/.",
+      "answerAudio": "/assets/audio/words/shake.mp3",
+      "reward": 1
+    },
+    {
+      "id": "activity-18",
+      "step": "phonics",
+      "type": "choice",
+      "title": "抓住最后的声音",
+      "text": "shrug",
+      "art": "🤷",
+      "audio": "/assets/audio/words/shrug.mp3",
+      "choices": [
+        {
+          "value": "k",
+          "label": "/k/"
+        },
+        {
+          "value": "d",
+          "label": "/d/"
+        },
+        {
+          "value": "g",
+          "label": "/g/"
+        }
+      ],
+      "answer": "g",
+      "answerText": "Yes! shrug ends with /g/.",
+      "answerAudio": "/assets/audio/words/shrug.mp3",
+      "reward": 1
+    }
+  ]
+}
