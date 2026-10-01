@@ -30,8 +30,8 @@
       "mode": "learn",
       "lesson": {
         "id": "dizigui-daily-and-small",
-        "version": 1,
-        "url": "lessons/dizigui-daily-and-small-v1.json"
+        "version": 2,
+        "url": "lessons/dizigui-daily-and-small-v2.json"
       }
     }
   ]

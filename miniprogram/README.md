@@ -2,7 +2,7 @@
 
 内置课程仍为首次使用及缓存损坏时的备用。支持下载完整资源包，启用前检查兼容版本、ZIP 文件清单、下载 MD5、文件大小、JSON schema、课程引用及素材完整性。MD5 用于发现传输损坏，不是数字签名；发布地址须为你控制的 HTTPS 服务器。
 
-制作：在项目根目录执行 `node tools/make-course-package.js 7`，输出在 `outputs/course-package-r7/`。资源包只包含 `data.json`、图片和 MP3；不包含远程 JS、HTML、密钥或程序代码。当前包含四周、十个课程。
+制作：在项目根目录执行 `node tools/make-course-package.js 8`，输出在 `outputs/course-package-r8/`。资源包只包含 `data.json`、图片和 MP3；不包含远程 JS、HTML、密钥或程序代码。当前包含四周、十个课程。
 
 部署：先上传 ZIP，再上传同目录的 `latest.json`；将完整 HTTPS latest.json 地址填入 `config/courses.js` 的 `latestUrl`。配置 request 合法域名与 downloadFile 合法域名，使用真实设备验证。ZIP 默认使用 latest.json 同目录的相对地址，也可配置 HTTPS ZIP 绝对地址。没有地址时不会发起网络请求。
 

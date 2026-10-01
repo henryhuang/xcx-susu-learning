@@ -22,5 +22,5 @@ const index={packageFormat:1,schemaVersion:2,revision,minEngineVersion:1,archive
 const packageValidator=require(path.join(app,'services/course-package'));
 packageValidator.inspectZip(bytes.buffer.slice(bytes.byteOffset,bytes.byteOffset+bytes.byteLength),index);
 fs.writeFileSync(path.join(out,'latest.json'),JSON.stringify(index,null,2)+'\n');
-fs.writeFileSync(path.join(out,'README.txt'),'上传本目录的 latest.json 与 '+archive+' 到同一个 HTTPS 目录。\n提供 latest.json 的完整下载地址。先上传 ZIP，再上传 latest.json。\n资源包仅包含 JSON、图片、MP3；不含 JS、密钥。\n每次更新使用递增 revision：node tools/make-course-package.js 2\n不要覆盖已发布的 ZIP，保留旧版本供回退。\n');
+fs.writeFileSync(path.join(out,'README.txt'),'上传本目录的 latest.json 与 '+archive+' 到同一个 HTTPS 目录。\n提供 latest.json 的完整下载地址。先上传 ZIP，再上传 latest.json。\n资源包仅包含 JSON、图片、MP3；不含 JS、密钥。\n每次更新使用递增 revision，例如下一版：node tools/make-course-package.js '+(revision+1)+'\n不要覆盖已发布的 ZIP，保留旧版本供回退。\n');
 console.log(`Exported ${files.length} files, ${bytes.length} bytes: ${out}`);

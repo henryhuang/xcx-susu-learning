@@ -30,8 +30,8 @@
       "mode": "learn",
       "lesson": {
         "id": "dizigui-parents",
-        "version": 1,
-        "url": "lessons/dizigui-parents-v1.json"
+        "version": 2,
+        "url": "lessons/dizigui-parents-v2.json"
       }
     }
   ]

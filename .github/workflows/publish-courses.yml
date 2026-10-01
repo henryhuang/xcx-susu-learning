@@ -1,0 +1,154 @@
+name: Publish courses
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publish-courses
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: course-production
+    env:
+      COURSE_URL: https://mivora.cnhalo.com/susu-learning/latest.json
+      COURSE_DEPLOY_PATH: ${{ vars.COURSE_DEPLOY_PATH || '/app/mivora/susu-learning' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build and test courses
+        id: build
+        shell: bash
+        run: |
+          set -euo pipefail
+          node tools/build-local-courses.js
+          git diff --exit-code -- miniprogram/data/local-courses.js miniprogram/data/course-schemas.js
+          node tools/validate-courses.js
+          node miniprogram/tests/smoke.js
+          node miniprogram/tests/poppy.js
+          node tools/check-package-size.js
+          revision=$(node -p "require('./miniprogram/courses/latest.json').revision")
+          [[ "$revision" =~ ^[1-9][0-9]*$ ]]
+          node tools/make-course-package.js "$revision"
+          node miniprogram/tests/remote-courses.js
+          echo "revision=$revision" >> "$GITHUB_OUTPUT"
+
+      - name: Check published revision
+        id: compare
+        shell: bash
+        env:
+          REVISION: ${{ steps.build.outputs.revision }}
+        run: |
+          set -euo pipefail
+          mkdir -p work
+          curl --fail --silent --show-error --location --retry 3 "$COURSE_URL" -o work/live-latest.json
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+
+          revision = int(os.environ['REVISION'])
+          new = json.loads(Path(f'outputs/course-package-r{revision}/latest.json').read_text())
+          live = json.loads(Path('work/live-latest.json').read_text())
+          if new['revision'] != revision:
+              raise SystemExit('Generated package revision does not match the source')
+          if live['revision'] > revision:
+              raise SystemExit('Published revision is newer; increase courses/latest.json revision')
+          if live['revision'] == revision and live['archive']['md5'] != new['archive']['md5']:
+              raise SystemExit('This revision is already published with different content; increase revision')
+          publish = live['revision'] < revision
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write(f'publish={str(publish).lower()}\n')
+          print(f"Published r{live['revision']}; generated r{revision}; publish={publish}")
+          PY
+
+      - name: Configure SSH
+        if: steps.compare.outputs.publish == 'true'
+        shell: bash
+        env:
+          SSH_HOST: ${{ secrets.COURSE_SSH_HOST }}
+          SSH_USER: ${{ secrets.COURSE_SSH_USER }}
+          SSH_PORT: ${{ secrets.COURSE_SSH_PORT || '22' }}
+          SSH_PRIVATE_KEY: ${{ secrets.COURSE_SSH_PRIVATE_KEY }}
+          SSH_KNOWN_HOSTS: ${{ secrets.COURSE_SSH_KNOWN_HOSTS }}
+        run: |
+          set -euo pipefail
+          [[ "$SSH_HOST" =~ ^[A-Za-z0-9.-]+$ && -n "$SSH_HOST" ]]
+          [[ "$SSH_USER" =~ ^[A-Za-z0-9_-]+$ && -n "$SSH_USER" ]]
+          [[ "$SSH_PORT" =~ ^[0-9]+$ ]] && (( SSH_PORT >= 1 && SSH_PORT <= 65535 ))
+          [[ "$COURSE_DEPLOY_PATH" =~ ^/[A-Za-z0-9_./-]+$ && "$COURSE_DEPLOY_PATH" != *..* ]]
+          [[ -n "$SSH_PRIVATE_KEY" && -n "$SSH_KNOWN_HOSTS" ]]
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/id_ed25519
+          printf '%s\n' "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/id_ed25519 ~/.ssh/known_hosts
+          if [[ "$SSH_PORT" == 22 ]]; then lookup="$SSH_HOST"; else lookup="[$SSH_HOST]:$SSH_PORT"; fi
+          ssh-keygen -F "$lookup" -f ~/.ssh/known_hosts >/dev/null
+
+      - name: Upload and verify immutable ZIP
+        if: steps.compare.outputs.publish == 'true'
+        shell: bash
+        env:
+          REVISION: ${{ steps.build.outputs.revision }}
+          SSH_HOST: ${{ secrets.COURSE_SSH_HOST }}
+          SSH_USER: ${{ secrets.COURSE_SSH_USER }}
+          SSH_PORT: ${{ secrets.COURSE_SSH_PORT || '22' }}
+        run: |
+          set -euo pipefail
+          archive="susu-courses-r${REVISION}.zip"
+          md5=$(node -p "require('./outputs/course-package-r${REVISION}/latest.json').archive.md5")
+          target="$SSH_USER@$SSH_HOST"
+          staged="$COURSE_DEPLOY_PATH/.$archive.$GITHUB_RUN_ID.part"
+          ssh -p "$SSH_PORT" "$target" "mkdir -p '$COURSE_DEPLOY_PATH'"
+          scp -P "$SSH_PORT" "outputs/course-package-r${REVISION}/$archive" "$target:$staged"
+          ssh -p "$SSH_PORT" "$target" "bash -s -- '$COURSE_DEPLOY_PATH' '$archive' '$md5' '$GITHUB_RUN_ID'" <<'REMOTE'
+          set -euo pipefail
+          directory=$1 archive=$2 expected=$3 run_id=$4
+          staged="$directory/.$archive.$run_id.part"
+          actual=$(md5sum "$staged" | cut -d ' ' -f 1)
+          [[ "$actual" == "$expected" ]]
+          if [[ -e "$directory/$archive" ]]; then
+            existing=$(md5sum "$directory/$archive" | cut -d ' ' -f 1)
+            [[ "$existing" == "$expected" ]] || { echo 'Published ZIP differs'; exit 1; }
+            rm "$staged"
+          else
+            chmod 644 "$staged"
+            mv "$staged" "$directory/$archive"
+          fi
+          REMOTE
+          curl --fail --silent --show-error --location --retry 3 "${COURSE_URL%/*}/$archive" -o work/published.zip
+          echo "$md5  work/published.zip" | md5sum --check --status
+
+      - name: Switch latest.json after ZIP verification
+        if: steps.compare.outputs.publish == 'true'
+        shell: bash
+        env:
+          REVISION: ${{ steps.build.outputs.revision }}
+          SSH_HOST: ${{ secrets.COURSE_SSH_HOST }}
+          SSH_USER: ${{ secrets.COURSE_SSH_USER }}
+          SSH_PORT: ${{ secrets.COURSE_SSH_PORT || '22' }}
+        run: |
+          set -euo pipefail
+          target="$SSH_USER@$SSH_HOST"
+          staged="$COURSE_DEPLOY_PATH/.latest.json.$GITHUB_RUN_ID.part"
+          scp -P "$SSH_PORT" "outputs/course-package-r${REVISION}/latest.json" "$target:$staged"
+          ssh -p "$SSH_PORT" "$target" "chmod 644 '$staged' && mv '$staged' '$COURSE_DEPLOY_PATH/latest.json'"
+          curl --fail --silent --show-error --location --retry 3 "$COURSE_URL" -o work/published-latest.json
+          cmp "outputs/course-package-r${REVISION}/latest.json" work/published-latest.json
+
+      - name: Summarize result
+        shell: bash
+        env:
+          REVISION: ${{ steps.build.outputs.revision }}
+          PUBLISH: ${{ steps.compare.outputs.publish }}
+        run: |
+          if [[ "$PUBLISH" == true ]]; then
+            echo "Published course package r$REVISION to $COURSE_URL" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "Course package r$REVISION is already published with the same checksum." >> "$GITHUB_STEP_SUMMARY"
+          fi

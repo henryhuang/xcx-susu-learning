@@ -30,8 +30,8 @@
       "mode": "review",
       "lesson": {
         "id": "dizigui-small-things",
-        "version": 1,
-        "url": "lessons/dizigui-small-things-v1.json"
+        "version": 2,
+        "url": "lessons/dizigui-small-things-v2.json"
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "id": "dizigui-small-things",
-  "version": 1,
+  "version": 2,
   "category": "dizigui",
   "title": "事虽小，勿擅为",
   "description": "听原文、读小故事，在生活里练一练。",
@@ -30,13 +30,13 @@
         "id": "line-1",
         "text": "事虽小，勿擅为。苟擅为，子道亏。",
         "audio": "/chinese/assets/audio/dizigui-small-things-line-1.mp3",
-        "explanation": "拿不准一件事能不能做时，可以先问问家人或老师。"
+        "explanation": "即使是小事，也不要瞒着父母擅自做主；任性这样做，会失了做子女应守的本分。"
       },
       {
         "id": "line-2",
         "text": "物虽小，勿私藏。苟私藏，亲心伤。",
         "audio": "/chinese/assets/audio/dizigui-small-things-line-2.mp3",
-        "explanation": "不是自己的东西，先问主人；捡到东西，可以交给老师。"
+        "explanation": "小东西也不能私自拿走藏起来；这么做会让父母伤心。"
       }
     ]
   },

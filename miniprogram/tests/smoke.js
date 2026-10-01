@@ -3,7 +3,7 @@ require('../config/courses').latestUrl='';
 const assert=require('assert'),fs=require('fs'),path=require('path');
 const root=path.resolve(__dirname,'..'),clone=x=>JSON.parse(JSON.stringify(x));
 // Keep regression coverage for all existing courses, including weeks with only one category.
-const fixture={manifest:{schemaVersion:2,revision:7,latestWeekId:'2026-09-30',weeks:[]},weeks:{},lessons:{}};
+const fixture={manifest:{schemaVersion:2,revision:8,latestWeekId:'2026-09-30',weeks:[]},weeks:{},lessons:{}};
 for(const id of ['2026-09-30','2026-09-24','2026-09-18','2026-09-11']){
  const w=JSON.parse(fs.readFileSync(path.join(root,'courses/weeks/'+id+'.json')));
  fixture.manifest.weeks.push({id,reportDate:w.reportDate,title:w.title,url:'weeks/'+id+'.json'});fixture.weeks[id]=w;
@@ -26,6 +26,9 @@ const answer=(p,v)=>p.choose({currentTarget:{dataset:{answer:v}}});
  const catalog=courses.catalog();assert.equal(catalog.manifest.schemaVersion,2);assert.equal(catalog.manifest.weeks.length,4);assert.equal(catalog.manifest.latestWeekId,'2026-09-30');
  const thisWeek=courses.week('2026-09-30');assert.equal(thisWeek.items.length,1);assert.equal(thisWeek.items[0].category,'english');
  const ants=courses.lesson('english-ants-and-pants');assert.equal(ants.version,2);assert.deepEqual(ants.activities.filter(a=>a.step==='words').map(a=>a.text),['dolphin','dress','kangaroo','socks','shoes','ant','pants']);assert.deepEqual(ants.activities.filter(a=>a.step==='patterns').map(a=>a.text),['I like pink.',"I don't like red."]);assert.deepEqual(ants.activities.filter(a=>a.step==='speaking').map(a=>a.text),['I like ants...in yellow pants.',"I don't like yellow. I like green.",'An ant in green pants?','Did you do this? Good job!']);
+ const parents=courses.lesson('dizigui-parents'),daily=courses.lesson('dizigui-daily-and-small'),small=courses.lesson('dizigui-small-things');
+ assert([parents,daily,small].every(l=>l.version===2));assert.equal(daily.content.lines[2].explanation,small.content.lines[0].explanation);
+ assert(daily.content.lines[0].explanation.includes('父母'));assert(daily.content.lines[1].explanation.includes('回来当面报平安'));assert(small.content.lines[1].explanation.includes('私自拿走藏起来'));
  const ids=new Set(catalog.manifest.weeks.flatMap(e=>courses.week(e.id).items.map(i=>i.lesson.id)));assert.equal(ids.size,10);
  for(const id of ids){
   let p=await page(id,'2026-09-24');assert.equal(p.data.phase,'welcome');assert.equal(p.data.theme,p.lesson.category==='english'?'poppy':'hanfu');assert(p.data.playingKey.startsWith('/'));

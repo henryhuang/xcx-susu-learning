@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "id": "dizigui-daily",
-  "version": 1,
+  "id": "dizigui-daily-and-small",
+  "version": 2,
   "category": "dizigui",
-  "title": "冬则温，夏则凊",
+  "title": "冬则温、出必告、事虽小",
   "description": "听原文、读小故事，在生活里练一练。",
   "language": {
     "content": "zh-CN",
@@ -30,13 +30,19 @@
         "id": "line-1",
         "text": "冬则温，夏则凊。晨则省，昏则定。",
         "audio": "/chinese/assets/audio/dizigui-daily-line-1.mp3",
-        "explanation": "关心家人冷不冷、热不热，早晚也可以问候一声。"
+        "explanation": "冬天照顾父母暖和，夏天照顾父母凉爽；早晨问安，晚上照看他们安稳休息。"
       },
       {
         "id": "line-2",
         "text": "出必告，反必面。居有常，业无变。",
         "audio": "/chinese/assets/audio/dizigui-daily-line-2.mp3",
-        "explanation": "外出和回来告诉家人；每天的生活和做事可以有规律。"
+        "explanation": "出门前告诉父母去哪里，回来当面报平安；生活起居有规律，学习做事不随意改变。"
+      },
+      {
+        "id": "line-3",
+        "text": "事虽小，勿擅为。苟擅为，子道亏。",
+        "audio": "/chinese/assets/audio/dizigui-small-things-line-1.mp3",
+        "explanation": "即使是小事，也不要瞒着父母擅自做主；任性这样做，会失了做子女应守的本分。"
       }
     ]
   },
@@ -49,7 +55,8 @@
       "text": "点一句听一听。",
       "lineIds": [
         "line-1",
-        "line-2"
+        "line-2",
+        "line-3"
       ],
       "nextLabel": "听听小解释"
     },
@@ -61,7 +68,8 @@
       "text": "和家人一起说一说。",
       "lineIds": [
         "line-1",
-        "line-2"
+        "line-2",
+        "line-3"
       ],
       "nextLabel": "想一想怎么做"
     },
@@ -96,7 +104,8 @@
       "text": "听一句，自己试着读一句。",
       "lineIds": [
         "line-1",
-        "line-2"
+        "line-2",
+        "line-3"
       ],
       "reward": 1,
       "nextLabel": "我读过了"

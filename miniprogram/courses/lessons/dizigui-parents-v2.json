@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "id": "dizigui-daily-and-small",
-  "version": 1,
+  "id": "dizigui-parents",
+  "version": 2,
   "category": "dizigui",
-  "title": "冬则温、出必告、事虽小",
+  "title": "父母呼，应勿缓",
   "description": "听原文、读小故事，在生活里练一练。",
   "language": {
     "content": "zh-CN",
@@ -15,7 +15,7 @@
   },
   "intro": {
     "text": "酥酥，我们听一听，再想想生活里可以怎么做。",
-    "audio": "/chinese/assets/audio/dizigui-daily-intro.mp3",
+    "audio": "/chinese/assets/audio/dizigui-parents-intro.mp3",
     "buttonLabel": "听听原文"
   },
   "completion": {
@@ -28,21 +28,15 @@
     "lines": [
       {
         "id": "line-1",
-        "text": "冬则温，夏则凊。晨则省，昏则定。",
-        "audio": "/chinese/assets/audio/dizigui-daily-line-1.mp3",
-        "explanation": "关心家人冷不冷、热不热，早晚也可以问候一声。"
+        "text": "父母呼，应勿缓。父母命，行勿懒。",
+        "audio": "/chinese/assets/audio/dizigui-parents-line-1.mp3",
+        "explanation": "父母叫你时及时答应；父母交代的事，要及时认真去做，不拖延。"
       },
       {
         "id": "line-2",
-        "text": "出必告，反必面。居有常，业无变。",
-        "audio": "/chinese/assets/audio/dizigui-daily-line-2.mp3",
-        "explanation": "外出和回来告诉家人；每天的生活和做事可以有规律。"
-      },
-      {
-        "id": "line-3",
-        "text": "事虽小，勿擅为。苟擅为，子道亏。",
-        "audio": "/chinese/assets/audio/dizigui-small-things-line-1.mp3",
-        "explanation": "拿不准一件事能不能做时，可以先问问家人或老师。"
+        "text": "父母教，须敬听。父母责，须顺承。",
+        "audio": "/chinese/assets/audio/dizigui-parents-line-2.mp3",
+        "explanation": "父母教导时认真听；做错事受到责备时，先听清楚、承认错误并改正。"
       }
     ]
   },
@@ -55,8 +49,7 @@
       "text": "点一句听一听。",
       "lineIds": [
         "line-1",
-        "line-2",
-        "line-3"
+        "line-2"
       ],
       "nextLabel": "听听小解释"
     },
@@ -68,8 +61,7 @@
       "text": "和家人一起说一说。",
       "lineIds": [
         "line-1",
-        "line-2",
-        "line-3"
+        "line-2"
       ],
       "nextLabel": "想一想怎么做"
     },
@@ -78,21 +70,21 @@
       "step": "story",
       "type": "choice",
       "title": "生活小故事",
-      "text": "准备和爸爸出门玩，可以先做什么？",
-      "audio": "/chinese/assets/audio/dizigui-daily-question.mp3",
+      "text": "妈妈叫你吃饭了，你可以怎么回应？",
+      "audio": "/chinese/assets/audio/dizigui-parents-question.mp3",
       "choices": [
         {
           "value": "ask",
-          "label": "告诉家人要去哪里"
+          "label": "答应一声：我来啦！"
         },
         {
           "value": "hide",
-          "label": "不告诉任何人就走"
+          "label": "一直不回应"
         }
       ],
       "answer": "ask",
-      "answerText": "告诉家人自己的去向，让大家放心。",
-      "answerAudio": "/chinese/assets/audio/dizigui-daily-answer.mp3",
+      "answerText": "先回应，再把手里的事情收好。",
+      "answerAudio": "/chinese/assets/audio/dizigui-parents-answer.mp3",
       "reward": 1,
       "nextLabel": "跟着读一读"
     },
@@ -104,8 +96,7 @@
       "text": "听一句，自己试着读一句。",
       "lineIds": [
         "line-1",
-        "line-2",
-        "line-3"
+        "line-2"
       ],
       "reward": 1,
       "nextLabel": "我读过了"
