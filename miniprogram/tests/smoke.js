@@ -3,7 +3,7 @@ require('../config/courses').latestUrl='';
 const assert=require('assert'),fs=require('fs'),path=require('path');
 const root=path.resolve(__dirname,'..'),clone=x=>JSON.parse(JSON.stringify(x));
 // Keep regression coverage for all existing courses, including weeks with only one category.
-const fixture={manifest:{schemaVersion:2,revision:10,latestWeekId:'2026-10-16',weeks:[]},weeks:{},lessons:{}};
+const fixture={manifest:{schemaVersion:2,revision:11,latestWeekId:'2026-10-16',weeks:[]},weeks:{},lessons:{}};
 for(const id of ['2026-10-16','2026-09-30','2026-09-24','2026-09-18','2026-09-11']){
  const w=JSON.parse(fs.readFileSync(path.join(root,'courses/weeks/'+id+'.json')));
  fixture.manifest.weeks.push({id,reportDate:w.reportDate,title:w.title,url:'weeks/'+id+'.json'});fixture.weeks[id]=w;

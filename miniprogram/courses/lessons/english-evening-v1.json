@@ -30,7 +30,6 @@
       "type": "word",
       "title": "Evening and night",
       "text": "evening",
-      "translation": "傍晚",
       "art": "🌆",
       "audio": "/assets/audio/weekly/evening-word-0.mp3",
       "nextLabel": "Next"
@@ -41,7 +40,6 @@
       "type": "word",
       "title": "Evening and night",
       "text": "night",
-      "translation": "夜晚",
       "art": "🌙",
       "audio": "/assets/audio/weekly/evening-word-1.mp3",
       "nextLabel": "Next"
@@ -52,7 +50,6 @@
       "type": "word",
       "title": "Evening and night",
       "text": "Good evening!",
-      "translation": "晚上好！",
       "art": "👋",
       "audio": "/assets/audio/weekly/evening-word-2.mp3",
       "nextLabel": "Next"
@@ -63,7 +60,6 @@
       "type": "word",
       "title": "Evening and night",
       "text": "Good night!",
-      "translation": "晚安！",
       "art": "⭐",
       "audio": "/assets/audio/weekly/evening-word-3.mp3",
       "nextLabel": "Next"
@@ -74,7 +70,6 @@
       "type": "word",
       "title": "Evening and night",
       "text": "eat dinner",
-      "translation": "吃晚饭",
       "art": "🍚",
       "audio": "/assets/audio/weekly/evening-word-4.mp3",
       "nextLabel": "Next"
@@ -85,7 +80,6 @@
       "type": "word",
       "title": "Evening and night",
       "text": "go to bed",
-      "translation": "上床睡觉",
       "art": "🛏️",
       "audio": "/assets/audio/weekly/evening-word-5.mp3",
       "nextLabel": "Next"
@@ -96,7 +90,6 @@
       "type": "word",
       "title": "Evening and night",
       "text": "hug",
-      "translation": "拥抱",
       "art": "🤗",
       "audio": "/assets/audio/weekly/evening-word-6.mp3",
       "nextLabel": "Next"
@@ -107,7 +100,6 @@
       "type": "word",
       "title": "Evening and night",
       "text": "take a bath",
-      "translation": "洗澡",
       "art": "🛁",
       "audio": "/assets/audio/weekly/evening-word-7.mp3",
       "nextLabel": "Next"

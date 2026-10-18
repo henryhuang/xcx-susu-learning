@@ -17,7 +17,6 @@
       "type": "word",
       "title": "认识形状",
       "text": "diamond",
-      "translation": "菱形",
       "art": "◆",
       "color": "#6fbde7",
       "audio": "/assets/audio/words/diamond.mp3"
@@ -28,7 +27,6 @@
       "type": "word",
       "title": "认识形状",
       "text": "oval",
-      "translation": "椭圆形",
       "art": "⬭",
       "color": "#51c6b7",
       "audio": "/assets/audio/words/oval.mp3"
@@ -39,7 +37,6 @@
       "type": "word",
       "title": "认识形状",
       "text": "heart",
-      "translation": "心形",
       "art": "♥",
       "color": "#ff6b81",
       "audio": "/assets/audio/words/heart.mp3"
@@ -50,7 +47,6 @@
       "type": "word",
       "title": "认识形状",
       "text": "crescent",
-      "translation": "月牙形",
       "art": "☾",
       "color": "#a78bd4",
       "audio": "/assets/audio/words/crescent.mp3"
@@ -61,7 +57,6 @@
       "type": "word",
       "title": "认识形状",
       "text": "star",
-      "translation": "星形",
       "art": "★",
       "color": "#ffd74b",
       "audio": "/assets/audio/words/star.mp3"
@@ -72,7 +67,6 @@
       "type": "choice",
       "title": "这是什么形状？",
       "text": "What shape is a starfish?",
-      "translation": "海星",
       "art": "🌟",
       "audio": "/assets/audio/sentences/what-shape-is-a-starfish.mp3",
       "choices": [
@@ -100,7 +94,6 @@
       "type": "choice",
       "title": "这是什么形状？",
       "text": "What shape is a moon?",
-      "translation": "月亮",
       "art": "🌙",
       "audio": "/assets/audio/sentences/what-shape-is-a-moon.mp3",
       "choices": [
@@ -128,7 +121,6 @@
       "type": "choice",
       "title": "这是什么形状？",
       "text": "What shape is an egg?",
-      "translation": "鸡蛋",
       "art": "🥚",
       "audio": "/assets/audio/sentences/what-shape-is-an-egg.mp3",
       "choices": [
@@ -156,7 +148,6 @@
       "type": "choice",
       "title": "这是什么形状？",
       "text": "What shape is a kite?",
-      "translation": "风筝",
       "art": "🪁",
       "audio": "/assets/audio/sentences/what-shape-is-a-kite.mp3",
       "choices": [
@@ -184,7 +175,6 @@
       "type": "choice",
       "title": "这是什么形状？",
       "text": "What shape is a cookie?",
-      "translation": "饼干",
       "art": "💗",
       "audio": "/assets/audio/sentences/what-shape-is-a-cookie.mp3",
       "choices": [
