@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-10-16",
+  "reportDate": "2026-10-16",
+  "title": "10月16日学习内容",
+  "items": [
+    {
+      "id": "english-getting-dressed",
+      "category": "english",
+      "mode": "learn",
+      "lesson": {
+        "id": "english-getting-dressed",
+        "version": 1,
+        "url": "lessons/english-getting-dressed-v1.json"
+      }
+    },
+    {
+      "id": "poem-jizengxiaofan",
+      "category": "poetry",
+      "mode": "learn",
+      "lesson": {
+        "id": "poem-jizengxiaofan",
+        "version": 1,
+        "url": "lessons/poem-jizengxiaofan-v1.json"
+      }
+    },
+    {
+      "id": "dizigui-gentle-reminders",
+      "category": "dizigui",
+      "mode": "learn",
+      "lesson": {
+        "id": "dizigui-gentle-reminders",
+        "version": 1,
+        "url": "lessons/dizigui-gentle-reminders-v1.json"
+      }
+    }
+  ]
+}

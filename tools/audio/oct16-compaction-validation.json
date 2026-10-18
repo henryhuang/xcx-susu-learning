@@ -1,0 +1,740 @@
+[
+  {
+    "path": "/assets/audio/sentences/amazing-susie-you-did-it.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 27504,
+      "durationSeconds": 4.584,
+      "maxVolumeDb": -7.2,
+      "sha256": "d39edc9ef32d6b113dbb6bbf51a40bd74dbf69c57c172eff07f31e3250f5173a",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 14133,
+      "durationSeconds": 4.584,
+      "maxVolumeDb": -8.0,
+      "sha256": "507f270fd84c21d6d162bdeaeb56a68e01236aea372b5b4e62b3d4455544f587",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/hi-susie-let-s-learn.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 25200,
+      "durationSeconds": 4.2,
+      "maxVolumeDb": -5.3,
+      "sha256": "401dadad8736e09e52d4fa83fdaa6fe3a7a04073e73d925bcc32e40ba43b6968",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 12981,
+      "durationSeconds": 4.2,
+      "maxVolumeDb": -5.3,
+      "sha256": "a6981097c3a6e641230d1626fd8f333575276fa42541d1686aef7fd15088d2f9",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/hi-susie-let-s-move.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 25200,
+      "durationSeconds": 4.2,
+      "maxVolumeDb": -5.4,
+      "sha256": "4a7f0dd09597d213a471c4bac7a8187c95b9b24d5d74d0b493536acac340a327",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 12981,
+      "durationSeconds": 4.2,
+      "maxVolumeDb": -5.4,
+      "sha256": "5b7c8f01e6f56f622e4fffce370bf43efd3212fd6a52b1c761827e33d5d0af5e",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/hi-susie-ready.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 22464,
+      "durationSeconds": 3.744,
+      "maxVolumeDb": -5.4,
+      "sha256": "78255b12b3abaaae311ea5c254719b6dcdaa7aff983d74963f6c88721af976dd",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 11613,
+      "durationSeconds": 3.744,
+      "maxVolumeDb": -5.4,
+      "sha256": "d1e8019114b8bc2d196b2cece3a8dca7f16aa00609ffde8eb648d7cc2fe5264d",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/how-many-shoulders-do-you-have.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 17424,
+      "durationSeconds": 2.904,
+      "maxVolumeDb": -5.2,
+      "sha256": "3323e770a4d96690b3b11feac687ebfa174dc78c839d7ccff1bf295c527bae4c",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 9093,
+      "durationSeconds": 2.904,
+      "maxVolumeDb": -5.4,
+      "sha256": "9f7024d698d3cb1f26cd2f4d479e03e341ee744d43b6becddc88657eee926d3a",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/the-starfish-is-a-star.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 17424,
+      "durationSeconds": 2.904,
+      "maxVolumeDb": -3.4,
+      "sha256": "359d76d703a68b3653868a2d2b4dcd179195cf0b6e9f590a58fe86d47e40ea39",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 9093,
+      "durationSeconds": 2.904,
+      "maxVolumeDb": -3.8,
+      "sha256": "75bf009478d08852b461d0f2c62779f08cf8e9abefcbb4de1b9c418445c6d62b",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/what-shape-is-a-starfish.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 17136,
+      "durationSeconds": 2.856,
+      "maxVolumeDb": -5.3,
+      "sha256": "44a57c033d249ebb9adfde3c7bec9b13a36d8be26848153c22dd993cc25198a0",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 8949,
+      "durationSeconds": 2.856,
+      "maxVolumeDb": -5.1,
+      "sha256": "d57e02850a10ecabec606df538878a978cd595e23a47b27cb0e1205dfb486270",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/how-many-fingers-do-you-have.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 17136,
+      "durationSeconds": 2.856,
+      "maxVolumeDb": -6.0,
+      "sha256": "178847eb8e98742498d2614c313bc820ecae67cb22aa945995d7024138a30b88",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 8949,
+      "durationSeconds": 2.856,
+      "maxVolumeDb": -6.3,
+      "sha256": "136405169ab74226150e1d4b31e75128fb50c6b31f27fb56eaaab7ad4fa4e637",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/i-have-10-fingers.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 16848,
+      "durationSeconds": 2.808,
+      "maxVolumeDb": -6.8,
+      "sha256": "3c47dc81b35c980c89479d8e96c8aae0650b98c17b8751f6c34b2c9e61ecec15",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 8805,
+      "durationSeconds": 2.808,
+      "maxVolumeDb": -6.5,
+      "sha256": "36644da25346335c0a74dbcce72cb8b801d839566d963a7e5a088c9d7f6d66ee",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/i-have-2-shoulders.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 16272,
+      "durationSeconds": 2.712,
+      "maxVolumeDb": -4.6,
+      "sha256": "f7efdebbc5bb1030a9b74ceaf62a0e0056420d82ed0c651791bb20e6d55aa74c",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 8517,
+      "durationSeconds": 2.712,
+      "maxVolumeDb": -4.6,
+      "sha256": "107f6a04b485971b6911727d4ba90f87648560068d827d2c6628c80e4fe0ce6e",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/how-many-backs-do-you-have.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 16272,
+      "durationSeconds": 2.712,
+      "maxVolumeDb": -4.6,
+      "sha256": "c78558447b6693ed668b39c4d6c9d62d1a09987147fa8b41c1fa2b3589d11758",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 8517,
+      "durationSeconds": 2.712,
+      "maxVolumeDb": -5.2,
+      "sha256": "c719fb8b600955ecf6906ae5a4e645d4e42b1e7800f1700e633856f4f035a51f",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/the-moon-is-a-crescent.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 15984,
+      "durationSeconds": 2.664,
+      "maxVolumeDb": -5.5,
+      "sha256": "65353dd8309f1219bb3b480f5493ff6c3a3d6065ea1861b8d4ee688a03ec7bc1",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 8373,
+      "durationSeconds": 2.664,
+      "maxVolumeDb": -5.5,
+      "sha256": "fbc2202ed137b645b8506b423fd461277e9b46ccf9b6656654c7eb9b74245d82",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/how-many-toes-do-you-have.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 15984,
+      "durationSeconds": 2.664,
+      "maxVolumeDb": -5.4,
+      "sha256": "be90c7ea6e052ab8c4124b2a7730c3a11ecc8ad39c26ab5c655294a73ba99ce1",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 8373,
+      "durationSeconds": 2.664,
+      "maxVolumeDb": -5.4,
+      "sha256": "f3f27e31111d726e9628eb11d7954998085860eb02c90efa8d1ad50643e64fc0",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/how-many-knees-do-you-have.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 15984,
+      "durationSeconds": 2.664,
+      "maxVolumeDb": -5.1,
+      "sha256": "ad9d5dd81fff668cf72a08335f591592017d604c06804877402aa7430f8c8ce4",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 8373,
+      "durationSeconds": 2.664,
+      "maxVolumeDb": -5.5,
+      "sha256": "ad37e14abbfeaf4154f9393cdad534e151bc906ac8957502e13e30490595f200",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/the-kite-is-a-diamond.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 15984,
+      "durationSeconds": 2.664,
+      "maxVolumeDb": -2.9,
+      "sha256": "84a34a9eb9643c4b9131b5f18d7bf7f91694dfe492575451fcb7321a0a1e8e83",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 8373,
+      "durationSeconds": 2.664,
+      "maxVolumeDb": -3.5,
+      "sha256": "8ad28e5f30391a6c355e2a57421d9621c9de5e89e9b2b825355d23d471e6842f",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/shrug-your-shoulders.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 15696,
+      "durationSeconds": 2.616,
+      "maxVolumeDb": -3.8,
+      "sha256": "d26cfdba654df51eae15765031bb6fa6d9a687ac5a1f90e86d73c795bc2548e6",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 8229,
+      "durationSeconds": 2.616,
+      "maxVolumeDb": -3.8,
+      "sha256": "1cd619481e3d58d7336a0efa7ec80bd1455c1465b556bd07e1c9b4c7652d740b",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/the-cookie-is-a-heart.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 15552,
+      "durationSeconds": 2.592,
+      "maxVolumeDb": -5.7,
+      "sha256": "25b14e7b77f86274abfce0cbe10cfeba1dbdb4722216b37d8f6f639b67121cb2",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 8157,
+      "durationSeconds": 2.592,
+      "maxVolumeDb": -6.2,
+      "sha256": "8b32381748c602827da82b1cd18a886a9ba1c0a39d4533c6c87fd4ad9a4231e4",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/what-shape-is-a-cookie.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 15264,
+      "durationSeconds": 2.544,
+      "maxVolumeDb": -6.0,
+      "sha256": "e3fb51f3c6e46fe210e7eedc7b97a5f02e9f069438906e68fb3f6f856c2112b8",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 8013,
+      "durationSeconds": 2.544,
+      "maxVolumeDb": -6.2,
+      "sha256": "18b0e49e3e5ebb10daedbc239d838563d3ac469f039de12f9587d386c3ac9c83",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/i-have-10-toes.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 15264,
+      "durationSeconds": 2.544,
+      "maxVolumeDb": -5.4,
+      "sha256": "6e5f10479e9cc5e87b2b98eb39fd3d4800d13680ca6793fbe0c29c175111833e",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 8013,
+      "durationSeconds": 2.544,
+      "maxVolumeDb": -5.9,
+      "sha256": "5e042ea89c0000f187fa388b60b2b897e5b56b2480f2cff0d3c49ddeb67c974f",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/wiggle-your-fingers.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 15264,
+      "durationSeconds": 2.544,
+      "maxVolumeDb": -4.9,
+      "sha256": "f55c619cd4ee4bde692bd2115efffbd1d501aec4478934bfd5dc217fb0a478a5",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 8013,
+      "durationSeconds": 2.544,
+      "maxVolumeDb": -5.9,
+      "sha256": "cbb06a67cdd70db083b3cac34f20c1af01c0d2795ae9060dc8f728a7c2b08a2d",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/the-egg-is-an-oval.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 14976,
+      "durationSeconds": 2.496,
+      "maxVolumeDb": -6.2,
+      "sha256": "67b4af52d25b54c13a6c5e1294f074f301238885d25b32bf3df9d820ebb0bc44",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 7869,
+      "durationSeconds": 2.496,
+      "maxVolumeDb": -6.9,
+      "sha256": "e5581cd71385cdc89a18d1f99194a80c15088b75fb7b180248bc2361ac6760e4",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/what-shape-is-a-kite.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 14832,
+      "durationSeconds": 2.472,
+      "maxVolumeDb": -6.1,
+      "sha256": "fb26bd7060fed03e97e2faa2d70e7c38d371ea47cf8e5b1073c85edb6de655e7",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 7797,
+      "durationSeconds": 2.472,
+      "maxVolumeDb": -6.4,
+      "sha256": "5ea5bc746ff5ee6e466e6b20f4e9596fcfa67ac30e490ba08a670c57d7aeab69",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/i-have-2-knees.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 14688,
+      "durationSeconds": 2.448,
+      "maxVolumeDb": -4.9,
+      "sha256": "3201fd3cee3e7c402324c310647d0fa8e5956ccc200d8785ff0626338b8c7f28",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 7725,
+      "durationSeconds": 2.448,
+      "maxVolumeDb": -5.6,
+      "sha256": "5f5a883806ea8f7f29055163de839b1347f211cdadfa1db22af40f6337ed065c",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/what-shape-is-an-egg.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 14688,
+      "durationSeconds": 2.448,
+      "maxVolumeDb": -5.6,
+      "sha256": "447a7c7dec2a64296aa3528fef8c8ed100a0f24e23df7075f07faff1c6079944",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 7725,
+      "durationSeconds": 2.448,
+      "maxVolumeDb": -5.6,
+      "sha256": "feb6c3dde5857f30b91ff83b54c90a8c6ae599ff1c722b63a10276a35c90612d",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/what-shape-is-a-moon.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 14688,
+      "durationSeconds": 2.448,
+      "maxVolumeDb": -5.4,
+      "sha256": "a643ce9e8eb785583bb3650b6e8be8d327ee570466e7af7199de7700ecefdced",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 7725,
+      "durationSeconds": 2.448,
+      "maxVolumeDb": -6.1,
+      "sha256": "d290481d59af8ef4f0048586ef8a5ef5e6353f48f8f4ef79675dcd0509781eac",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/shake-your-hands.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 14400,
+      "durationSeconds": 2.4,
+      "maxVolumeDb": -5.0,
+      "sha256": "b7b468bab631919f004ef70318a6c0ec2c49f8a436c6ca0a38455b9054870c96",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 7581,
+      "durationSeconds": 2.4,
+      "maxVolumeDb": -4.8,
+      "sha256": "347c7f692e4b3909fe5aaccfed868274b5db1cd30a7c7b6be1f7c53a17352fa8",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/i-have-1-back.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 14256,
+      "durationSeconds": 2.376,
+      "maxVolumeDb": -6.1,
+      "sha256": "c704cf3a60a03f2f94024e66916770e42e08c70db414d19eedba8fb4c761359a",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 7509,
+      "durationSeconds": 2.376,
+      "maxVolumeDb": -6.2,
+      "sha256": "13ba2b4639eb6c9f30a90af202f70ae58ed0d7b3927370547b9c911d6b07f089",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/sentences/bend-your-knees.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 13248,
+      "durationSeconds": 2.208,
+      "maxVolumeDb": -5.7,
+      "sha256": "f13a543b02a2a46f550280621f25b6df374c7803936a416eddd86e131d5a7720",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 7005,
+      "durationSeconds": 2.208,
+      "maxVolumeDb": -6.4,
+      "sha256": "24aef649a4a09e7d2b1aab4861f15c920a6b1ef971f5754fbd70fcbbf9281d21",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/words/fingers.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 11520,
+      "durationSeconds": 1.92,
+      "maxVolumeDb": -6.4,
+      "sha256": "cf260f5cfcedce2c136cca89b1ac71b2ce1af6da406ccec9a8394ba0974da61d",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 6141,
+      "durationSeconds": 1.92,
+      "maxVolumeDb": -7.3,
+      "sha256": "fbee5a61cce6b7bb9e3746a80921636244ec51d7007bd28e12f2c3501605cb7d",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/words/star.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 11232,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -5.8,
+      "sha256": "90d7e1fda440dd3894dde0ff5de28c5a72fc58273822bd2938e149727d6ad768",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 5997,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -5.9,
+      "sha256": "173a8706826caaff410a3e65a6bfb1f682d629929c11b1d2b30e31da4622036a",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/words/log.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 11232,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -5.6,
+      "sha256": "469d089fcb6c85b81849a86bdc7682744b88f5972bebd48b1afafcf09b758b45",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 5997,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -6.1,
+      "sha256": "adc212763e106ee2340326069af9be0bc742d2c94430d70a32f7f4625423fda5",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/words/back.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 11232,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -5.3,
+      "sha256": "665e08ab154955fff36c44216a4f20926ce04907201fd0d3b32f9cd6ce085f58",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 5997,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -6.2,
+      "sha256": "586f8d07991bad8afb2e3ec4c04ee25cd6c8e61f3aa2b1702488b3194ace81ec",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/words/cook.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 11232,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -8.5,
+      "sha256": "aeb76a741f591934341976b70c42a67e5cc8e8c01692ea946ca72c328f5370bd",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 5997,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -8.7,
+      "sha256": "c8d12b36084c7847274795a5914d78f96d3a3f464686c7501ba5e43008e16f30",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/words/leg.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 11232,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -6.4,
+      "sha256": "5b04a09cf84c54abc8272717c01926a4b177734e7cfd0cd175fb0b4c17b24bff",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 5997,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -6.7,
+      "sha256": "edd71b920b2ac7cc0ebdcc6687370e2b8700155f797410de7ed269e9f8d5e752",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/words/heart.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 11232,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -5.0,
+      "sha256": "cffda89fc5f1d177c7fc139b07561025b68dbe45a31252d0cf8ae72508aaa06c",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 5997,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -6.0,
+      "sha256": "4c71abcc48d853906abd320557d2ebdefdbb87846371260973d7025afebfbf21",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/words/toes.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 11232,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -7.5,
+      "sha256": "de28cff4536101abd8db6a74b6edfee4b54bb6f22c7b023947b8fe9597b2e130",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 5997,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -7.9,
+      "sha256": "97c0c00188de0e93fa111278af349fae1fc0de409a677214adc3ecc0f8737a12",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/words/diamond.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 11232,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -3.8,
+      "sha256": "3c2c4cfd6e14c3166edaa2e49b8a421239e664dd6a57cc9f1488793a08f9a3a3",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 5997,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -4.0,
+      "sha256": "3e6007e4bb8de4cd0b0a4ee311f9f61f77c175d0fdb84cf2976d53c3a7591704",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/words/shake.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 11232,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -6.2,
+      "sha256": "370d793a60eda8ed316e3575c8ad88b11a0e02b8d4cc27009579bb3520e09537",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 5997,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -7.8,
+      "sha256": "1e32faa6356953e6e122127662b6169253ae96a5af0d707f363a8c2cf067f8dc",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/words/crescent.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 11232,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -3.9,
+      "sha256": "b28688eff68fe3903d4151ee0f315ce2751b48d4c0355910a04ec03ca46d868a",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 5997,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -4.3,
+      "sha256": "f873971e82114813cec7d541b997e117c32cedf37c89030f2bddc49942f6ba76",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/words/oval.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 11232,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -7.9,
+      "sha256": "dda750992710ffb69ac103274a59971b766190fa85fb00afccd582166481b230",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 5997,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -8.3,
+      "sha256": "a69beecc30f9d9f63ab746f29b732974915cbb4e5d9ecd1b2cd7d31945a0b0ff",
+      "decoded": true
+    }
+  },
+  {
+    "path": "/assets/audio/words/flag.mp3",
+    "voice": "en-US-AnaNeural",
+    "original": {
+      "bytes": 11232,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -5.4,
+      "sha256": "f1937bbafb615617f30f94d4b5435d77d47c4c67f27dfe2069a9dc878bffb185",
+      "decoded": true
+    },
+    "compact": {
+      "bytes": 5997,
+      "durationSeconds": 1.872,
+      "maxVolumeDb": -6.0,
+      "sha256": "830a82116472f90acd4c11e5ada9ac36a33b8a16f708f28c619e2c72c3fe3f71",
+      "decoded": true
+    }
+  }
+]

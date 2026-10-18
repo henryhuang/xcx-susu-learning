@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "id": "poem-jizengxiaofan",
+  "version": 1,
+  "category": "poetry",
+  "title": "寄赠小樊",
+  "description": "听《寄赠小樊》，理解诗意，再一句句跟读。",
+  "language": {
+    "content": "zh-CN",
+    "guidance": "zh-CN"
+  },
+  "presentation": {
+    "theme": "hanfu",
+    "art": "🌸"
+  },
+  "intro": {
+    "text": "酥酥，我们一起读一读刘禹锡的《寄赠小樊》吧！",
+    "audio": "/chinese/assets/audio/poem-jizengxiaofan-intro.mp3",
+    "buttonLabel": "听听原文"
+  },
+  "completion": {
+    "text": "读过了，真棒！",
+    "audio": "/chinese/assets/audio/zh-finish.mp3",
+    "buttonLabel": "再读一次"
+  },
+  "content": {
+    "kind": "poem",
+    "author": "刘禹锡",
+    "dynasty": "唐",
+    "lines": [
+      {
+        "id": "line-1",
+        "text": "花面丫头十三四",
+        "audio": "/chinese/assets/audio/poem-jizengxiaofan-line-1.mp3",
+        "explanation": "诗里写了一位十三四岁、面容像花一样的少女。"
+      },
+      {
+        "id": "line-2",
+        "text": "春来绰约向人时",
+        "audio": "/chinese/assets/audio/poem-jizengxiaofan-line-2.mp3",
+        "explanation": "春天来了，她面对人们时，姿态柔美。"
+      },
+      {
+        "id": "line-3",
+        "text": "终须买取名春草",
+        "audio": "/chinese/assets/audio/poem-jizengxiaofan-line-3.mp3",
+        "explanation": "诗人说，要把她买来，取名叫春草。这是古代诗里的说法。"
+      },
+      {
+        "id": "line-4",
+        "text": "处处将行步步随",
+        "audio": "/chinese/assets/audio/poem-jizengxiaofan-line-4.mp3",
+        "explanation": "诗人想象，走到哪里，她都一步步跟随在身边。"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "listen",
+      "step": "listen",
+      "type": "read-along",
+      "title": "先听一听",
+      "text": "点一句可以单独听，也可以听全文。",
+      "lineIds": [
+        "line-1",
+        "line-2",
+        "line-3",
+        "line-4"
+      ],
+      "nextLabel": "读懂原文"
+    },
+    {
+      "id": "understand",
+      "step": "understand",
+      "type": "explanation",
+      "title": "诗里说了什么？",
+      "text": "和家人一起读一读，想一想。",
+      "lineIds": [
+        "line-1",
+        "line-2",
+        "line-3",
+        "line-4"
+      ],
+      "nextLabel": "接着练一练"
+    },
+    {
+      "id": "repeat",
+      "step": "repeat",
+      "type": "line-practice",
+      "title": "一句句跟读",
+      "text": "先听一句，再自己读一句。",
+      "lineIds": [
+        "line-1",
+        "line-2",
+        "line-3",
+        "line-4"
+      ],
+      "reward": 1,
+      "nextLabel": "我读过了"
+    }
+  ]
+}

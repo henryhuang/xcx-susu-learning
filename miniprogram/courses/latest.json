@@ -1,8 +1,14 @@
 {
   "schemaVersion": 2,
-  "revision": 8,
-  "latestWeekId": "2026-09-30",
+  "revision": 9,
+  "latestWeekId": "2026-10-16",
   "weeks": [
+    {
+      "id": "2026-10-16",
+      "reportDate": "2026-10-16",
+      "title": "10月16日学习内容",
+      "url": "weeks/2026-10-16.json"
+    },
     {
       "id": "2026-09-30",
       "reportDate": "2026-09-30",

@@ -1,0 +1,197 @@
+[
+  {
+    "path": "/assets/audio/weekly/english-getting-dressed-intro.mp3",
+    "text": "Hi, Susie! Let's learn how to get dressed and put our clothes away!",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-word-0.mp3",
+    "text": "put on",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-word-1.mp3",
+    "text": "take off",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-word-2.mp3",
+    "text": "hang up",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-word-3.mp3",
+    "text": "tie",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-word-4.mp3",
+    "text": "zip up",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-word-5.mp3",
+    "text": "button up",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-word-6.mp3",
+    "text": "know",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-word-7.mp3",
+    "text": "jacket",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-word-8.mp3",
+    "text": "fold",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-question-0.mp3",
+    "text": "Do you know how to put on your jacket?",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-answer-0.mp3",
+    "text": "I know how to put on my jacket.",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-question-1.mp3",
+    "text": "Do you know how to take off your jacket?",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-answer-1.mp3",
+    "text": "I know how to take off my jacket.",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-question-2.mp3",
+    "text": "Do you know how to zip up your jacket?",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-answer-2.mp3",
+    "text": "I know how to zip up my jacket.",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-question-3.mp3",
+    "text": "Do you know how to button up your jacket?",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-answer-3.mp3",
+    "text": "I know how to button up my jacket.",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-question-4.mp3",
+    "text": "Do you know how to hang up your jacket?",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-answer-4.mp3",
+    "text": "I know how to hang up my jacket.",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-phonics-chef.mp3",
+    "text": "chef",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-phonics-loaf.mp3",
+    "text": "loaf",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-phonics-leaf.mp3",
+    "text": "leaf",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-phonics-scarf.mp3",
+    "text": "scarf",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-phonics-sniff.mp3",
+    "text": "sniff",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-phonics-off.mp3",
+    "text": "off",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-phonics-puff.mp3",
+    "text": "puff",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-phonics-staff.mp3",
+    "text": "staff",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-phonics-intro.mp3",
+    "text": "Words ending in f and double f have the same ending sound. Listen to the words.",
+    "voice": "en-US-AnaNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/poem-jizengxiaofan-intro.mp3",
+    "text": "酥酥，我们一起读一读刘禹锡的《寄赠小樊》吧！",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/poem-jizengxiaofan-line-1.mp3",
+    "text": "花面丫头十三四",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/poem-jizengxiaofan-line-2.mp3",
+    "text": "春来绰约向人时",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/poem-jizengxiaofan-line-3.mp3",
+    "text": "终须买取名春草",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/poem-jizengxiaofan-line-4.mp3",
+    "text": "处处将行步步随",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-gentle-reminders-intro.mp3",
+    "text": "酥酥，我们一起读《弟子规》，学着关心家人、温和地说话。",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-gentle-line-1.mp3",
+    "text": "亲爱我，孝何难？亲憎我，孝方贤。",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-gentle-line-2.mp3",
+    "text": "亲有过，谏使更，怡吾色，柔吾声。",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-gentle-question.mp3",
+    "text": "爸爸忘了关水龙头，你可以怎么提醒他？",
+    "voice": "zh-CN-XiaoshuangNeural"
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-gentle-answer.mp3",
+    "text": "用温和的声音提醒：爸爸，水龙头还开着，我们一起关好吧。",
+    "voice": "zh-CN-XiaoshuangNeural"
+  }
+]

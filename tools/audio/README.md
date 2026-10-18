@@ -37,3 +37,17 @@ python3 tools/audio/generate_xiaoshuang.py
 旧 `generate_local_weekly.py` 默认不再生成中文，防止覆盖回系统声音；`--english-only` 仅重生成晚间英语。
 
 9 月 11 日晚间英语曾使用 Samantha，已用 `generate_ana_weekly.py` 通过本地 Azure 配置重制为 `en-US-AnaNeural`。脚本先生成并验证全部 16 段，再备份替换，并同步更新语音记录。
+
+## 2026 年 10 月 16 日课程
+
+`oct16-manifest.json` 记录穿衣英语、《寄赠小樊》和《弟子规》的 39 段新增台词。
+执行 `python3 tools/audio/generate_oct16.py` 使用现有本地 Azure 配置生成 Ana / 晓双候选，
+以 -8% 语速、24 kHz 单声道制作，再压缩为 24 kbps MP3；全部通过解码、时长及非静音检查后安装。
+候选位于忽略目录 `audio-candidates/oct16/`，安装后的校验和见 `oct16-validation.json`。
+需要更改台词时先删除该条候选，再重生成，避免复用旧台词音频。
+
+主包原本接近 2 MB。`python3 tools/audio/compact_bundled.py` 按文件大小将部分既有
+48 kbps 英语素材转为 24 kbps，保留台词、声音及路径，直至本地主包估算低于 2000 KB。
+原文件保存在 `audio-candidates/compact-oct16/original/`；
+`oct16-compaction-validation.json` 记录原件与压缩件的时长、音量和 SHA-256，
+其中压缩件的记录替代 `ana-validation.json` 中相应路径的历史生成校验和。

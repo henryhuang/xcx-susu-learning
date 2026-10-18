@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 2,
+  "id": "english-getting-dressed",
+  "version": 1,
+  "category": "english",
+  "title": "穿衣与整理",
+  "description": "学习穿衣和整理词语，练习 Do you know how to…?，听辨词尾 f / ff。",
+  "language": {
+    "content": "en-US",
+    "guidance": "en-US"
+  },
+  "presentation": {
+    "theme": "poppy",
+    "art": "🧥"
+  },
+  "intro": {
+    "text": "Hi, Susie! Let's learn how to get dressed and put our clothes away!",
+    "audio": "/assets/audio/weekly/english-getting-dressed-intro.mp3",
+    "buttonLabel": "Start adventure"
+  },
+  "completion": {
+    "text": "Amazing, Susie! You did it!",
+    "audio": "/assets/audio/sentences/amazing-susie-you-did-it.mp3",
+    "buttonLabel": "Play again"
+  },
+  "activities": [
+    {
+      "id": "word-0",
+      "step": "words",
+      "type": "word",
+      "title": "Getting dressed",
+      "text": "put on",
+      "translation": "穿上",
+      "art": "🧥",
+      "audio": "/assets/audio/weekly/dressed-word-0.mp3",
+      "nextLabel": "Next"
+    },
+    {
+      "id": "word-1",
+      "step": "words",
+      "type": "word",
+      "title": "Getting dressed",
+      "text": "take off",
+      "translation": "脱下",
+      "art": "👕",
+      "audio": "/assets/audio/weekly/dressed-word-1.mp3",
+      "nextLabel": "Next"
+    },
+    {
+      "id": "word-2",
+      "step": "words",
+      "type": "word",
+      "title": "Getting dressed",
+      "text": "hang up",
+      "translation": "挂起",
+      "art": "🪝",
+      "audio": "/assets/audio/weekly/dressed-word-2.mp3",
+      "nextLabel": "Next"
+    },
+    {
+      "id": "word-3",
+      "step": "words",
+      "type": "word",
+      "title": "Getting dressed",
+      "text": "tie",
+      "translation": "系；打结",
+      "art": "👟",
+      "audio": "/assets/audio/weekly/dressed-word-3.mp3",
+      "nextLabel": "Next"
+    },
+    {
+      "id": "word-4",
+      "step": "words",
+      "type": "word",
+      "title": "Getting dressed",
+      "text": "zip up",
+      "translation": "拉上拉链",
+      "art": "🤐",
+      "audio": "/assets/audio/weekly/dressed-word-4.mp3",
+      "nextLabel": "Next"
+    },
+    {
+      "id": "word-5",
+      "step": "words",
+      "type": "word",
+      "title": "Getting dressed",
+      "text": "button up",
+      "translation": "扣上纽扣",
+      "art": "👔",
+      "audio": "/assets/audio/weekly/dressed-word-5.mp3",
+      "nextLabel": "Next"
+    },
+    {
+      "id": "word-6",
+      "step": "words",
+      "type": "word",
+      "title": "Getting dressed",
+      "text": "know",
+      "translation": "知道；会",
+      "art": "💡",
+      "audio": "/assets/audio/weekly/dressed-word-6.mp3",
+      "nextLabel": "Next"
+    },
+    {
+      "id": "word-7",
+      "step": "words",
+      "type": "word",
+      "title": "Getting dressed",
+      "text": "jacket",
+      "translation": "夹克；外套",
+      "art": "🧥",
+      "audio": "/assets/audio/weekly/dressed-word-7.mp3",
+      "nextLabel": "Next"
+    },
+    {
+      "id": "word-8",
+      "step": "words",
+      "type": "word",
+      "title": "Getting dressed",
+      "text": "fold",
+      "translation": "折叠",
+      "art": "👕",
+      "audio": "/assets/audio/weekly/dressed-word-8.mp3",
+      "nextLabel": "Next"
+    },
+    {
+      "id": "question-0",
+      "step": "speaking",
+      "type": "action",
+      "title": "Listen and ask",
+      "text": "Do you know how to put on your jacket?",
+      "translation": "你会穿上你的外套吗？",
+      "art": "🧥",
+      "audio": "/assets/audio/weekly/dressed-question-0.mp3",
+      "nextLabel": "Say the answer"
+    },
+    {
+      "id": "answer-0",
+      "step": "speaking",
+      "type": "action",
+      "title": "Listen and answer",
+      "text": "I know how to put on my jacket.",
+      "translation": "我会穿上我的外套。",
+      "art": "🧥",
+      "audio": "/assets/audio/weekly/dressed-answer-0.mp3",
+      "reward": 1,
+      "nextLabel": "Next"
+    },
+    {
+      "id": "question-1",
+      "step": "speaking",
+      "type": "action",
+      "title": "Listen and ask",
+      "text": "Do you know how to take off your jacket?",
+      "translation": "你会脱下你的外套吗？",
+      "art": "🧥",
+      "audio": "/assets/audio/weekly/dressed-question-1.mp3",
+      "nextLabel": "Say the answer"
+    },
+    {
+      "id": "answer-1",
+      "step": "speaking",
+      "type": "action",
+      "title": "Listen and answer",
+      "text": "I know how to take off my jacket.",
+      "translation": "我会脱下我的外套。",
+      "art": "🧥",
+      "audio": "/assets/audio/weekly/dressed-answer-1.mp3",
+      "reward": 1,
+      "nextLabel": "Next"
+    },
+    {
+      "id": "question-2",
+      "step": "speaking",
+      "type": "action",
+      "title": "Listen and ask",
+      "text": "Do you know how to zip up your jacket?",
+      "translation": "你会拉上外套的拉链吗？",
+      "art": "🧥",
+      "audio": "/assets/audio/weekly/dressed-question-2.mp3",
+      "nextLabel": "Say the answer"
+    },
+    {
+      "id": "answer-2",
+      "step": "speaking",
+      "type": "action",
+      "title": "Listen and answer",
+      "text": "I know how to zip up my jacket.",
+      "translation": "我会拉上外套的拉链。",
+      "art": "🧥",
+      "audio": "/assets/audio/weekly/dressed-answer-2.mp3",
+      "reward": 1,
+      "nextLabel": "Next"
+    },
+    {
+      "id": "question-3",
+      "step": "speaking",
+      "type": "action",
+      "title": "Listen and ask",
+      "text": "Do you know how to button up your jacket?",
+      "translation": "你会扣上外套的纽扣吗？",
+      "art": "🧥",
+      "audio": "/assets/audio/weekly/dressed-question-3.mp3",
+      "nextLabel": "Say the answer"
+    },
+    {
+      "id": "answer-3",
+      "step": "speaking",
+      "type": "action",
+      "title": "Listen and answer",
+      "text": "I know how to button up my jacket.",
+      "translation": "我会扣上外套的纽扣。",
+      "art": "🧥",
+      "audio": "/assets/audio/weekly/dressed-answer-3.mp3",
+      "reward": 1,
+      "nextLabel": "Next"
+    },
+    {
+      "id": "question-4",
+      "step": "speaking",
+      "type": "action",
+      "title": "Listen and ask",
+      "text": "Do you know how to hang up your jacket?",
+      "translation": "你会挂起你的外套吗？",
+      "art": "🧥",
+      "audio": "/assets/audio/weekly/dressed-question-4.mp3",
+      "nextLabel": "Say the answer"
+    },
+    {
+      "id": "answer-4",
+      "step": "speaking",
+      "type": "action",
+      "title": "Listen and answer",
+      "text": "I know how to hang up my jacket.",
+      "translation": "我会挂起我的外套。",
+      "art": "🧥",
+      "audio": "/assets/audio/weekly/dressed-answer-4.mp3",
+      "reward": 1,
+      "nextLabel": "Next"
+    },
+    {
+      "id": "phonics-f-ff",
+      "step": "phonics",
+      "type": "sound-examples",
+      "title": "Final consonants: f / ff",
+      "text": "Words ending in f and ff have the same ending sound. Listen to the words.",
+      "translation": "词尾 f 和 ff 都发 /f/。点 f 或 ff，依次听例词。",
+      "audio": "/assets/audio/weekly/dressed-phonics-intro.mp3",
+      "groups": [
+        {
+          "label": "f",
+          "words": [
+            {
+              "text": "chef",
+              "audio": "/assets/audio/weekly/dressed-phonics-chef.mp3"
+            },
+            {
+              "text": "loaf",
+              "audio": "/assets/audio/weekly/dressed-phonics-loaf.mp3"
+            },
+            {
+              "text": "leaf",
+              "audio": "/assets/audio/weekly/dressed-phonics-leaf.mp3"
+            },
+            {
+              "text": "scarf",
+              "audio": "/assets/audio/weekly/dressed-phonics-scarf.mp3"
+            }
+          ]
+        },
+        {
+          "label": "ff",
+          "words": [
+            {
+              "text": "sniff",
+              "audio": "/assets/audio/weekly/dressed-phonics-sniff.mp3"
+            },
+            {
+              "text": "off",
+              "audio": "/assets/audio/weekly/dressed-phonics-off.mp3"
+            },
+            {
+              "text": "puff",
+              "audio": "/assets/audio/weekly/dressed-phonics-puff.mp3"
+            },
+            {
+              "text": "staff",
+              "audio": "/assets/audio/weekly/dressed-phonics-staff.mp3"
+            }
+          ]
+        }
+      ],
+      "nextLabel": "Finish"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "id": "dizigui-gentle-reminders",
+  "version": 1,
+  "category": "dizigui",
+  "title": "亲爱我，孝何难",
+  "description": "读原文，学习关心家人，温和地表达不同意见。",
+  "language": {
+    "content": "zh-CN",
+    "guidance": "zh-CN"
+  },
+  "presentation": {
+    "theme": "hanfu",
+    "art": "📖"
+  },
+  "intro": {
+    "text": "酥酥，我们一起读《弟子规》，学着关心家人、温和地说话。",
+    "audio": "/chinese/assets/audio/dizigui-gentle-reminders-intro.mp3",
+    "buttonLabel": "听听原文"
+  },
+  "completion": {
+    "text": "读过了，真棒！",
+    "audio": "/chinese/assets/audio/zh-finish.mp3",
+    "buttonLabel": "再读一次"
+  },
+  "content": {
+    "kind": "passage",
+    "lines": [
+      {
+        "id": "line-1",
+        "text": "亲爱我，孝何难？亲憎我，孝方贤。",
+        "audio": "/chinese/assets/audio/dizigui-gentle-line-1.mp3",
+        "explanation": "家人疼爱我们时，关心他们很容易；有时家人不高兴，也可以好好表达关心。有委屈可以说出来，找信任的大人帮忙。"
+      },
+      {
+        "id": "line-2",
+        "text": "亲有过，谏使更，怡吾色，柔吾声。",
+        "audio": "/chinese/assets/audio/dizigui-gentle-line-2.mp3",
+        "explanation": "家人也会犯错。发现问题，可以用平和的表情、温柔的声音提醒他们改正。"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "listen",
+      "step": "listen",
+      "type": "read-along",
+      "title": "听听原文",
+      "text": "点一句可以单独听，也可以听全文。",
+      "lineIds": [
+        "line-1",
+        "line-2"
+      ],
+      "nextLabel": "读懂原文"
+    },
+    {
+      "id": "understand",
+      "step": "understand",
+      "type": "explanation",
+      "title": "生活里的小道理",
+      "text": "和家人一起读一读，想一想。",
+      "lineIds": [
+        "line-1",
+        "line-2"
+      ],
+      "nextLabel": "接着练一练"
+    },
+    {
+      "id": "story-reminder",
+      "step": "story",
+      "type": "choice",
+      "title": "生活小故事",
+      "text": "爸爸忘了关水龙头，你可以怎么提醒他？",
+      "audio": "/chinese/assets/audio/dizigui-gentle-question.mp3",
+      "choices": [
+        {
+          "value": "gentle",
+          "label": "爸爸，水龙头还开着，我们一起关好吧。"
+        },
+        {
+          "value": "shout",
+          "label": "大声责怪：你怎么又忘了！"
+        }
+      ],
+      "answer": "gentle",
+      "answerText": "用温和的声音提醒：爸爸，水龙头还开着，我们一起关好吧。",
+      "answerAudio": "/chinese/assets/audio/dizigui-gentle-answer.mp3",
+      "reward": 1,
+      "nextLabel": "跟着读一读"
+    },
+    {
+      "id": "repeat",
+      "step": "repeat",
+      "type": "line-practice",
+      "title": "一句句跟读",
+      "text": "先听一句，再自己读一句。",
+      "lineIds": [
+        "line-1",
+        "line-2"
+      ],
+      "reward": 1,
+      "nextLabel": "我读过了"
+    }
+  ]
+}

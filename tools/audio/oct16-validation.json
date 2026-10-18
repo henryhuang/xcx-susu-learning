@@ -1,0 +1,392 @@
+[
+  {
+    "path": "/assets/audio/weekly/english-getting-dressed-intro.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "Hi, Susie! Let's learn how to get dressed and put our clothes away!",
+    "bytes": 20469,
+    "durationSeconds": 6.696,
+    "maxVolumeDb": -5.4,
+    "sha256": "9ba263f98245c6035a07a0d630c7c00c6eedeadf41b8f5a2997b709296b0f33b",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-word-0.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "put on",
+    "bytes": 5997,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -6.2,
+    "sha256": "0fe46afc51eec8f9b0813a584fe0943823d72884adfde2e54c2f86de5e38e2e6",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-word-1.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "take off",
+    "bytes": 5997,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -7.5,
+    "sha256": "9fc6c74f0dabfdec209fcbea2b65eed28235132ca9907aa87114d035b22b18f3",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-word-2.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "hang up",
+    "bytes": 5997,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -7.1,
+    "sha256": "62430a0fb3b69d8b27023a486d339d3dc79aca1f2542a115a35139077bb47336",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-word-3.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "tie",
+    "bytes": 5997,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -6.9,
+    "sha256": "24e3ddb58756a087d30c6798aaf118cb4d41214fc5f00cef4f880af51fa07c97",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-word-4.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "zip up",
+    "bytes": 5997,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -4.1,
+    "sha256": "33f78b99ad85fa9181b2f972e741e1af06bd0223d212e4f0cbac6d6eb5fe87b8",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-word-5.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "button up",
+    "bytes": 5997,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -4.9,
+    "sha256": "82d44da3508c3d33da87f15ce914c3b24e4414a0272be21c486b45fc0e179b78",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-word-6.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "know",
+    "bytes": 5997,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -7.0,
+    "sha256": "95855a46ad9e2c2d99d0ab2270a6aa9bcd58454b3d67cc9b0ba2d290840f8139",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-word-7.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "jacket",
+    "bytes": 5997,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -5.3,
+    "sha256": "6a0811a09cfc99fb274cf8d7d3ec09bfad4daa2be8364f4739b6a883edfbf168",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-word-8.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "fold",
+    "bytes": 5997,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -8.8,
+    "sha256": "0795c511f5e2de2d002e91a863ed7596ad265c662eac6d4a225767c67f8a4941",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-question-0.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "Do you know how to put on your jacket?",
+    "bytes": 10173,
+    "durationSeconds": 3.264,
+    "maxVolumeDb": -5.2,
+    "sha256": "b585501c07ced57023987296eae230e791fe7a9f395f06212016fb0e18702494",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-answer-0.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "I know how to put on my jacket.",
+    "bytes": 9957,
+    "durationSeconds": 3.192,
+    "maxVolumeDb": -5.8,
+    "sha256": "4c4141ed20efcec543e0a99403b4a900c7475a8f385752571cad05e82e0dbbe9",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-question-1.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "Do you know how to take off your jacket?",
+    "bytes": 10533,
+    "durationSeconds": 3.384,
+    "maxVolumeDb": -5.5,
+    "sha256": "defe7c3f8f97c326c70fa9b525c616bd99576e7e6bffb2eed6ad57f8862d2ce4",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-answer-1.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "I know how to take off my jacket.",
+    "bytes": 10461,
+    "durationSeconds": 3.36,
+    "maxVolumeDb": -4.7,
+    "sha256": "a1d483bf181df4828acc0a3e79430ff0a3996e6f965a3f2576dfcfdb97c0af54",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-question-2.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "Do you know how to zip up your jacket?",
+    "bytes": 10173,
+    "durationSeconds": 3.264,
+    "maxVolumeDb": -4.3,
+    "sha256": "a687c972c9a2bd164411fd6989562d8df4964fee5e4afdb262a0c291cf30d2d3",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-answer-2.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "I know how to zip up my jacket.",
+    "bytes": 10029,
+    "durationSeconds": 3.216,
+    "maxVolumeDb": -6.4,
+    "sha256": "71f9fadfaa7e2f43207a2ee7623e87383676e49488add01dd28754fc3d6b687f",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-question-3.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "Do you know how to button up your jacket?",
+    "bytes": 10605,
+    "durationSeconds": 3.408,
+    "maxVolumeDb": -5.8,
+    "sha256": "52abdee122dbedda81cc0439643f5979fe0c7417fc42c30b501ec671380c4d9e",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-answer-3.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "I know how to button up my jacket.",
+    "bytes": 10389,
+    "durationSeconds": 3.336,
+    "maxVolumeDb": -5.3,
+    "sha256": "14e99335de035e3715072d1c859d9877953af4058413ffdfc0b16964a521275e",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-question-4.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "Do you know how to hang up your jacket?",
+    "bytes": 10245,
+    "durationSeconds": 3.288,
+    "maxVolumeDb": -5.3,
+    "sha256": "ee6925016d109649615ccc3e71558454c57a75ab32d03905865afb47548cdddc",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-answer-4.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "I know how to hang up my jacket.",
+    "bytes": 10101,
+    "durationSeconds": 3.24,
+    "maxVolumeDb": -5.1,
+    "sha256": "7c171a3c52436ddf6d6196d04aa6d4ee99cfaf6533bf0c6545c3ba53a908db23",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-phonics-chef.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "chef",
+    "bytes": 5997,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -7.4,
+    "sha256": "7d05c493de088b41e6039c55c3dc9e496549e590a0936fe81b16b9b141820341",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-phonics-loaf.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "loaf",
+    "bytes": 5997,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -7.5,
+    "sha256": "f518cb032070faaa5778f99055b46bca9041642b08d56cf270d8792fe896bbc7",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-phonics-leaf.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "leaf",
+    "bytes": 5997,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -8.4,
+    "sha256": "ac3b09d328647a06fe3b197c23ad1b8727f01d35f784b2a98708bb9dbec45e59",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-phonics-scarf.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "scarf",
+    "bytes": 5997,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -5.5,
+    "sha256": "ca03b4bda15e3060ac89baf47e5c5469ada51bc6a618cc076437aa6fe458333b",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-phonics-sniff.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "sniff",
+    "bytes": 5997,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -6.6,
+    "sha256": "cc694b5c0166566a4364e1eaee27757499f93a3b9727ae527dfa700ddfdd1b87",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-phonics-off.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "off",
+    "bytes": 5997,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -7.6,
+    "sha256": "108c6c0db7beb68f7450b5ced19323853f934811e349261ae78e25959cfe2956",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-phonics-puff.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "puff",
+    "bytes": 5997,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -7.1,
+    "sha256": "d1abac2b22697be8b33fbec5ec0602dc1e25f83d0608d139d14989f65fd6e088",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-phonics-staff.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "staff",
+    "bytes": 5997,
+    "durationSeconds": 1.872,
+    "maxVolumeDb": -4.6,
+    "sha256": "2d41be3e0d95533a266171373ee740d5c8d171ebbc86577ae209135a3c483495",
+    "decoded": true
+  },
+  {
+    "path": "/assets/audio/weekly/dressed-phonics-intro.mp3",
+    "voice": "en-US-AnaNeural",
+    "text": "Words ending in f and double f have the same ending sound. Listen to the words.",
+    "bytes": 24141,
+    "durationSeconds": 7.92,
+    "maxVolumeDb": -5.8,
+    "sha256": "54d4d7ea7d3e99fb757226557cc93e1c98d28b84079ecef08fcc25ed4339abe2",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/poem-jizengxiaofan-intro.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "text": "酥酥，我们一起读一读刘禹锡的《寄赠小樊》吧！",
+    "bytes": 16653,
+    "durationSeconds": 5.424,
+    "maxVolumeDb": -3.1,
+    "sha256": "ff863529c7aac26ce8dec7fb5ecb1d5a29d60487e967911893bb8b7ef74ddc6f",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/poem-jizengxiaofan-line-1.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "text": "花面丫头十三四",
+    "bytes": 8805,
+    "durationSeconds": 2.808,
+    "maxVolumeDb": -3.9,
+    "sha256": "6e41a2d9e8ab3172091f6d717a7d8bc7d828f615e45ce08c6bf8eac4d09b742a",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/poem-jizengxiaofan-line-2.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "text": "春来绰约向人时",
+    "bytes": 8877,
+    "durationSeconds": 2.832,
+    "maxVolumeDb": -4.7,
+    "sha256": "655858f4772ceba8932e032f1837bacb97d2f398f3c67139257276b1e77fbeab",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/poem-jizengxiaofan-line-3.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "text": "终须买取名春草",
+    "bytes": 8445,
+    "durationSeconds": 2.688,
+    "maxVolumeDb": -6.9,
+    "sha256": "fc8f57e47d75f06d71b50f5e5d268090d04f5a5c9b19373cd95f0bce874f70fe",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/poem-jizengxiaofan-line-4.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "text": "处处将行步步随",
+    "bytes": 8877,
+    "durationSeconds": 2.832,
+    "maxVolumeDb": -5.6,
+    "sha256": "ace0ae66d3b7d4b0f511a718feaea2bb53472f9b3dcc0a4fba5eb4c909f884de",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-gentle-reminders-intro.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "text": "酥酥，我们一起读《弟子规》，学着关心家人、温和地说话。",
+    "bytes": 20469,
+    "durationSeconds": 6.696,
+    "maxVolumeDb": -3.6,
+    "sha256": "b6162f3128785a758a6d727228bd77d7c9cd34009fc0a6e3602ce4fb0847bb6b",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-gentle-line-1.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "text": "亲爱我，孝何难？亲憎我，孝方贤。",
+    "bytes": 16797,
+    "durationSeconds": 5.472,
+    "maxVolumeDb": -5.1,
+    "sha256": "f7eb3ae65541482be2cd5a11a882e08e0f6937abee1d9f6aaad5825d4c771d62",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-gentle-line-2.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "text": "亲有过，谏使更，怡吾色，柔吾声。",
+    "bytes": 14349,
+    "durationSeconds": 4.656,
+    "maxVolumeDb": -3.5,
+    "sha256": "2e49e81737cc02e4386c4606ec0b21aebdd62a13ba24d091fec05f4a803c2a73",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-gentle-question.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "text": "爸爸忘了关水龙头，你可以怎么提醒他？",
+    "bytes": 13917,
+    "durationSeconds": 4.512,
+    "maxVolumeDb": -5.1,
+    "sha256": "fe9e325567ac53eb53ae4249ee33039d722638ff82af04e787dbc58a180f0cb3",
+    "decoded": true
+  },
+  {
+    "path": "/chinese/assets/audio/dizigui-gentle-answer.mp3",
+    "voice": "zh-CN-XiaoshuangNeural",
+    "text": "用温和的声音提醒：爸爸，水龙头还开着，我们一起关好吧。",
+    "bytes": 21837,
+    "durationSeconds": 7.152,
+    "maxVolumeDb": -4.5,
+    "sha256": "9a51a00a840e5ee5ccdf76920b75ff90fff7543d21f732524670b8b6e9ce40df",
+    "decoded": true
+  }
+]

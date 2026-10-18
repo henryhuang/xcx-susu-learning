@@ -3,8 +3,8 @@ require('../config/courses').latestUrl='';
 const assert=require('assert'),fs=require('fs'),path=require('path');
 const root=path.resolve(__dirname,'..'),clone=x=>JSON.parse(JSON.stringify(x));
 // Keep regression coverage for all existing courses, including weeks with only one category.
-const fixture={manifest:{schemaVersion:2,revision:8,latestWeekId:'2026-09-30',weeks:[]},weeks:{},lessons:{}};
-for(const id of ['2026-09-30','2026-09-24','2026-09-18','2026-09-11']){
+const fixture={manifest:{schemaVersion:2,revision:9,latestWeekId:'2026-10-16',weeks:[]},weeks:{},lessons:{}};
+for(const id of ['2026-10-16','2026-09-30','2026-09-24','2026-09-18','2026-09-11']){
  const w=JSON.parse(fs.readFileSync(path.join(root,'courses/weeks/'+id+'.json')));
  fixture.manifest.weeks.push({id,reportDate:w.reportDate,title:w.title,url:'weeks/'+id+'.json'});fixture.weeks[id]=w;
  for(const item of w.items)fixture.lessons[item.lesson.id]=JSON.parse(fs.readFileSync(path.join(root,'courses',item.lesson.url)));
@@ -23,13 +23,13 @@ const answer=(p,v)=>p.choose({currentTarget:{dataset:{answer:v}}});
  pages.forEach(p=>['js','wxml','wxss','json'].forEach(e=>assert(fs.existsSync(path.join(root,p+'.'+e)))));
  const map=require('../data/audio-map');Object.values(map).forEach(s=>assert(fs.existsSync(path.join(root,s.slice(1)))));
  audio.play('star');audio.play('diamond');assert.equal(active,1);audio.stop();assert.equal(active,0);assert.equal(audio.play('javascript:alert(1)'),false);
- const catalog=courses.catalog();assert.equal(catalog.manifest.schemaVersion,2);assert.equal(catalog.manifest.weeks.length,4);assert.equal(catalog.manifest.latestWeekId,'2026-09-30');
+ const catalog=courses.catalog();assert.equal(catalog.manifest.schemaVersion,2);assert.equal(catalog.manifest.weeks.length,5);assert.equal(catalog.manifest.latestWeekId,'2026-10-16');
  const thisWeek=courses.week('2026-09-30');assert.equal(thisWeek.items.length,1);assert.equal(thisWeek.items[0].category,'english');
  const ants=courses.lesson('english-ants-and-pants');assert.equal(ants.version,2);assert.deepEqual(ants.activities.filter(a=>a.step==='words').map(a=>a.text),['dolphin','dress','kangaroo','socks','shoes','ant','pants']);assert.deepEqual(ants.activities.filter(a=>a.step==='patterns').map(a=>a.text),['I like pink.',"I don't like red."]);assert.deepEqual(ants.activities.filter(a=>a.step==='speaking').map(a=>a.text),['I like ants...in yellow pants.',"I don't like yellow. I like green.",'An ant in green pants?','Did you do this? Good job!']);
  const parents=courses.lesson('dizigui-parents'),daily=courses.lesson('dizigui-daily-and-small'),small=courses.lesson('dizigui-small-things');
  assert([parents,daily,small].every(l=>l.version===2));assert.equal(daily.content.lines[2].explanation,small.content.lines[0].explanation);
  assert(daily.content.lines[0].explanation.includes('父母'));assert(daily.content.lines[1].explanation.includes('回来当面报平安'));assert(small.content.lines[1].explanation.includes('私自拿走藏起来'));
- const ids=new Set(catalog.manifest.weeks.flatMap(e=>courses.week(e.id).items.map(i=>i.lesson.id)));assert.equal(ids.size,10);
+ const ids=new Set(catalog.manifest.weeks.flatMap(e=>courses.week(e.id).items.map(i=>i.lesson.id)));assert.equal(ids.size,13);
  for(const id of ids){
   let p=await page(id,'2026-09-24');assert.equal(p.data.phase,'welcome');assert.equal(p.data.theme,p.lesson.category==='english'?'poppy':'hanfu');assert(p.data.playingKey.startsWith('/'));
   p.start();let count=0;
@@ -44,7 +44,7 @@ const answer=(p,v)=>p.choose({currentTarget:{dataset:{answer:v}}});
     const stale=contexts.at(-1);p.onHide();const n=contexts.length;stale.end();assert.equal(contexts.length,n,'hidden page started next audio');assert.equal(active,0);p.onShow();
     p.playLine({currentTarget:{dataset:{id:p.data.lines[0].id}}});assert.equal(contexts.at(-1).src,p.data.lines[0].audio);
    }
-   if(a.type==='sound-examples'){p.revealExample({currentTarget:{dataset:{group:0}}});assert.equal(p.data.exampleWord,'look');p.revealExample({currentTarget:{dataset:{group:0}}});assert.equal(p.data.exampleWord,'cook');}
+   if(a.type==='sound-examples'){for(const [group,g] of a.groups.entries()){for(const w of [...g.words,g.words[0]]){p.revealExample({currentTarget:{dataset:{group}}});assert.equal(p.data.exampleWord,w.text);assert.equal(contexts.at(-1).src,w.audio);assert.equal(active,1);}}}
    if(a.type==='line-practice'&&p.data.lineIndex===0){
     const cursor=p.data.cursor;p.next();assert.equal(p.data.lineIndex,1);assert.equal(p.data.cursor,cursor);p.onUnload();p=await page(id);assert.equal(p.data.lineIndex,1);p.previousLine();assert.equal(p.data.lineIndex,0);p.next();
    }
@@ -65,12 +65,12 @@ const answer=(p,v)=>p.choose({currentTarget:{dataset:{answer:v}}});
  for(const mutate of badMutations){const bad=clone(l);mutate(bad);assert.throws(()=>protocol.validateLesson(bad));}
  const badLine=clone(courses.lesson('poem-cunju'));badLine.activities[0].lineIds=['missing'];assert.throws(()=>protocol.validateLesson(badLine));
  const badAnswer=clone(l);badAnswer.activities.find(a=>a.type==='choice').answer='missing';assert.throws(()=>protocol.validateLesson(badAnswer));
- let home=definition('../pages/home/index.js');home={...home,data:clone(home.data),setData(v){Object.assign(this.data,v);}};home.onLoad();home.onShow();assert.equal(home.data.lessons.length,1);assert.equal(home.data.week.id,'2026-09-30');assert.equal(home.data.lessons[0].id,'english-ants-and-pants');
+ let home=definition('../pages/home/index.js');home={...home,data:clone(home.data),setData(v){Object.assign(this.data,v);}};home.onLoad();home.onShow();assert.equal(home.data.lessons.length,3);assert.equal(home.data.week.id,'2026-10-16');assert.equal(home.data.lessons[0].id,'english-getting-dressed');
  home.selectWeek({currentTarget:{dataset:{id:'2026-09-24'}}});assert.equal(home.data.lessons.length,3);
  assert.equal(home.data.lessons.find(l=>l.id==='body').completed,false);home.onHide();cp.save(courses.lesson('body'),{cursor:courses.lesson('body').activities.length,awarded:[],completed:true,bestStars:10});home.onShow();assert.equal(home.data.lessons.find(l=>l.id==='body').completed,true);assert.equal(home.data.lessons.find(l=>l.id==='body').status,'再练一次 →');assert.equal(home.data.lessons.find(l=>l.id==='poem-cunju').completed,false);
  home.selectWeek({currentTarget:{dataset:{id:'2026-09-11'}}});assert.equal(home.data.lessons[0].id,'english-evening');home.goLesson({currentTarget:{dataset:{id:'poem-tixilinbi'}}});assert(routes.at(-1).includes('/chinese/pages/lesson/index?id=poem-tixilinbi&weekId=2026-09-11'));
  home.hello();assert.equal(contexts.at(-1).src,'/assets/audio/home-hello.mp3');home.onUnload();assert.equal(active,0);home.onShow();assert.equal(home.data.week.id,'2026-09-11');home.onUnload();
  // Step rewind removes only current/later work and retains previous rewards.
  let p=await page('dizigui-small-things');p.start();p.next();p.next();answer(p,p.data.activity.answer);p.next();p.next();p.next();assert.equal(p.data.phase,'finish');assert.equal(p.data.stars,2);p.reset('step');assert.equal(p.data.activity.type,'line-practice');assert.equal(p.data.stars,1);p.onUnload();
- console.log('Passed: 4 weeks / 10 local lessons, English and Chinese flows, sequential audio cancellation, line resume, progress migration, rewards, restart, languages, subpackage routing, sharing and strict schema validation.');
+ console.log('Passed: 5 weeks / 13 local lessons, English and Chinese flows, sequential audio cancellation, line resume, progress migration, rewards, restart, languages, subpackage routing, sharing and strict schema validation.');
 })().catch(e=>{console.error(e);process.exitCode=1;});
