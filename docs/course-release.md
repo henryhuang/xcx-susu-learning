@@ -2,7 +2,24 @@
 
 小程序有内置课程作为首次使用和缓存失效时的备用。远程更新通过 `miniprogram/config/courses.js` 的 `latestUrl` 获取资源包索引。若要关闭网络更新，将该地址设为空字符串并重新构建小程序。
 
-## GitHub Actions 发布
+## 当前发布方式：本机直接上传
+
+当前使用本机已有的 SSH 密钥，通过 `scp` 将课程包上传到服务器的
+`/app/mivora/susu-learning/`，由 `https://mivora.cnhalo.com/susu-learning/` 提供下载。
+这条路径不依赖 GitHub Actions，也不需要配置 GitHub Secrets。
+SSH 登录目标沿用已有服务器配置；不要根据网站域名猜测登录目标或账号。
+
+完成下文的本地验证和资源包导出后，按以下顺序发布：
+
+1. 读取线上 `latest.json`，确认新修订号更大。
+2. 上传 ZIP 到临时文件，在服务器校验 MD5 后再改为正式文件名；已有正式 ZIP 必须保持不变。
+3. 通过 HTTPS 下载正式 ZIP，核对大小、MD5 和课程内容。
+4. 上传 `latest.json` 到临时文件，再在同一目录用 `mv` 原子替换正式索引。
+5. 重新下载线上索引和资源包，确认默认课程日期、音频和校验和；在小程序点击“更新课程”。
+
+下面的 GitHub Actions 是备用发布方式，目前尚未配置服务器 Secrets；仅推送代码不会更新线上课程。
+
+## 备用方式：GitHub Actions 发布
 
 仓库的 **Publish courses** 工作流可在 GitHub Actions 页面手动触发，仅从 `main` 分支发布。它以 `miniprogram/courses/latest.json` 的 `revision` 为准，重新构建并运行本地检查，生成资源包，比较线上修订号，然后先上传 ZIP、验证 HTTPS 下载校验和，最后原子替换线上 `latest.json`。线上修订号相同且 ZIP 校验和相同会直接结束；相同修订号对应不同内容或线上版本更新时会报错。
 
