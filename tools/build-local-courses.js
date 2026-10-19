@@ -14,3 +14,11 @@ for(const entry of manifest.weeks){
 }
 fs.writeFileSync(path.join(root,'data/local-courses.js'),serialize({manifest,weeks,lessons}));
 console.log(`Built local data: ${Object.keys(weeks).length} weeks / ${Object.keys(lessons).length} lessons.`);
+
+// 后端只接受已发布课程清单里的目标；与客户端数据一起构建。
+const speechCatalog={};
+for(const lesson of Object.values(lessons))for(const activity of lesson.activities){
+ if(activity.speech)speechCatalog[`${lesson.id}:${lesson.version}:${activity.id}`]={text:activity.text,mode:activity.speech.mode};
+}
+fs.writeFileSync(path.resolve(__dirname,'../cloudfunctions/speech-evaluate/catalog.json'),JSON.stringify(speechCatalog,null,2)+'\n');
+console.log(`Built speech allowlist: ${Object.keys(speechCatalog).length} activities.`);

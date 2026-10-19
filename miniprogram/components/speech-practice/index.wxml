@@ -1,0 +1,35 @@
+<view class="practice {{celebrating?'celebrating':''}}">
+  <view class="award-frame {{celebrating?'award-reveal':''}}" aria-label="{{starCount}} out of 3 stars" aria-live="polite">
+    <view class="award-glow" aria-hidden="{{true}}"></view>
+    <view class="award-stars">
+      <text wx:for="{{stars}}" wx:key="*this" class="award-star star-{{index}} {{item<=starCount?'star-filled':'star-empty'}}" aria-hidden="{{true}}">{{item<=starCount?'★':'☆'}}</text>
+    </view>
+    <view wx:if="{{celebrating}}" class="award-sparks" aria-hidden="{{true}}"><view class="spark spark-a"></view><view class="spark spark-b"></view><view class="spark spark-c"></view><view class="spark spark-d"></view></view>
+  </view>
+  <text wx:if="{{result}}" class="well-done" aria-live="polite">Well done! Keep practising.</text>
+  <view wx:if="{{state==='recording'}}" class="recording-status" aria-live="polite">
+    <view class="voice-wave" aria-hidden="{{true}}"><view class="wave-bar bar-a"></view><view class="wave-bar bar-b"></view><view class="wave-bar bar-c"></view><view class="wave-bar bar-d"></view><view class="wave-bar bar-e"></view></view>
+    <text class="practice-status">Recording · {{seconds}} / 15 s</text>
+  </view>
+  <text class="practice-status" aria-live="polite" wx:elif="{{state==='preparing'}}">Getting ready…</text>
+  <text class="practice-status scoring-status" aria-live="polite" wx:elif="{{state==='scoring'}}">Listening to your voice…</text>
+  <view class="buttons">
+    <button wx:if="{{state==='recording'}}" class="record stop" bindtap="stopRecord" aria-label="Stop recording"><view class="stop-icon" aria-hidden="{{true}}"></view><text>Stop</text></button>
+    <button wx:else class="record {{state!=='idle'?'inactive':''}}" disabled="{{state!=='idle'}}" bindtap="startRecord" aria-label="{{clip?'Record again':'Record your voice'}}"><view class="mic-icon" aria-hidden="{{true}}"><view class="mic-head"></view><view class="mic-cup"></view><view class="mic-stem"></view></view><text>{{clip?'Try again':'Record'}}</text></button>
+    <button wx:if="{{clip}}" class="play {{state!=='idle'?'inactive':''}}" disabled="{{state!=='idle'}}" bindtap="playMine" aria-label="{{playing?'Stop playback':'Play your recording'}}"><text class="play-icon" aria-hidden="{{true}}">{{playing?'■':'▶'}}</text><text>{{playing?'Stop replay':'Play mine'}}</text></button>
+  </view>
+  <button wx:if="{{saved}}" class="details" disabled="{{state!=='idle'}}" bindtap="playSaved">{{savedPlaying?'Stop replay':'▶ Play saved'}}</button>
+  <text wx:if="{{savingRecording}}" class="practice-status">Saving your recording…</text>
+  <view wx:if="{{saveFailed}}"><text class="message">Your score is saved. Your recording needs another try.</text><button class="details" disabled="{{state!=='idle'}}" bindtap="retrySave">Save recording again</button></view>
+  <text wx:if="{{state==='saving' || state==='loading'}}" class="practice-status">{{state==='saving'?'Saving your voice…':'Opening your recording…'}}</text>
+  <text wx:if="{{message}}" class="message" aria-live="polite">{{message}}</text>
+  <button wx:if="{{permission}}" class="details" bindtap="openSettings">Microphone settings</button>
+  <button wx:if="{{result || best!==null || errorCode}}" class="details" bindtap="toggleDetails">{{details?'Hide scores':'Scores for grown-ups'}}</button>
+  <view wx:if="{{details}}" class="scores">
+    <text class="score-item" wx:if="{{errorCode}}">Service code: {{errorCode}}</text>
+    <text class="score-item" wx:if="{{result}}">This time: {{result.score}} / 100 · Accuracy: {{result.accuracy}} / 100</text>
+    <text class="score-item" wx:if="{{result && result.completion!==undefined}}">Completeness: {{result.completion}}% · Fluency: {{result.fluency}}%</text>
+    <text class="score-item" wx:if="{{saved}}">Saved recording: {{saved.score}} / 100</text>
+    <text class="score-item" wx:if="{{best!==null}}">Best: {{best}} / 100 · Scored practices: {{attempts}}</text>
+  </view>
+</view>

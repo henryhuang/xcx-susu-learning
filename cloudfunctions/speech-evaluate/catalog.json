@@ -1,0 +1,78 @@
+{
+  "english-getting-dressed:1:word-0": {
+    "text": "put on",
+    "mode": "sentence"
+  },
+  "english-getting-dressed:1:word-1": {
+    "text": "take off",
+    "mode": "sentence"
+  },
+  "english-getting-dressed:1:word-2": {
+    "text": "hang up",
+    "mode": "sentence"
+  },
+  "english-getting-dressed:1:word-3": {
+    "text": "tie",
+    "mode": "word"
+  },
+  "english-getting-dressed:1:word-4": {
+    "text": "zip up",
+    "mode": "sentence"
+  },
+  "english-getting-dressed:1:word-5": {
+    "text": "button up",
+    "mode": "sentence"
+  },
+  "english-getting-dressed:1:word-6": {
+    "text": "know",
+    "mode": "word"
+  },
+  "english-getting-dressed:1:word-7": {
+    "text": "jacket",
+    "mode": "word"
+  },
+  "english-getting-dressed:1:word-8": {
+    "text": "fold",
+    "mode": "word"
+  },
+  "english-getting-dressed:1:question-0": {
+    "text": "Do you know how to put on your jacket?",
+    "mode": "sentence"
+  },
+  "english-getting-dressed:1:answer-0": {
+    "text": "I know how to put on my jacket.",
+    "mode": "sentence"
+  },
+  "english-getting-dressed:1:question-1": {
+    "text": "Do you know how to take off your jacket?",
+    "mode": "sentence"
+  },
+  "english-getting-dressed:1:answer-1": {
+    "text": "I know how to take off my jacket.",
+    "mode": "sentence"
+  },
+  "english-getting-dressed:1:question-2": {
+    "text": "Do you know how to zip up your jacket?",
+    "mode": "sentence"
+  },
+  "english-getting-dressed:1:answer-2": {
+    "text": "I know how to zip up my jacket.",
+    "mode": "sentence"
+  },
+  "english-getting-dressed:1:question-3": {
+    "text": "Do you know how to button up your jacket?",
+    "mode": "sentence"
+  },
+  "english-getting-dressed:1:answer-3": {
+    "text": "I know how to button up my jacket.",
+    "mode": "sentence"
+  },
+  "english-getting-dressed:1:question-4": {
+    "text": "Do you know how to hang up your jacket?",
+    "mode": "sentence"
+  },
+  "english-getting-dressed:1:answer-4": {
+    "text": "I know how to hang up my jacket.",
+    "mode": "sentence"
+  }
+}

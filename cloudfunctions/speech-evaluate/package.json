@@ -1,0 +1,17 @@
+{
+  "name": "susu-speech-evaluate",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "music-metadata": "11.16.1",
+    "ws": "8.22.0",
+    "wx-server-sdk": "4.0.2"
+  }
+}

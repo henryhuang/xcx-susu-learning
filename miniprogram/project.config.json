@@ -52,5 +52,6 @@
     ],
     "include": []
   },
-  "editorSetting": {}
+  "editorSetting": {},
+  "cloudfunctionRoot": "../cloudfunctions/"
 }

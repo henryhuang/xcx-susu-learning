@@ -3,7 +3,8 @@
     "pages/home/index",
     "pages/shapes/index",
     "pages/body/index",
-    "pages/lesson/index"
+    "pages/lesson/index",
+    "pages/family/index"
   ],
   "window": {
     "navigationStyle": "custom",

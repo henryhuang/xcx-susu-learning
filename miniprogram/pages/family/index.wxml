@@ -1,0 +1,13 @@
+<view class="family">
+ <button bindtap="back">返回学习</button>
+ <view class="title">家长录音设置</view>
+ <view>{{allowed?'此微信账号已开通录音功能。':'此微信账号尚未开通录音功能，仍可正常听读和学习。'}}</view>
+ <view wx:if="{{allowed}}">当前录音档案：{{learnerId}}</view>
+ <view>每个账号使用家长指定的录音档案，相同档案 ID 的账号共用数据，不同档案互相隔离。每道跟读活动长期保留一份最高分录音，同分保留较新的一次；成绩和练习次数长期保存。</view>
+ <view wx:if="{{requestCode}}">账号申请码：{{requestCode}}</view>
+ <button wx:if="{{requestCode}}" bindtap="copy">复制申请码</button>
+ <button wx:if="{{!allowed && !requestCode}}" disabled="{{busy}}" bindtap="request">申请开通此账号</button>
+ <view wx:if="{{!allowed && requestCode}}">申请已登记。请由家长在云开发数据库中按此申请码批准，再点击刷新。</view>
+ <button disabled="{{busy}}" bindtap="refresh">{{busy?'读取中…':'刷新权限'}}</button>
+ <view>{{message}}</view>
+</view>

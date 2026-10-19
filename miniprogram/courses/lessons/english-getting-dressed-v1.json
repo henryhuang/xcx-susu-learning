@@ -32,7 +32,10 @@
       "text": "put on",
       "art": "🧥",
       "audio": "/assets/audio/weekly/dressed-word-0.mp3",
-      "nextLabel": "Next"
+      "nextLabel": "Next",
+      "speech": {
+        "mode": "sentence"
+      }
     },
     {
       "id": "word-1",
@@ -42,7 +45,10 @@
       "text": "take off",
       "art": "👕",
       "audio": "/assets/audio/weekly/dressed-word-1.mp3",
-      "nextLabel": "Next"
+      "nextLabel": "Next",
+      "speech": {
+        "mode": "sentence"
+      }
     },
     {
       "id": "word-2",
@@ -52,7 +58,10 @@
       "text": "hang up",
       "art": "🪝",
       "audio": "/assets/audio/weekly/dressed-word-2.mp3",
-      "nextLabel": "Next"
+      "nextLabel": "Next",
+      "speech": {
+        "mode": "sentence"
+      }
     },
     {
       "id": "word-3",
@@ -62,7 +71,10 @@
       "text": "tie",
       "art": "👟",
       "audio": "/assets/audio/weekly/dressed-word-3.mp3",
-      "nextLabel": "Next"
+      "nextLabel": "Next",
+      "speech": {
+        "mode": "word"
+      }
     },
     {
       "id": "word-4",
@@ -72,7 +84,10 @@
       "text": "zip up",
       "art": "🧥",
       "audio": "/assets/audio/weekly/dressed-word-4.mp3",
-      "nextLabel": "Next"
+      "nextLabel": "Next",
+      "speech": {
+        "mode": "sentence"
+      }
     },
     {
       "id": "word-5",
@@ -82,7 +97,10 @@
       "text": "button up",
       "art": "👔",
       "audio": "/assets/audio/weekly/dressed-word-5.mp3",
-      "nextLabel": "Next"
+      "nextLabel": "Next",
+      "speech": {
+        "mode": "sentence"
+      }
     },
     {
       "id": "word-6",
@@ -92,7 +110,10 @@
       "text": "know",
       "art": "💡",
       "audio": "/assets/audio/weekly/dressed-word-6.mp3",
-      "nextLabel": "Next"
+      "nextLabel": "Next",
+      "speech": {
+        "mode": "word"
+      }
     },
     {
       "id": "word-7",
@@ -102,7 +123,10 @@
       "text": "jacket",
       "art": "🧥",
       "audio": "/assets/audio/weekly/dressed-word-7.mp3",
-      "nextLabel": "Next"
+      "nextLabel": "Next",
+      "speech": {
+        "mode": "word"
+      }
     },
     {
       "id": "word-8",
@@ -112,7 +136,10 @@
       "text": "fold",
       "art": "👕",
       "audio": "/assets/audio/weekly/dressed-word-8.mp3",
-      "nextLabel": "Next"
+      "nextLabel": "Next",
+      "speech": {
+        "mode": "word"
+      }
     },
     {
       "id": "question-0",
@@ -122,7 +149,10 @@
       "text": "Do you know how to put on your jacket?",
       "art": "🧥",
       "audio": "/assets/audio/weekly/dressed-question-0.mp3",
-      "nextLabel": "Say the answer"
+      "nextLabel": "Say the answer",
+      "speech": {
+        "mode": "sentence"
+      }
     },
     {
       "id": "answer-0",
@@ -133,7 +163,10 @@
       "art": "🧥",
       "audio": "/assets/audio/weekly/dressed-answer-0.mp3",
       "reward": 1,
-      "nextLabel": "Next"
+      "nextLabel": "Next",
+      "speech": {
+        "mode": "sentence"
+      }
     },
     {
       "id": "question-1",
@@ -143,7 +176,10 @@
       "text": "Do you know how to take off your jacket?",
       "art": "🧥",
       "audio": "/assets/audio/weekly/dressed-question-1.mp3",
-      "nextLabel": "Say the answer"
+      "nextLabel": "Say the answer",
+      "speech": {
+        "mode": "sentence"
+      }
     },
     {
       "id": "answer-1",
@@ -154,7 +190,10 @@
       "art": "🧥",
       "audio": "/assets/audio/weekly/dressed-answer-1.mp3",
       "reward": 1,
-      "nextLabel": "Next"
+      "nextLabel": "Next",
+      "speech": {
+        "mode": "sentence"
+      }
     },
     {
       "id": "question-2",
@@ -164,7 +203,10 @@
       "text": "Do you know how to zip up your jacket?",
       "art": "🧥",
       "audio": "/assets/audio/weekly/dressed-question-2.mp3",
-      "nextLabel": "Say the answer"
+      "nextLabel": "Say the answer",
+      "speech": {
+        "mode": "sentence"
+      }
     },
     {
       "id": "answer-2",
@@ -175,7 +217,10 @@
       "art": "🧥",
       "audio": "/assets/audio/weekly/dressed-answer-2.mp3",
       "reward": 1,
-      "nextLabel": "Next"
+      "nextLabel": "Next",
+      "speech": {
+        "mode": "sentence"
+      }
     },
     {
       "id": "question-3",
@@ -185,7 +230,10 @@
       "text": "Do you know how to button up your jacket?",
       "art": "🧥",
       "audio": "/assets/audio/weekly/dressed-question-3.mp3",
-      "nextLabel": "Say the answer"
+      "nextLabel": "Say the answer",
+      "speech": {
+        "mode": "sentence"
+      }
     },
     {
       "id": "answer-3",
@@ -196,7 +244,10 @@
       "art": "🧥",
       "audio": "/assets/audio/weekly/dressed-answer-3.mp3",
       "reward": 1,
-      "nextLabel": "Next"
+      "nextLabel": "Next",
+      "speech": {
+        "mode": "sentence"
+      }
     },
     {
       "id": "question-4",
@@ -206,7 +257,10 @@
       "text": "Do you know how to hang up your jacket?",
       "art": "🧥",
       "audio": "/assets/audio/weekly/dressed-question-4.mp3",
-      "nextLabel": "Say the answer"
+      "nextLabel": "Say the answer",
+      "speech": {
+        "mode": "sentence"
+      }
     },
     {
       "id": "answer-4",
@@ -217,7 +271,10 @@
       "art": "🧥",
       "audio": "/assets/audio/weekly/dressed-answer-4.mp3",
       "reward": 1,
-      "nextLabel": "Next"
+      "nextLabel": "Next",
+      "speech": {
+        "mode": "sentence"
+      }
     },
     {
       "id": "phonics-f-ff",

@@ -25,6 +25,10 @@ function validateLesson(l){
   for(const a of l.activities){
     if(last!==a.step){if(steps.has(a.step))throw new Error('同一步骤必须连续');steps.add(a.step);last=a.step;}
     if(a.lineIds){unique(a.lineIds);if(a.lineIds.some(id=>!lineIds.has(id)))throw new Error('引用的原文句子不存在');}
+    if(a.speech){
+      if(l.category!=='english'||l.language.content!=='en-US'||!a.audio||!/^[-a-zA-Z0-9 .,!?;:'’]+$/.test(a.text))throw new Error('跟读须使用有示范音频的英文单词或短句');
+      const words=a.text.trim().split(/\s+/);if(words.length>30||a.speech.mode==='word'&&(words.length!==1||!/[a-zA-Z]/.test(a.text)))throw new Error('跟读文本与评测模式不匹配');
+    }
     if(a.type==='choice'){unique(a.choices.map(c=>c.value));if(!a.choices.some(c=>c.value===a.answer))throw new Error('答案不在选项中');}
   }
   if(l.category!=='english'&&(!l.content||l.language.content!=='zh-CN'||l.language.guidance!=='zh-CN'||l.presentation.theme!=='hanfu'))throw new Error('中文课程语言与形象配置不匹配');

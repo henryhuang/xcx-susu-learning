@@ -4,3 +4,6 @@ audio-candidates/
 work/
 __pycache__/
 .DS_Store
+# Cloud function dependencies and local secrets.
+cloudfunctions/**/node_modules/
+cloudfunctions/**/.env*

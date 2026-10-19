@@ -27,10 +27,13 @@ jobs:
         run: |
           set -euo pipefail
           node tools/build-local-courses.js
-          git diff --exit-code -- miniprogram/data/local-courses.js miniprogram/data/course-schemas.js
+          git diff --exit-code -- miniprogram/data/local-courses.js miniprogram/data/course-schemas.js cloudfunctions/speech-evaluate/catalog.json
           node tools/validate-courses.js
           node miniprogram/tests/smoke.js
           node miniprogram/tests/poppy.js
+          node miniprogram/tests/speech.js
+          node cloudfunctions/speech-evaluate/test.js
+          node cloudfunctions/speech-cleanup/test.js
           node tools/check-package-size.js
           revision=$(node -p "require('./miniprogram/courses/latest.json').revision")
           [[ "$revision" =~ ^[1-9][0-9]*$ ]]

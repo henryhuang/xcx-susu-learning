@@ -1,4 +1,4 @@
 App({
-  onLaunch() {},
-  onHide() { require('./services/audio').stop(); }
+  onLaunch() { require('./services/speech').clearPlaybackCache(); },
+  onHide() { require('./services/audio').stop(); require('./services/speech').cancelAll(); }
 });

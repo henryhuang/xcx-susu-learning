@@ -1,5 +1,5 @@
 <view class="page lesson-page {{theme==='hanfu'?'chinese-lesson':''}}">
-  <lesson-header title="{{lesson.title || '学习小冒险'}}" stars="{{stars}}" bind:back="back" bind:home="home" />
+  <lesson-header title="{{lesson.title || '学习小冒险'}}" stars="{{stars}}" show-stars="{{!speechTarget}}" bind:back="back" bind:home="home" />
   <view class="content">
     <view wx:if="{{loading}}" class="paper center"><text>正在准备本地课程…</text></view>
     <view wx:elif="{{error}}" class="paper center stack"><text class="muted">{{error}}</text><button class="primary" bindtap="retry">重新打开</button><button class="secondary" bindtap="home">回首页</button></view>
@@ -43,8 +43,9 @@
             <block wx:elif="{{activity.type==='sound-examples'}}">
               <poppy theme="{{theme}}" pose="listen" message="{{activity.text}}" /><view class="choice-row"><button wx:for="{{activity.groups}}" wx:key="label" class="choice" data-group="{{index}}" bindtap="revealExample">{{item.label}}</button></view><text class="big-word">{{exampleWord}}</text><sound-button wx:if="{{exampleAudio}}" label="{{ui.listenLine}}" playing="{{playingKey===exampleAudio}}" bind:play="playCurrent" />
             </block>
-            <poppy wx:elif="{{activity.type==='action'}}" theme="{{theme}}" pose="cheer" message="Let's move!" />
+            <poppy wx:elif="{{activity.type==='action'&&!speechTarget}}" theme="{{theme}}" pose="cheer" message="Let's move!" />
           </block>
+          <speech-practice wx:if="{{speechTarget}}" id="speech-practice" bind:denied="speechDenied" target="{{speechTarget}}" bind:recording="stopAudio" />
         </view>
         <button wx:if="{{activity.type!=='choice'||solved}}" class="primary gap-top" bindtap="next">{{activity.type==='line-practice'&&lineIndex<lines.length-1?'读过这句，下一句 →':(activity.nextLabel || (cursor===lesson.activities.length-1?ui.finish:ui.next))}}</button><restart-button label="{{ui.restart}}" bind:restart="restart" />
       </view>

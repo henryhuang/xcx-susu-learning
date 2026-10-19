@@ -1,5 +1,5 @@
 Component({
-  properties:{title:String,stars:{type:Number,value:0},home:{type:Boolean,value:false}},
+  properties:{title:String,showStars:{type:Boolean,value:true},stars:{type:Number,value:0},home:{type:Boolean,value:false}},
   data:{topStyle:''},
   lifetimes:{attached(){this.setData({topStyle:require('../../services/layout').headerStyle()});}},
   methods:{

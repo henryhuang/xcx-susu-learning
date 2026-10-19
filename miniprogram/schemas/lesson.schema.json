@@ -249,6 +249,21 @@
               },
               "type": {
                 "const": "word"
+              },
+              "speech": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "mode": {
+                    "enum": [
+                      "word",
+                      "sentence"
+                    ]
+                  }
+                },
+                "required": [
+                  "mode"
+                ]
               }
             },
             "required": [
@@ -319,6 +334,21 @@
               },
               "type": {
                 "const": "action"
+              },
+              "speech": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "mode": {
+                    "enum": [
+                      "word",
+                      "sentence"
+                    ]
+                  }
+                },
+                "required": [
+                  "mode"
+                ]
               }
             },
             "required": [

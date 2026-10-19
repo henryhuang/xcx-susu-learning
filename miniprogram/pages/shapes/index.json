@@ -5,6 +5,7 @@
     "progress-bar": "../../components/progress-bar/index",
     "sound-button": "../../components/sound-button/index",
     "feedback-card": "../../components/feedback-card/index",
-    "restart-button": "../../components/restart-button/index"
+    "restart-button": "../../components/restart-button/index",
+    "speech-practice": "../../components/speech-practice/index"
   }
 }

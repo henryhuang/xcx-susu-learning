@@ -4,7 +4,7 @@
 
 ## 开始使用
 
-1. 用微信开发者工具导入 [`miniprogram/`](miniprogram/) 目录。项目配置已包含 AppID；实际预览和上传需要有相应权限的微信账号。
+1. 用微信开发者工具导入仓库根目录 `xcx-susu-learning/`；根目录配置分别指向 `miniprogram/` 和 `cloudfunctions/`。项目配置已包含 AppID；实际预览和上传需要有相应权限的微信账号。
 2. 在首页按反馈单日期选择课程。当前目录中的默认日期由 [`miniprogram/courses/latest.json`](miniprogram/courses/latest.json) 的 `latestWeekId` 指定。
 3. 修改课程前，先阅读[课程编辑指南](docs/course-authoring.md)。
 
@@ -15,6 +15,9 @@ node tools/build-local-courses.js
 node tools/validate-courses.js
 node miniprogram/tests/smoke.js
 node miniprogram/tests/poppy.js
+node miniprogram/tests/speech.js
+node cloudfunctions/speech-evaluate/test.js
+node cloudfunctions/speech-cleanup/test.js
 node tools/check-package-size.js
 ```
 
@@ -44,5 +47,8 @@ node miniprogram/tests/remote-courses.js
 - [课程编辑指南](docs/course-authoring.md)
 - [资源包发布与验证](docs/course-release.md)
 - [音频制作说明](tools/audio/README.md)
+- [录音功能操作指南：账号、档案、部署、存储与定时器](docs/speech-operations.md)
+- [录音排错指南：错误码、日志与保存问题](docs/speech-troubleshooting.md)
+- [英语跟读评分技术说明](docs/speech-evaluation.md)
 
 课程 JSON 是内容源；`miniprogram/data/local-courses.js` 和 `course-schemas.js` 由构建脚本生成。远程课程配置位于 [`miniprogram/config/courses.js`](miniprogram/config/courses.js)。发布小程序或更新远程资源包前，按[发布指南](docs/course-release.md)检查版本、素材和真机行为。

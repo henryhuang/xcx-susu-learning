@@ -38,3 +38,7 @@ node tools/check-package-size.js
 远程课程包只接受声明式 JSON、图片和 MP3。课程文件不支持远程脚本、任意样式、网络素材地址或未定义的活动类型。需要新交互时，应先在小程序代码及 schema 中实现、验证，再编写使用它的课程数据。
 
 更完整的字段说明和学习流程见[小程序 README](../miniprogram/README.md)。
+
+## 英语跟读评分
+
+英文 word/action 活动可配置 `speech.mode`（word 或 sentence），并保留与目标一致的示范音频。短语使用 sentence。当前试点为「穿衣与整理」，同步生成的后端目标清单与客户端内置数据必须一起部署。云环境配置、旧缓存兼容和验收见[跟读评分部署指南](speech-evaluation.md)。

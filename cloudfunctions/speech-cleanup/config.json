@@ -1,0 +1,1 @@
+{"permissions":{"openapi":[]},"triggers":[{"name":"speech-recording-cleanup","type":"timer","config":"0 0 * * * * *"}]}
